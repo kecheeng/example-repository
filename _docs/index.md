@@ -1,6 +1,6 @@
 # Home
 
-## Welcome to my portfolio:~
+## Welcome to Kecheng's portfolio.
 
 ![](./images/week01/assignment-photo.jpg)
 
