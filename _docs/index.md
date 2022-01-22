@@ -1,9 +1,7 @@
 # Home
 
-## Welcome to my portfolio:~
+## Welcome to Kecheng's portfolio.
 
 ![](./images/week01/assignment-photo.jpg)
 
-## Welcome to your new Fab Academy site
 
-This is an example student blog for the Fab Academy.
