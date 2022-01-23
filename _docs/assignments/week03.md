@@ -1,6 +1,6 @@
 # 3. Computer Aided design
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+I used Inkscape to design the vector svg file for the final project sample v1. but first I just want to update this webpage through github.
 
 ## Research
 
