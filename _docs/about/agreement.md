@@ -1,5 +1,5 @@
 # Student Agreement
 
-This page is a placeholder.
+I will attach it later.
 
-Paste here your agreement.
+

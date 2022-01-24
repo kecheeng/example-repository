@@ -16,7 +16,7 @@ I was a teacher, and hope to continue to work in education field with broader un
 
 ### Final Project
 
-In the final project, I hope to design and realize a Finnish winter wooden handbag or a schoolbag. 
+In the final project, I hope to design and realize a wooden handbag or a schoolbag used for Finnish winter. 
 Finnish winter is cold and dark. People need to hang small lights or reflective bandages to their clothes or bagpacks to remind drivers.
 In my project, I hope to use laser cutter to get the main body of the wooden bag. I will engrave some holes at certain sides of the wood bag, allowing to insert LED lights controlled by electronic sensors.
 One of the challenging parts is to bend the back + head + front side. 
