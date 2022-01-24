@@ -1,8 +1,7 @@
 # 1. Principles and practices
 
-Now I can finally push all the assignments to the github. To me, joining FabLab courses is both a spontaneous and yuan fen缘分 event.
-
-Last year, I stepped into FabLab because I needed to design and print a board game and later a robot body through laser cutter.
+<d>Now I can finally push all the assignments to the github. To me, joining FabLab courses is both a spontaneous and yuan fen缘分 event.</d>
+<d>Last year, I stepped into FabLab because I needed to design and print a board game and later a robot body through laser cutter.</d>
 That was professor Jari Laru's introductory course for Technology and Education. The philosophy of that course, from my understanding, is computational thinking.
 At that time, I found that instead of using hours to start from zero, why not learn the skills from the experts? So, with natural ways of communication, I consulted Mekko, Ivan and Behnaz for the basic questions.
 They were all very patient and good at scaffolding. I tried to use pencil sketches to define the engineering parts, expecting some softwares to draw them. Then, I observed the experts' procedure of realization, asked them the key steps then took notes. Sometimes I also asked the logics or mechanisms behind the crucial steps. 
