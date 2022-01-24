@@ -1,6 +1,6 @@
 # 1. Principles and practices
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+I just want to update this webpage through github push.............
 
 ## Research
 
