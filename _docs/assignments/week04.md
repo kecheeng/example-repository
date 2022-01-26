@@ -7,7 +7,7 @@ This week Behnaz taught us how to use vinyl cutter and laser cutter. To get the 
 
 
 ## Gallery
-
+vinyl cutting
 Starting from a basic Inkscape pattern, it is a good habit to also draw a frame for the convenience of later weeding. Weeding, according to Neil's video, means peeling the unnecessary parts. Ctrl + Shift + R can allow me to resize page to drawing or selection in Document Properties. 
 ![](../images/vp1.jpg)
 
@@ -25,3 +25,20 @@ It is a must to place the vinyl paper between the two wheels. The wheels must al
 ![](../images/vp9.jpg)
 ![](../images/vp10.jpg)
 ![](../images/vp11.jpg)
+
+laser cutting
+![](../images/lcp1.jpg)
+![](../images/lcp2.jpg)
+![](../images/lcp3.jpg)
+![](../images/lcp4.jpg)
+![](../images/lcp5.jpg)
+![](../images/lcp6.jpg)
+![](../images/lc6.jpg)
+![](../images/lcp7.jpg)
+![](../images/lcp8.jpg)
+![](../images/lcp9.jpg)
+![](../images/lcp10.jpg)
+![](../images/lcp11.jpg)
+![](../images/lcp12.jpg)
+![](../images/lcp13.jpg)
+
