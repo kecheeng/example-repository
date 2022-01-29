@@ -1,13 +1,14 @@
 # 4. Computer controlled cutting
 
-This week Behnaz taught us how to use vinyl cutter and laser cutter. To get the svg file, the simplest way is to practise using Inkscape. This time, I had to force myself to use Fusion 360 to do parametric design before transfering it to an svg file.
+This week Behnaz taught us how to use vinyl cutter and laser cutter. To get a svg file, the simplest way is to practise using Inkscape. This time, I had to force myself to use Fusion 360 to do parametric design before transfering it to an svg file. Fusion 360 is inescapable as Inkscape is powerful only except for parametric design. 
 
 
 ## Research
+The toughest part was the usage of fusion360. At first, I was afraid of the new, professional software but with the encouragement from Antti, Diep, and Behnaz, I calmed down, watched Neil's intro video, youtube tutorials, and some Chinese geeks' clips. After a good sleep, I opened fusion360, randomly drew a pentagon, tried some constraints, clicked here and there to explore the parameter setting window before it accidentally worked! The same feeling took place again, which was just like those for Github programming as well as Inkscape. I could literally feel the convenience of parametric design and the reason to use it over Inkscape. Mentally, it proved learning curve again: For me, Inkscape-5 days; Github programming-12 days; Fusion360-7 days.
 
-
-## Gallery
-vinyl cutting
+## Gallery + Elaboration
+###1. vinyl cutting
+### observation and practice 
 Starting from a basic Inkscape pattern, it is a good habit to also draw a frame for the convenience of later weeding. Weeding, according to Neil's video, means peeling the unnecessary parts. Ctrl + Shift + R can allow me to resize page to drawing or selection in Document Properties. 
 ![](../images/vp1.jpg)
 
@@ -26,7 +27,25 @@ It is a must to place the vinyl paper between the two wheels. The wheels must al
 ![](../images/vp10.jpg)
 ![](../images/vp11.jpg)
 
-laser cutting
+### self design and final work
+Without much talk, I got a panda bear svg file from the Internet, added a frame in Inkscape, exported it to Roland Cutstudio, made 3 sizes, then set up the cutter (mode: edge) as in the observation session.
+![](../images/vd1.jpg)
+
+I used black vinyl as panda bear fur is a combination of white and black. 
+![](../images/vd2.jpg)
+
+When it came to weeding (peeling), Diep asked about how to define which parts to leave. To be honest, I had the same concern the day before. My friend who knows seal cutting comforted me that it is my justification of positive and negative effects. Therefore, you can see that on the left side, the little pattern was the residual that I didnt need simply because I knew the color distribution of panda. Also, as you can see, the larger the sticker is (mine largest size was 70mm), the easier to weed and to allow more complicated line designs.
+![](../images/vd3.jpg)
+
+After weeding, I got the stickers I needed. How to transfer them? Transfering sheet was helpful. Press it hard to the work, lift then get the usable stickers. Be careful since the panda show their skicky sides to me.
+![](../images/vd4.jpg)
+
+The final work looks great. The sticky side was quite strong. Also, the rough side seems durable.
+![](../images/vd5.jpg)
+
+
+###2. laser cutting
+### observation and practice 
 ![](../images/lcp1.jpg)
 ![](../images/lcp2.jpg)
 ![](../images/lcp3.jpg)
@@ -42,3 +61,4 @@ laser cutting
 ![](../images/lcp12.jpg)
 ![](../images/lcp13.jpg)
 
+### self design and final work
