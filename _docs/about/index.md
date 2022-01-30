@@ -3,7 +3,7 @@
 ![](../images/kechengavatar.png)
 
 
-Hi! I am Kecheng Zhang. I come from China. I am a master student of Learning, Education and Technology in the University of Oulu. I like to play RPGs, do free reading, experiencing and creating interesting things. However, I don't like cooking.
+Hi! I am Kecheng Zhang from China. I am a master student of Learning, Education and Technology in the University of Oulu. I like to play RPGs, do free reading, experiencing and creating interesting things. However, I don't like cooking. I have lived, studied and worked in Beijing, Hong Kong, Madrid, and have travelled around many EU cities.
 
 
 ## My background
