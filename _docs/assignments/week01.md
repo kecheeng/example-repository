@@ -10,7 +10,8 @@ On crucial steps, such as parameter setting, laser printer setting, monitoring, 
 For sure, I made some mistakes when printing. I was not frustrated, but concentrated on where I went wrong. Was it because of carelessness, or the lost information of some key steps.
 After rounds of trial and error, I could finally realize the board game as well as the robot body. 
 From that point, I gradually felt the charm of engineering and hands-on/maker education: Engineering things don't lie or just use mouths to intepret. Rather, you MUST exactly show the skills you learned. Even though people can have crazy imagination, you still have to realize it step by step, with patience and problem-solving skills. Also, learning from the experts does not mean copying and cheating, you still have to elaborate how you achieve the final results.
-As a teacher who mainly has social sciences background, I need such engineering methodology.
+As a teacher who mainly has social sciences background, I need such engineering methodology. 
+Personally, engineering methodology strengthens my attention span, as well as the paradigm to do things in serious sequences. 
 And I don't regret my choice, no matter how challenging the FabLab tasks can be.
 ## Research
 
