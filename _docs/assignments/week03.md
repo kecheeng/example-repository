@@ -35,5 +35,22 @@ After the trial, I could focus more on the technical parts for the coming laser 
 After the modification, I still need to change the line width to 0.02 mm for laser cutting, redesign the trapezoid lines, justify the jigsaw teeth interlocking designs, and take kerf into consideration. 
 ![](../images/inks12.jpg)
 
-### 3. 3D Raster and Vector: Fusion360 
+
+### 2. 3D Raster and Vector: Fusion360 
+
+I met some problems using Fusion360 during the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, or Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz's week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: parametric design!
+  Therefore, I returned to this week's task then located the function of learning Fusion360 as to understand and try parametric designs. After hours of nervous attempt, I practised designing a pentagon with sloths. Since this assignment was completed after week 4's content, I had already got the knowledge of kerf, so would directly post the portfolio here.
+
+![](../images/fp1.jpg)
+![](../images/fp2.jpg)
+![](../images/fp3.jpg)
+![](../images/fp4.jpg)
+![](../images/fp5.jpg)
+![](../images/fp6.jpg)
+![](../images/fp7.jpg)
+![](../images/fp8.jpg)
+![](../images/fp9.jpg)
+![](../images/fp10.jpg)
+![](../images/fp11.jpg)
+![](../images/fp12.jpg)
 
