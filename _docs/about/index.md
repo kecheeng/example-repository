@@ -8,7 +8,7 @@ Hi! I am Kecheng Zhang from China. I am a master student of Learning, Education 
 
 ## My background
 
-I was born in Chengdu, the hometown of giant panda bears, the hot pot, and spicy Sichuan Chinese food. Located in southwest China, it is the regional metropolis with over 20 million population. Away from stereotypical Confucianism, people prefer a relaxing, humorous life, just like its mild climate (only 300 cloudy days a year), the outdoor teahouse, misty bamboo forests, and Taoist ideology. 
+I was born in Chengdu, the hometown of giant panda bears, the hot pot, and spicy Sichuan Chinese food. Located in southwest China, it is the regional metropolis with a population of over 20 million. Away from stereotypical Confucianism, people prefer a relaxing, humorous life, just like its mild climate (only 300 cloudy days a year), the outdoor teahouses, the dynamic nightclubs, the bookstores, the misty bamboo forests, and other Taoist and Buddhist influences. 
 ![](../images/panda1.jpg)
 ![](../images/pandadis.jpg)
 ![](../images/hotpot1.jpg)
