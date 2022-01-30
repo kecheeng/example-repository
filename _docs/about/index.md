@@ -8,11 +8,23 @@ Hi! I am Kecheng Zhang. I come from China. I am a master student of Learning, Ed
 
 ## My background
 
-I was born in Chengdu, the hometown of panda bears, the hot pot, and spicy Sichuan Chinese food. 
+I was born in Chengdu, the hometown of giant panda bears, the hot pot, and spicy Sichuan Chinese food. Located in southwest China, it is the regional metropolis with over 20 million population. Away from stereotypical Confucianism, people prefer a relaxing, humorous life, just like its mild climate (only 300 cloudy days a year), the outdoor teahouse, misty bamboo forests, and Taoist ideology. 
+![](../images/panda1.jpg)
+![](../images/pandadis.jpg)
+![](../images/hotpot1.jpg)
+![](../images/chengdu1.jpg)
+![](../images/chengdu2.jpg)
+![](../images/chengdu3.jpg)
+![](../images/chengdu4.jpg)
+![](../images/chengdu5.jpg)
+![](../images/chengdu6.jpg)
+![](../images/chengdu7.jpg)
+![](../images/chengdu8.jpg)
+![](../images/chengdu9.jpg)
 
 ## Previous work
 
-I was a teacher, and hope to continue to work in education field with broader understanding of education, as well as more technologies. This is my first time programming.
+I was a trained teacher for high school and K-12 education, and hope to continue to work in this field with a broader understanding of education, as well as more technologies. This is my first time programming.
 
 ### Final Project
 
