@@ -7,7 +7,7 @@ This week Behnaz taught us how to use vinyl cutter and laser cutter. To get a sv
 The toughest part was the usage of fusion360. At first, I was afraid of the new, professional software but with the encouragement from Antti, Diep, and Behnaz, I calmed down, watched Neil's intro video, youtube tutorials, and some Chinese geeks' clips. After a good sleep, I opened fusion360, randomly drew a pentagon, tried some constraints, clicked here and there to explore the parameter setting window before it accidentally worked! The same feeling took place again, which was just like those for Github programming as well as Inkscape. I could literally feel the convenience of parametric design and the reason to use it over Inkscape. Mentally, it proved learning curve again: For me, Inkscape-5 days; Github programming-12 days; Fusion360-7 days.
 
 ## Gallery + Elaboration
-###1. vinyl cutting
+### 1. vinyl cutting
 ### observation and practice 
 Starting from a basic Inkscape pattern, it is a good habit to also draw a frame for the convenience of later weeding. Weeding, according to Neil's video, means peeling the unnecessary parts. Ctrl + Shift + R can allow me to resize page to drawing or selection in Document Properties. 
 ![](../images/vp1.jpg)
@@ -59,7 +59,9 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 
 ###2. laser cutting
+
 ### observation and practice 
+
 ![](../images/lcp1.jpg)
 ![](../images/lcp2.jpg)
 ![](../images/lcp3.jpg)
@@ -76,3 +78,14 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 ![](../images/lcp13.jpg)
 
 ### self design and final work
+20220131 just printed out the work in Fablab, first upload the photo files, make up all the elbaboration part today.
+![](../images/f360eplp1.jpg)
+![](../images/f360eplp2.jpg)
+![](../images/f360eplp3.jpg)
+![](../images/f360eplp4.jpg)
+![](../images/f360eplp5.jpg)
+![](../images/f360eplp6.jpg)
+![](../images/f360eplp7.jpg)
+![](../images/f360eplp8.jpg)
+![](../images/f360eplp9.jpg)
+![](../images/f360eplp10.jpg)
