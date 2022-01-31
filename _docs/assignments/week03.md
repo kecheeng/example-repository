@@ -50,7 +50,17 @@ Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous
 For example, for the pendagon, I named each side as "side". Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
 ![](../images/fp2.jpg)
 
-To test parametric design, I clicked the sketch function of a pendagon side, directly typed side instead of numbers to change it into 72 mm (originally it was 72.654mm).
+(After presentation) Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth's expression from typing 2.9mm to "mdfthickness-kerf", instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of "halfside" into "(side-slothwidth)/2" to automatically get 25.05mm in value.  
+![](../images/fp16.jpg)
+ 
+(After presentation) As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
+Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the "will be input" value shown on the draft. 
+![](../images/fp17.jpg)
+
+(After presentation) It worked! the "slotwidth" is still 2.9mm, but defined by equations; The "halfside" was also smartly reset:)
+![](../images/fp18.jpg)
+
+To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label "side" instead of a number to change it into 72 mm (originally it was 72.654mm).
 ![](../images/fp3.jpg)
 
 Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
