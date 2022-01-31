@@ -50,7 +50,14 @@ Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous
 For example, for the pendagon, I named each side as "side". Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
 ![](../images/fp2.jpg)
 
-To test parametric design, I clicked the sketch function of a pendagon side, directly typed side instead of numbers to change it into 72 mm (originally it was 72.654mm).
+Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth's expression from typing 2.9mm to "mdfthickness-kerf", instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of "halfside" into "(side-slothwidth)/2" to automatically get 25.05mm in value.  
+![](../images/fp16.jpg)
+
+As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
+Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the "will be input" value shown on the draft. 
+![](../images/fp17.jpg)
+
+To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label "side" instead of a number to change it into 72 mm (originally it was 72.654mm).
 ![](../images/fp3.jpg)
 
 Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
@@ -60,11 +67,19 @@ Similarly, I drew a rectangle for the slot. Rather than typing numbers, I direct
 ![](../images/fp5.jpg)
 ![](../images/fp6.jpg)
 
-
-![](../images/fp7.jpg)
+Indeed, it is quite challenging for an absolute beginner like me to memorize the key steps. Thus, I made a brief note of what I often used after watching videos and clicking around. Sketch allows basic line sketches. You can find basic shapes and lines in create column. The modify functions are easy to use. If it is just a 2D design, the curve corner, scissors, offset can help easily make joint shapes.
+For example, in my draft, I made a rectangular slot. If I didn't need the overlapping side, the scissors function can delete the extra side. Constraints have smart but powerful functions to align shapes. In my case, I intended to make the longer side of slot perpendicular to the pentagonal side. I just tried the function with 2 trials. If you move the mouse to each icon, there is a brief description to help understand each constraint logic. 
 ![](../images/fp8.jpg)
+
+The slot, which consisted of 3 straight lines, can be duplicated so I quickly got 5 same slots for each pentagonal side. The problem arose: How to make the slot perfectly central to each side?
 ![](../images/fp9.jpg)
-![](../images/fp10.jpg)
+
+Parametric design worked again. To make the practice easier to calculate, I changed the side expression from 72mm to 53mm, allowing 3mm slotwidth (2.9mm in reality due to the kerf). In this way, there was 25 cm for each side if I centered the slot. I set a new parameter named "halfside" to be 25 mm.
 ![](../images/fp11.jpg)
+
+After repeating the sketch, the use of halfside parameter, I got satisfactory pendagon with slots by simply several clicks.
+![](../images/fp10.jpg)
 ![](../images/fp12.jpg)
+
+All in all, Fusion360 is a powerful and free software to do parametric design. You can see that the parameters are marked in a clear, concise, and professional way. Of course, you can hide the sublines by clicking the eye icon on the left, leaving only the final work you need. 
 

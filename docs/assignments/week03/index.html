@@ -802,7 +802,14 @@
 <img alt="" src="../../images/nwnradialmenu.jpg" /></p>
 <p>For example, for the pendagon, I named each side as &ldquo;side&rdquo;. Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
 <img alt="" src="../../images/fp2.jpg" /></p>
-<p>To test parametric design, I clicked the sketch function of a pendagon side, directly typed side instead of numbers to change it into 72 mm (originally it was 72.654mm).
+<p>(After presentation) Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth&rsquo;s expression from typing 2.9mm to &ldquo;mdfthickness-kerf&rdquo;, instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of &ldquo;halfside&rdquo; into &ldquo;(side-slothwidth)/2&rdquo; to automatically get 25.05mm in value.<br />
+<img alt="" src="../../images/fp16.jpg" /></p>
+<p>(After presentation) As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
+Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the &ldquo;will be input&rdquo; value shown on the draft. 
+<img alt="" src="../../images/fp17.jpg" /></p>
+<p>(After presentation) It worked! the &ldquo;slotwidth&rdquo; is still 2.9mm, but defined by equations; The &ldquo;halfside&rdquo; was also smartly reset:)
+<img alt="" src="../../images/fp18.jpg" /></p>
+<p>To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label &ldquo;side&rdquo; instead of a number to change it into 72 mm (originally it was 72.654mm).
 <img alt="" src="../../images/fp3.jpg" /></p>
 <p>Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
 <img alt="" src="../../images/fp4.jpg" /></p>
