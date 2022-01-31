@@ -84,5 +84,8 @@ After repeating the sketch, the use of halfside parameter, I got satisfactory pe
 ![](../images/fp10.jpg)
 ![](../images/fp12.jpg)
 
+(After presentation) This is the final work with every key parameter being strictly defined by either typed number, or mathmatic equations. 
+![](../images/fp19.jpg)
+
 All in all, Fusion360 is a powerful and free software to do parametric design. You can see that the parameters are marked in a clear, concise, and professional way. Of course, you can hide the sublines by clicking the eye icon on the left, leaving only the final work you need. 
 
