@@ -4,6 +4,7 @@ This week Behnaz taught us how to use vinyl cutter and laser cutter. To get a sv
 
 
 ## Research
+First key notion to keep in mind: raster-for engraving, which is about dots, pixels; vector-for cutting, which is about lines, flames (as more beam power is focused).
 The toughest part was the usage of fusion360. At first, I was afraid of the new, professional software but with the encouragement from Antti, Diep, and Behnaz, I calmed down, watched Neil's intro video, youtube tutorials, and some Chinese geeks' clips. After a good sleep, I opened fusion360, randomly drew a pentagon, tried some constraints, clicked here and there to explore the parameter setting window before it accidentally worked! The same feeling took place again, which was just like those for Github programming as well as Inkscape. I could literally feel the convenience of parametric design and the reason to use it over Inkscape. Mentally, it proved learning curve again: For me, Inkscape-5 days; Github programming-12 days; Fusion360-7 days.
 
 ## Gallery + Elaboration
