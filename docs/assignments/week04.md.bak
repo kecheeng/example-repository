@@ -79,17 +79,37 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 ![](../images/lcp13.jpg)
 
 ### self design and final work
-20220131 just printed out the work in Fablab, first upload the photo files, make up all the elbaboration part today.
+In week's three's fusion360 tiral, I drew a pentagon with slots. In this week's laser cutting, I thought things would be quite easy and straightforward with several steps like drawing, printing and analysing. However, I was so naive that the first step of this week was problematic, which ultimately made me refine and reflect on the trouble that I wanted to dodge. In the picture below, I found it a bit strange with unconnected lines.
 ![](../images/f360eplp1.jpg)
+
+I clicked the drawing view settings and found that the lines were connected if I changed the scale in to 1:2. Then I happily exported it into pdf format.
 ![](../images/f360eplp2.jpg)
+
+When I inspected the pdf file in Inkscape, I found the problem: ok, everything was shrunk into half size including the slot. Apparently, I could not use a slot with 1.5 mm in MDF.
 ![](../images/f360eplp3.jpg)
+
+As time was very limited, I needed to hand in some tentative assignments on time, I directly used Inkscape to close the 1:1 scale pentagon lines through drawing.
 ![](../images/f360eplp4.jpg)
+
+Then, I selected all the lines to set the width to be 0.02 mm for laser cutting (not graving).
 ![](../images/f360eplp5.jpg)
+
+I observed that the laser cutting work ran twice: first to cut the unconnected lines, then pinpointedly cut the modified parts from Inkscape, which proved its smartness in 2D design. 
 ![](../images/f360eplp6.jpg)
+
+I duplicated the pentagon to get 5 extra pieces.
 ![](../images/f360eplp7.jpg)
+
+After waiting for 1 minute, I took out the pieces. Before playiny, I used the vernier caliper to measure the side and slot. The results were satisfactory: side-53mm; slotwidth-0.3mm (0.1mm's credit for kerf).
 ![](../images/f360eplp8.jpg)
 ![](../images/f360eplp9.jpg)
+
+Finally I could play the pieces by putting them together. It looked stable and nice.
 ![](../images/f360eplp10.jpg)
+
+I particularly checked the interlocking part: since the slothdepth was 0.5 mm, the total interlock depth was 1.0 mm. It was fairly stable, but would be better If I made the slotwidth deeper, say, 1 mm. Also, the nodes and other interlocking designs are all worth exploring. 
+As for the function, pentagon looks elegant, so I would use Inkscape to draw some patterns or pictures and use it as a badge. The wizard card in Harry Potter is a good example. 
+![](../images/hpwc.jpg)
 
 I thought it was over until I showed my concern of the unconnected lines in the drawing. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year.
 ![](../images/f360eplp11.jpg)
