@@ -111,14 +111,28 @@ I particularly checked the interlocking part: since the slothdepth was 0.5 mm, t
 As for the function, pentagon looks elegant, so I would use Inkscape to draw some patterns or pictures and use it as a badge. The wizard card in Harry Potter is a good example. 
 ![](../images/hpwc.jpg)
 
-I thought it was over until I showed my concern of the unconnected lines in the drawing. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year.
+I thought it was over until I showed my concern of the unconnected lines in the drawing. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year, which unexpectedly made me learn something new.
+
+I clicked the pentagon, extruded with 3mm (to match the MDF thickness), got a 3D object, and thought everything was ok. However, the lines were still not connected in the drawing, which drove me confused at night.
 ![](../images/f360eplp11.jpg)
 ![](../images/f360eplp12.jpg)
 ![](../images/f360eplp13.jpg)
+
+I consulted Diep. She calmed me down then helped me through remote screen sharing. She suspected that I hadn't selected the whole shape but only the frame whose extruded version had not covered the whole design. I tried again by drawing and extruding a new pentagon. This time the whole shape was selected.
 ![](../images/f360eplp14.jpg)
+
+Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as the object is extruded on a surface rather than the frame.
 ![](../images/f360eplp15.jpg)
+
+This time I was stuck because no matter how I changed the "select", the pentagon with slots was like a hollow ghost which was too naughty or transparent to be captured. I nearly gave up until I clicked the "surface" and added a "patch" to forcely create a surface within the shape. It seemed successful.
 ![](../images/f360eplp16.jpg)
+
+As the direction was reversed, I set the extrude parameter to be -3 mm. 
 ![](../images/f360eplp17.jpg)
+
+It worked in a rather weird way...
 ![](../images/f360eplp18.jpg)
+
+I didn't care anymore, created a drawing and finally got a proper work even though the procedure was not the optimal. Luckily I don't have the passion to celebrate anything, and this is the most meaningful, diligent and hard working lunar new year so far in my life.
 ![](../images/f360eplp19.jpg)
 
