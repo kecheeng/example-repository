@@ -90,3 +90,15 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 ![](../images/f360eplp8.jpg)
 ![](../images/f360eplp9.jpg)
 ![](../images/f360eplp10.jpg)
+
+I thought it was over until I showed my concern of the unconnected lines in the drawing. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year.
+![](../images/f360eplp11.jpg)
+![](../images/f360eplp12.jpg)
+![](../images/f360eplp13.jpg)
+![](../images/f360eplp14.jpg)
+![](../images/f360eplp15.jpg)
+![](../images/f360eplp16.jpg)
+![](../images/f360eplp17.jpg)
+![](../images/f360eplp18.jpg)
+![](../images/f360eplp19.jpg)
+
