@@ -63,19 +63,38 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 ### observation and practice 
 
+No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 1) NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on. 2) To turn on the laser printer: turn the round pääkytkin (headswitch) from 0 to 1 → turn the red handle to the air inside of the cutter flow (it is crucial as the air can circulate within the printer and clear off the combustion residuals which are hazardous). → Turn on the power switch of the machine. 
 ![](../images/lcp1.jpg)
 ![](../images/lcp2.jpg)
 ![](../images/lcp3.jpg)
+
+Behnaz first introduced us a key concept of laser cutting that is directly related to parametric design: kerf. Kerf is the part that laser beam burns away, which is why laser can "cut" materials. When we do parametric design with consideration of precision, kerf matters. For example, I hope to set the pentagon slot width to be 3mm. If I set the number to be 3mm, the kerf will make it more than 3mm, which can cause instability when interlocking the slots. That was the reason I set the slotwidth parameter to be "material thickness - kerf" instead of assigning a fixed number. But how is the width of kerf? Behnaz asked us to laser cut on our own to see if there are kerf differences among materials.
 ![](../images/lcp4.jpg)
+
+It is rather easy to laser cut. First, save the Inkscape svg file into pdf format. Open the pdf, click the printing to get the blue window → Click the Advanced option to choose the preset modes (i.e., In our session, we used 3mm-MDF-engrave+cut and 3mm-acrylic-engrave+cut) → Finalize the setting in General opion. 300 DPI is fair enough for most cases; raster is for engraving while vector is for line cutting; The speed, power and frequency are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
 ![](../images/lcp5.jpg)
+
+We also learned the meaning of DPI. It stands for "dots per inch". As each time the laser beam burns a little "dot" of the surface, when the dpi is 254, the laser beam can surely burn every corner of the inch. In this regard, the preset dpi 300 assumes that there are overlapping burnt parts, which is enough for most engraving work. Otherwise, the surface might be over engraving (burnt like chocolate). 
 ![](../images/lcp6.jpg)
+
+Diep and Antti R measured the MDF kerf (around 0.1mm). Another Antti and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn't put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
 ![](../images/lc6.jpg)
+
+Then, we tested different laser speed and power on MDF to see different effects. 
 ![](../images/lcp7.jpg)
 ![](../images/lcp8.jpg)
+
+The results are meaningful: for vector cutting (upper part), the default values worked well, but if the speed was 40 (too fast), the laser could not cut through the MDF. Similar result happened if the power was only half (50%). When the speed is defaulted while removing 20% of the power, the vector cut still went well. We estimated that the vector cut on MDF could be effective if the power is above 60%. The frequency seemed to have little effect on vector cut (middle). The different raster (lower part) settings had remarkable effects on the engraving results. Even on the same surface, you can set different degrees of raster by changing the power. 
 ![](../images/lcp9.jpg)
+
+We also tested different laser conditions on acrylic. 
 ![](../images/lcp10.jpg)
+
+The results are interesting: If the speed is 80% with other settings being defaulted, the laser cannot cut through the acrylic. When engraving, if the power is 5, you simply could not see apparent patterns on the surface. We were joking that it might be "useful" in cheating :)
 ![](../images/lcp11.jpg)
 ![](../images/lcp12.jpg)
+
+At last, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
 ![](../images/lcp13.jpg)
 
 ### self design and final work
