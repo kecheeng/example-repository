@@ -19,7 +19,13 @@ In Neil's elaboration, **pattern** refers to inventions of a “matter" as well 
 ![](../images/ip0.jpg)
 
 
-## How does my project draft look like? 
+## Project Summary
+
+### presentation slide
+![](../images/presentation.png)
+
+
+### Elaboration
 
 In the first demo, I hope to realize in MDF board with laser cutter. It is not just because I need to evidence the learning of computer controlled cutting in FabLab, but also I hope to make the bag a bit fun. It can be used as a container not for books or laptop, but for small items or a box of snacks.  
 
@@ -41,7 +47,7 @@ Of course, during the process, the knowledge of intellectual properties includin
  
 In this regard, I hope to design a wooden bag used in winter Finland. The users can be any person, but I can start the promotion in among student groups.   
 
-After living here for more than one year, no one would denounce that it is dark from November to January, regardless of the astounding polar lights shining occassionally. I noticed that people are advised to hang glittering items (official name: safety reflector) to their rucksacks to avoid being bumped away by innocent cyclists or car drivers.  
+After living here for more than one year, no one would denounce that it is dark from November to January, regardless of the astounding polar lights shining occassionally. I noticed that people are advised to hang glittering items (official name: **safety reflector**) to their rucksacks to avoid being bumped away by innocent cyclists or car drivers.  
 ![](../images/safetyreflector.jpg)
 
 I find the safety reflectors a bit insufficient as they totally rely on the given lights or attention from the coming persons. To deal with it, I hope to make the bag shine by itself.  
