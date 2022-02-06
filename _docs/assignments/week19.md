@@ -5,15 +5,16 @@ This week Megumi gave us basic ideas of patent, copyright, intellectual properti
 To me, even the final project may take longer time to achieve due to the changing agenda, it is meaningful to digest Neil's video and Megumi's knowledge in a practical scenario.
 
 ## Research on the topic
-In Neil's elaboration, pattern refers to inventions of a “matter" as well as the improvements to them. It does not give the inventors an automatic exemption from the being stolen or cheated, but only a name-printed, regional admission ticket into legal system if unfortunate things happen, never to say the expenses that will follow to defend the legal rights. Patent may sound rather professional and rigid, but in fact they must be novel, useful and not obvious. In daily language, those who are fake, cheating, against the principle of nature or human societies will not be acknowledged and hence patented. Below is the patent of a certain type of bike. 
+
+In Neil's elaboration, **pattern** refers to inventions of a “matter" as well as the improvements to them. It does not give the inventors an automatic exemption from the being stolen or cheated, but only a name-printed, regional admission ticket into legal system if unfortunate things happen, never to say the expenses that will follow to defend the legal rights. Patent may sound rather professional and rigid, but in fact they must be novel, useful and not obvious. In daily language, those who are fake, cheating, against the principle of nature or human societies will not be acknowledged and hence patented. Below is the patent of a certain type of bike. 
 
 ![](../images/ip2.jpg)
 
-Copyright is to acknowledge the authorship and originality of intellectual works, especially art and academic creations such as books, articles, paintings, musical products. If you own a copyright of a song, you can decide its distribution and usage of the work. For instance, one day I wrote a cheesy song but it suddenly became a hit in China, I could charge for the karaoke bars each time they use my song (of course their business is partially based on the songs). Or I typed a critical essay about Chinese education system. If some media wish to reprint it via website or H5 pages, they must inform me to get approved, or more formally, with inform consent. For example, most artists choose to publish their works in Spotify where users could only listen to the music instantly but cannot download them to have certain "ownership" of the music work.
+**Copyright** is to acknowledge the authorship and originality of intellectual works, especially art and academic creations such as books, articles, paintings, musical products. If you own a copyright of a song, you can decide its distribution and usage of the work. For instance, one day I wrote a cheesy song but it suddenly became a hit in China, I could charge for the karaoke bars each time they use my song (of course their business is partially based on the songs). Or I typed a critical essay about Chinese education system. If some media wish to reprint it via website or H5 pages, they must inform me to get approved, or more formally, with inform consent. For example, most artists choose to publish their works in Spotify where users could only listen to the music instantly but cannot download them to have certain "ownership" of the music work.
 
 ![](../images/ip1.jpg)
 
-Trademark is easier to understand. As an institute grows, ther might be more and more products and research. Hence, the trademark is like the "face" of a company, a product, or a design, when showing to the public. For example, Nitendo can use its trademark when doing business with other parties no matther it is about the Switch machine, Super Mario game series, or the cosplay permission of Legend of Zelda.  
+**Trademark** is easier to understand. As an institute grows, ther might be more and more products and research. Hence, the trademark is like the "face" of a company, a product, or a design, when showing to the public. For example, Nitendo can use its trademark when doing business with other parties no matther it is about the Switch machine, Super Mario game series, or the cosplay permission of Legend of Zelda.  
  
 ![](../images/ip0.jpg)
 
@@ -54,7 +55,7 @@ I would start from the idea of hybrid mode as it allows more perspectives.
 
 This bag can be first introduced to schools in a non-profitable way. As it is wooden, students can put small items in it and carry like a small lattern walking on the snowy, dark and cold winter lanes. The school budget can of course cover the purchase.  
 
-If students use the bag well, it can be spread to their parents as well as school staff. In this regard, the business can take profit into consideration. The materials of the bag can be flexible with wood, acrylic, or traditional fashion fabrics such as leather and wools. Additional decorations can be customised including the lock, the shape of LED lights, the engraved patterns on the surface. If possible, the bag can try fasion collaborations with big IPs like Moomin. 
+If students use the bag well, it can be spread to their parents as well as school staff. In this regard, the business can take profit into consideration. The materials of the bag can be flexible with wood, acrylic, or traditional fashion fabrics such as leather and wools. Additional decorations can be customised including the lock, the shape of LED lights, the engraved patterns on the surface. Vinyl stickers are also available. If possible, the bag can try fasion collaborations with big IPs like Moomin. 
 
 ### Funding
 For this humble design, I hope to start from family and friends' merit funding, say hundreds of euros to do demo test, to cover the transport and canteen fee in school visits, or the coffee bills when persuading neigbors or friends to buy a demo bag. If it can survive after the first year with a quantity demand more than 100, I can learn to expose it to cloud-funding or negotiate purchase commitment with some factories.
@@ -80,14 +81,14 @@ After studying Espacenet, Google Patents, and Patent Inspiration, I choose NOT t
 
 I do have 2 idols who have extraordinarily successful products but have not claimed them to be exclusive:
 
-1. 東方Project／とうほうプロジェクト accompanied my childhood. ZUN, its author, chose to make the whole series including all the elements to be open sources. This worked so well with the fans communities as they worked together to extend the whole project to an unbelievable scale covering cosplay, hobby products, manga, re-creation, etc. which are full of imagination.
+1. *東方Project／とうほうプロジェクト* accompanied my childhood. ZUN, its author, chose to make the whole series including all the elements to be open sources. This worked so well with the fans communities as they worked together to extend the whole project to an unbelievable scale covering cosplay, hobby products, manga, re-creation, etc. which are full of imagination.
 ![](../images/ip5.jpg)
 
 2. https://www.irasutoya.com/ The owner of the cute and amazing website has never shown its real face to the public, but has been constantly creating sound illustrations to be publicly used around the world. Some design houses hate it so much due to the fear of unemployment.  
 ![](../images/ip6.jpg)
 
 In a serious stance, open sources is a democratic power to fight against monopolies so there must be space for unpatentness. I do not 
-believe magnates such as Nitendo, Tencent, or Microsoft whose main incentives are shaped by VCs, can have the patience of interests to make quality games like one of my favorites - Disco Elysium.
+believe magnates such as Nitendo, Tencent, or Microsoft whose main incentives are shaped by VCs, can have the patience of interests to make quality games like one of my favorites - *Disco Elysium*.
 ![](../images/ip7.jpg)
 
 
