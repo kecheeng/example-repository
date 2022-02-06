@@ -4,7 +4,7 @@ This week Megumi gave us basic ideas of patent, copyright, intellectual properti
 
 To me, even the final project may take longer time to achieve due to the changing agenda, it is meaningful to digest Neil's video and Megumi's knowledge in a practical scenario.
 
-## Research
+## Research on the project and possible target users
 This is literally my first first contact with FabLab so there are plenty of rules and information to study and digest, including the final project design. My worklfow was straightforward: Use imagination to combine the freshly acquired engineering and digital fabrication skills with the local society to see where I can start. It does not have to be perfect or so profound as the project can save the world, but it is healthy to make functions public to welcome different comments and suggestions to refine it together in a constructive sense.  
 
 Of course, during the process, the knowledge of intellectual properties including patent, copyright and trademarks, can effectively protect me from being overkind at the beginning, and depressed when infringed.  
@@ -15,23 +15,35 @@ After living here for more than one year, no one would denounce that it is dark 
 
 I find the reflective patches are a bit insufficient as they totally rely on the given lights or attention from the coming persons. To deal with it, I hope to make the bag shine by itself.  
 
-## How does my project draft look like?
+## How does my project draft look like? 
 
+In the first demo, I hope to realize in MDF board with laser cutter. It is not just because I need to evidence the learning of computer controlled cutting in FabLab, but also I hope to make the bag a bit fun. It can be used as a container not for books or laptop, but for small items or a box of snacks.  
+
+The glittering parts will be installed on left and right sides. I plan to cut some shapes that allow LED lights to be inserted and controlled by an electric sensor.  
+
+I used red lines to mark the challgening parts so far. There will be a joint plate which includes the back, top and upper-top sides. At the same time, I need to think about where to install the handle. If it is on the top, should there be holes to allow the handle to go through? Also, the upper front side should be bigger, presumably a trapezoid with round corners, to cover the front.  
+
+When it comes to lock, I plan to use vintage style: cross-locking. To realize it, I need to cut a small slot and consult the instructors from handicrafts.  
+
+Since the whole bag is a variation of laser cut box with hinge, I need to justify the stability of the jigsaw hinges by tesing different interlocking designs.  
+   
 ![](../images/inks0.jpg)
 ![](../images/inks11.jpg)
 
 ## Any plan to start business with the project?
-
-### Motivation
+I am not very ambitious in business but it would be very encouraging if someone offers a bid. At least I would have financial incentives to move on. If my bag can be used in local schools, the business is rewarding.
 
 ### Types
+I would start from the idea of hybrid mode as it allows more perspectives.  
 
-### Sources
+This bag can be first introduced to schools in a non-profitable way. As it is wooden, students can put small items in it and carry like a small lattern walking on the snowy, dark and cold winter lanes. The school budget can of course cover the purchase.  
+
+If students use the bag well, it can be spread to their parents as well as school staff. In this regard, the business can take profit into consideration. The materials of the bag can be flexible with wood, acrylic, or traditional fashion fabrics such as leather and wools. Additional decorations can be customised including the lock, the shape of LED lights, the engraved patterns on the surface. If possible, the bag can try fasion collaborations with big IPs like Moomin. 
 
 ### Funding
+For this humble design, I hope to start from family and friends' merit funding, say hundreds of euros to do demo test, to cover the transport and canteen fee in school visits, or the coffee bills when persuading neigbors or friends to buy a demo bag. If it can survive after the first year with a quantity demand more than 100, I can learn to expose it to cloud-funding or negotiate purchase commitment with some factories.
 
 
-## Who are the target users?
 
 
 ## Which copyright licenses will I consider and choose? Why?
