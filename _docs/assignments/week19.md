@@ -15,7 +15,7 @@ After living here for more than one year, no one would denounce that it is dark 
 
 I find the reflective patches are a bit insufficient as they totally rely on the given lights or attention from the coming persons. To deal with it, I hope to make the bag shine by itself.  
 
-## What does my project draft look like?
+## How does my project draft look like?
 
 ![](../images/inks0.jpg)
 ![](../images/inks11.jpg)
