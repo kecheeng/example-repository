@@ -19,11 +19,14 @@ In Neil's elaboration, **pattern** refers to inventions of a “matter" as well 
 ![](../images/ip0.jpg)
 
 
-## Project Summary
+## Project Draft
 
 ### presentation slide
 ![](../images/presentation.png)
 
+
+### presentation video
+![](../images/presentation.mp4)
 
 ### Elaboration
 
