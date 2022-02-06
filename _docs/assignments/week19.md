@@ -68,13 +68,26 @@ I will consider Creative Commons as their license ensure creators to get the rec
  
 However, I also like the brief description of Fablab and Neil's frankness: My FB work "may be reproduced, modified, distributed, performed, and displayed for any purpose, but must acknowledge "project name". Copyright is retained and must be preserved. The work is provided as is; no warranty is provided, and users accept all liability."  
 
-# Why not? It's a good platform.
-  
-
-
- 
+# Why not? It's a good platform.  
 
 
 ## How about the patent?
+Like I mentioned above, before choosing a patent, or whether to patent something, it is essential to equip myself with the notion, or more practically, the legal significance of patent.  
+The protection of IP goes along with progressive education. In China, most people used to have little sense of intellectual properties, assuming that they can use whatever they find from the internet or media. When music companies such as Sony and some famous singers such as Jay Chow forbade people from free downloading, there were huge debates among netizens, some of which blamed them for being so mean and selfish. This misunderstanding has been well solved by education and legal judgements in the last decade.  
+![](../images/ip4.jpg)
+
+After studying Espacenet, Google Patents, and Patent Inspiration, I choose NOT to patent my bag at least for a long term. My initial purpose was to start from students or common folks, which is with strong non-profit feature.I believe the users can help me build up better versions of the bag. In other word, I would rather DONATE it to the society.  
+
+I do have 2 idols who have extraordinarily successful products but have not claimed them to be exclusive:
+
+1. 東方Project／とうほうプロジェクト accompanied my childhood. ZUN, its author, chose to make the whole series including all the elements to be open sources. This worked so well with the fans communities as they worked together to extend the whole project to an unbelievable scale covering cosplay, hobby products, manga, re-creation, etc. which are full of imagination.
+![](../images/ip5.jpg)
+
+2. https://www.irasutoya.com/ The owner of the cute and amazing website has never shown its real face to the public, but has been constantly creating sound illustrations to be publicly used around the world. Some design houses hate it so much due to the fear of unemployment.  
+![](../images/ip6.jpg)
+
+In a serious stance, open sources is a democratic power to fight against monopolies so there must be space for unpatentness. I do not 
+believe magnates such as Nitendo, Tencent, or Microsoft whose main incentives are shaped by VCs, can have the patience of interests to make quality games like one of my favorites - Disco Elysium.
+![](../images/ip7.jpg)
 
 
