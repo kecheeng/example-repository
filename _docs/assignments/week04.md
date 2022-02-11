@@ -87,24 +87,29 @@ Kerf is the part that laser beam burns away, which is why laser can "cut" materi
 ![](../images/lcp4.jpg)
 
 It is rather easy to laser cut. There are two steps:  
-1. **Desktop**  Open svg file in Inkscape → set the line width to be 0.02 mm → save as PDF file → open the PDF file → ctrl + p → examine the Advanced and General windows to set up the printing parameters. → press save and ok  
+
+1. **Desktop**. Open svg file in Inkscape → set the line width to be 0.02 mm → save as PDF file → open the PDF file → ctrl + p → examine the Advanced and General windows to set up the printing parameters. → press save and ok  
    
 First, save the Inkscape svg file as PDF file. Open the pdf, click the printing to get the blue window → Click the Advanced option to choose the preset modes (i.e., In our session, we used 3mm-MDF-engrave+cut and 3mm-acrylic-engrave+cut) → Finalize the setting in General opion. 300 DPI is fair enough for most cases; raster is for engraving while vector is for line cutting; The speed, power and frequency are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
 ![](../images/lcp5.jpg)
 
 We also learned the meaning of DPI. It stands for "dots per inch". As each time the laser beam burns a little "dot" of the surface, when the dpi is 254, the laser beam can surely burn every corner of the inch. In this regard, the preset dpi 300 assumes that there are overlapping burnt parts, which is enough for most engraving work. Otherwise, the surface might be over engraving (burnt like chocolate). 
-![](../images/lcp6.jpg)  
+![](../images/lcp6.jpg) 
 
 2. **Laser Cutter**  Open the lid →  place the cutting material on the working table → set the Focus/Jog → select the Job → Press go → MONITOR THE CUTTING PROCESS AND DON'T GO AWAY FOR SAFETY REASONS.  
 
-Open the lid, place the cutting material on the "bed", or working table. Press it with metal weight if necessary.  
+First, open the lid, place the cutting material on the "bed", or working table. Press it with metal weight if necessary.  
 
-To run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:  
-   1. Set Focus. Laser beams are generated, output, then concentrated at the "waist" point where the power is the strongest. The reason to set the focus is hence to get the "beam waist". Since the laser producer tool's height is fixed, you should move the "bed", or the working table up and down to realize the focus setting.  
+Then, to run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:  
+
+   1. **Set Focus**. Laser beams are generated, output, then concentrated at the "waist" point where the power is the strongest. The reason to set the focus is hence to get the "beam waist". Since the laser producer tool's height is fixed, you should move the "bed", or the working table up and down to realize the focus setting.  
                  - Use a triangular plate to hang between the two screws of the laser cutting head. The hight of the plate is , so we can assume the beam waist is at the acute angle of the triangle.  
-				 - Turn the joystick left to select the speed. Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.    
-   2. Set Jog
-   3. Select the Job 
+				 - Turn the joystick left to select the speed. Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.  
+
+				 
+   2. **Set Jog**  
+   
+   3. **Select the Job** 
 
 Diep and Antti R measured the MDF kerf (around 0.1mm). Another Antti and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn't put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
 ![](../images/lc6.jpg)
