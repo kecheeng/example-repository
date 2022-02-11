@@ -1,11 +1,61 @@
 # 7. Electronics design
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+1. PCB
+2. Chips
+3. Input program?
 
 ## Research
 
 
-## Gallery
+## How to get a PCB
 
-![](../images/sample-photo.jpg)
+### Stage 1 Background knowledge for absolute beginners
+- What is a PCB? What is it used for? 
+- Why is it a basic thing for electronics design?
+- Drill 
+- Mill 
+- PCB blank
+- Sacrificial MDF bed 
+- Isolation cutting 
+- Machine 
+- Important unit:1mm=1,000um
 
+![](../images/pcb1.1.jpg)
+![](../images/pcb1.2.jpg)
+![](../images/pcb1.3.jpg)
+
+### Stage 2
+![](../images/pcb1.4.jpg)
+![](../images/pcb1.5.jpg)
+![](../images/pcb1.6.jpg)
+![](../images/pcb1.7.jpg)
+![](../images/pcb1.8.jpg)
+![](../images/pcb1.9.jpg)
+![](../images/pcb1.10.jpg)
+![](../images/pcb1.11.jpg)
+![](../images/pcb1.12.jpg)
+![](../images/pcb1.13.jpg)
+![](../images/pcb1.14.jpg)
+![](../images/pcb1.15.jpg)
+![](../images/pcb1.16.jpg)
+![](../images/pcb1.17.jpg)
+![](../images/pcb1.18.jpg)
+![](../images/pcb1.19.jpg)
+![](../images/pcb1.20.jpg)
+![](../images/pcb1.21.jpg)
+![](../images/pcb1.22.jpg)
+![](../images/pcb1.23.jpg)
+
+### Stage 3
+![](../images/pcb1.24.jpg)
+![](../images/pcb1.25.jpg)
+![](../images/pcb1.26.jpg)
+![](../images/pcb1.27.jpg)
+![](../images/pcb1.28.jpg)
+![](../images/pcb1.29.jpg)
+![](../images/pcb1.30.jpg)
+![](../images/pcb1.31.jpg)
+![](../images/pcb1.32.jpg)
+![](../images/pcb1.33.jpg)
+
+## How to ...?
