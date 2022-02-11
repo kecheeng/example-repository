@@ -827,12 +827,14 @@
 <h1 id="4-computer-controlled-cutting">4. Computer controlled cutting<a class="headerlink" href="#4-computer-controlled-cutting" title="Permanent link">&para;</a></h1>
 <p>This week Behnaz taught us how to use vinyl cutter and laser cutter. To get a svg file, the simplest way is to practise using Inkscape. This time, I had to force myself to use Fusion 360 to do parametric design before transfering it to an svg file. Fusion 360 is inescapable as Inkscape is powerful only except for parametric design. </p>
 <h2 id="research">Research<a class="headerlink" href="#research" title="Permanent link">&para;</a></h2>
-<p>First key notion to keep in mind: raster-for engraving, which is about dots, pixels; vector-for cutting, which is about lines, flames (as more beam power is focused).
+<p>First key notion to keep in mind: 
+- raster-for engraving, which is about dots, pixels; 
+- vector-for cutting, which is about lines, flames (as more beam power is focused).
 The toughest part was the usage of fusion360. At first, I was afraid of the new, professional software but with the encouragement from Antti, Diep, and Behnaz, I calmed down, watched Neil&rsquo;s intro video, youtube tutorials, and some Chinese geeks&rsquo; clips. After a good sleep, I opened fusion360, randomly drew a pentagon, tried some constraints, clicked here and there to explore the parameter setting window before it accidentally worked! The same feeling took place again, which was just like those for Github programming as well as Inkscape. I could literally feel the convenience of parametric design and the reason to use it over Inkscape. Mentally, it proved learning curve again: For me, Inkscape-5 days; Github programming-12 days; Fusion360-7 days.</p>
 <h2 id="gallery-elaboration">Gallery + Elaboration<a class="headerlink" href="#gallery-elaboration" title="Permanent link">&para;</a></h2>
 <h3 id="1-vinyl-cutting">1. vinyl cutting<a class="headerlink" href="#1-vinyl-cutting" title="Permanent link">&para;</a></h3>
 <h3 id="observation-and-practice">observation and practice<a class="headerlink" href="#observation-and-practice" title="Permanent link">&para;</a></h3>
-<p>Starting from a basic Inkscape pattern, it is a good habit to also draw a frame for the convenience of later weeding. Weeding, according to Neil&rsquo;s video, means peeling the unnecessary parts. Ctrl + Shift + R can allow me to resize page to drawing or selection in Document Properties. 
+<p>Starting from a basic Inkscape pattern, it is a good habit to add a frame for the convenience of later weeding. Weeding, according to Neil&rsquo;s video, means peeling the unnecessary parts. Ctrl + Shift + R can allow me to resize page to drawing or selection in Document Properties. 
 <img alt="" src="../../images/vp1.jpg" /></p>
 <p>To open or close the Roland vinyl cutter, push the handle at the left back side. Then, the two wheels can be lifted.
 <img alt="" src="../../images/vp2.1.jpg" /></p>
@@ -865,18 +867,42 @@ The toughest part was the usage of fusion360. At first, I was afraid of the new,
 <img alt="" src="../../images/vd4.jpg" /></p>
 <p>The final work looks great. The sticky side was quite strong. Also, the rough side seems durable.
 <img alt="" src="../../images/vd5.jpg" /></p>
+<hr />
+<hr />
+<hr />
 <h3 id="2-laser-cutting">2. laser cutting<a class="headerlink" href="#2-laser-cutting" title="Permanent link">&para;</a></h3>
 <h3 id="observation-and-practice_1">observation and practice<a class="headerlink" href="#observation-and-practice_1" title="Permanent link">&para;</a></h3>
-<p>No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 1) NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on. 2) To turn on the laser printer: turn the round pääkytkin (headswitch) from 0 to 1 → turn the red handle to the air inside of the cutter flow (it is crucial as the air can circulate within the printer and clear off the combustion residuals which are hazardous). → Turn on the power switch of the machine. 
+<p>No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: </p>
+<ol>
+<li>NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on. </li>
+<li>To turn on the laser printer: turn the round pääkytkin (headswitch) from 0 to 1 → turn the red handle to the air inside of the cutter flow (it is crucial as the air can circulate within the printer and clear off the combustion residuals which are hazardous). → Turn on the power switch of the machine. 
 <img alt="" src="../../images/lcp1.jpg" />
 <img alt="" src="../../images/lcp2.jpg" />
-<img alt="" src="../../images/lcp3.jpg" /></p>
-<p>Behnaz first introduced us a key concept of laser cutting that is directly related to parametric design: kerf. Kerf is the part that laser beam burns away, which is why laser can &ldquo;cut&rdquo; materials. When we do parametric design with consideration of precision, kerf matters. For example, I hope to set the pentagon slot width to be 3mm. If I set the number to be 3mm, the kerf will make it more than 3mm, which can cause instability when interlocking the slots. That was the reason I set the slotwidth parameter to be &ldquo;material thickness - kerf&rdquo; instead of assigning a fixed number. But how is the width of kerf? Behnaz asked us to laser cut on our own to see if there are kerf differences among materials.
+<img alt="" src="../../images/lcp3.jpg" /></li>
+<li>If something really starts to ignite, number one: stay calm. Number two, open the laster cutter lid to activate the interlock. However, if you are materials like cardboard gets more flames because of the input air, rush to get the nearby FabLab fire blanket to smother the fire. Fire blanket should be the first priority as extinguisher is ok but it may create a huge mess to the machine (maybe cost even more to repair afterwards :(), never to say not many people know how to properly use the extinguisher. A fire blanket looks like below:
+<img alt="" src="../../images/lcp14.jpg" /></li>
+</ol>
+<p>Behnaz first introduced us a key concept of laser cutting that is directly related to parametric design: <strong>kerf</strong>.<br />
+Kerf is the part that laser beam burns away, which is why laser can &ldquo;cut&rdquo; materials. When we do parametric design with consideration of high precision, <strong>the width of kerf</strong> matters.<br />
+  - For example, I hope to set the pentagon slot width to be 3mm. If I set the number to be 3mm, the kerf will make it more than 3mm, which can cause instability when interlocking the slots. That was the reason I set the parameter of &ldquo;slotwidth&rdquo; to be &ldquo;material thickness - kerf&rdquo;, instead of assigning a fixed number.  </p>
+<p>But what is the width of <strong>kerf</strong>? Behnaz asked us to laser cut on our own to see if there are kerf differences among materials.
 <img alt="" src="../../images/lcp4.jpg" /></p>
-<p>It is rather easy to laser cut. First, save the Inkscape svg file into pdf format. Open the pdf, click the printing to get the blue window → Click the Advanced option to choose the preset modes (i.e., In our session, we used 3mm-MDF-engrave+cut and 3mm-acrylic-engrave+cut) → Finalize the setting in General opion. 300 DPI is fair enough for most cases; raster is for engraving while vector is for line cutting; The speed, power and frequency are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
+<p>It is rather easy to laser cut. There are two steps:<br />
+1. <strong>Desktop</strong>  Open svg file in Inkscape → set the line width to be 0.02 mm → save as PDF file → open the PDF file → ctrl + p → examine the Advanced and General windows to set up the printing parameters. → press save and ok  </p>
+<p>First, save the Inkscape svg file as PDF file. Open the pdf, click the printing to get the blue window → Click the Advanced option to choose the preset modes (i.e., In our session, we used 3mm-MDF-engrave+cut and 3mm-acrylic-engrave+cut) → Finalize the setting in General opion. 300 DPI is fair enough for most cases; raster is for engraving while vector is for line cutting; The speed, power and frequency are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
 <img alt="" src="../../images/lcp5.jpg" /></p>
 <p>We also learned the meaning of DPI. It stands for &ldquo;dots per inch&rdquo;. As each time the laser beam burns a little &ldquo;dot&rdquo; of the surface, when the dpi is 254, the laser beam can surely burn every corner of the inch. In this regard, the preset dpi 300 assumes that there are overlapping burnt parts, which is enough for most engraving work. Otherwise, the surface might be over engraving (burnt like chocolate). 
-<img alt="" src="../../images/lcp6.jpg" /></p>
+<img alt="" src="../../images/lcp6.jpg" />  </p>
+<ol>
+<li><strong>Laser Cutter</strong>  Open the lid →  place the cutting material on the working table → set the Focus/Jog → select the Job → Press go → MONITOR THE CUTTING PROCESS AND DON&rsquo;T GO AWAY FOR SAFETY REASONS.  </li>
+</ol>
+<p>Open the lid, place the cutting material on the &ldquo;bed&rdquo;, or working table. Press it with metal weight if necessary.  </p>
+<p>To run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:<br />
+   1. Set Focus. Laser beams are generated, output, then concentrated at the &ldquo;waist&rdquo; point where the power is the strongest. The reason to set the focus is hence to get the &ldquo;beam waist&rdquo;. Since the laser producer tool&rsquo;s height is fixed, you should move the &ldquo;bed&rdquo;, or the working table up and down to realize the focus setting.<br />
+                 - Use a triangular plate to hang between the two screws of the laser cutting head. The hight of the plate is , so we can assume the beam waist is at the acute angle of the triangle.<br />
+                 - Turn the joystick left to select the speed. Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.  <br />
+   2. Set Jog
+   3. Select the Job </p>
 <p>Diep and Antti R measured the MDF kerf (around 0.1mm). Another Antti and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn&rsquo;t put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
 <img alt="" src="../../images/lc6.jpg" /></p>
 <p>Then, we tested different laser speed and power on MDF to see different effects. 
