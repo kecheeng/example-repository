@@ -8,8 +8,10 @@ Antti Mäntyniemi kindly used reciprocal teaching and maker education to let an 
 ## How to get a PCB
 
 ### Stage 1 Background knowledge for absolute beginners
-- What is a PCB? What is it used for?  
+- **What is a PCB? What is it used for?** 
+
 This sounds like a stupid question for engineering students, but it is still a basic question like "What is scaffolding" to outsiders of pedagogy, or "disenchantment" to sociology starters.  
+
 So, **PCB(printed circuit board)** looks like below. 
 ![](../images/pcb1.34.jpg)  
 
@@ -20,7 +22,7 @@ The lines on the PCB board are called **circuit traces** or **tracks**. They can
 However, if it is a fresh board waiting to be used, like what I learned in the first week, it can be called a **PWB**(printed wiring board).  
 ![](../images/pcb1.35.jpg)
 
-- Why is it a basic thing for electronics design?
+
 - Drill 
 - Mill 
 - PCB blank
