@@ -46,6 +46,10 @@ The end of observation and practice session. Quite straightforward experience. T
 ![](../images/vp11.jpg)
 
 ### self design and final work
+
+Below is the panda file I used for vinyl cut. I used Inscape and Extention-Roland CutStudio to finish the software part.  
+
+[The svg file for the panda](../files/panda.svg)
 Without much talk, I got a panda bear svg file from the Internet, added a frame in Inkscape, exported it to Roland Cutstudio, made 3 sizes, then set up the cutter (mode: edge) as in the observation session.
 ![](../images/vd1.jpg)
 
