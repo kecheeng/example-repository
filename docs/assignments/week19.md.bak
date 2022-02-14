@@ -116,8 +116,8 @@ However, I also like the brief description of Fablab and Neil's frankness: My FB
 
 
 ## How about the patent?
-Like I mentioned above, before choosing a patent, or whether to patent something, it is essential to equip myself with the notion, or more practically, the legal significance of patent.  
-The protection of IP goes along with progressive education. In China, most people used to have little sense of intellectual properties, assuming that they can use whatever they find from the internet or media. When music companies such as Sony and some famous singers such as Jay Chow forbade people from free downloading, there were huge debates among netizens, some of which blamed them for being so mean and selfish. This misunderstanding has been well solved by education and legal judgements in the last decade.  
+As I mentioned above, before choosing a patent, or whether to patent something, it is essential to equip myself with the notion, or more practically, the legal significance of patent.  
+China witnessed the developement of the notion of IP. Most people used to have rare sense of intellectual properties, assuming that they can use whatever they find from the internet or media. When music companies such as Sony and some famous singers like Jay Chow forbade people from free downloading, there were huge debates among netizens, some of which blamed them for being so mean and selfish. This misunderstanding has been well solved by progressive education and juridical judgements in the past decade.  
 ![](../images/ip4.jpg)
 
 After studying Espacenet, Google Patents, and Patent Inspiration, I choose NOT to patent my bag at least for a long term. My initial purpose was to start from students or common folks, which is with strong non-profit feature.I believe the users can help me build up better versions of the bag. In other word, I would rather DONATE it to the society.  
@@ -131,7 +131,7 @@ I do have 2 idols who have extraordinarily successful products but have not clai
 ![](../images/ip6.jpg)
 
 In a serious stance, open sources is a democratic power to fight against monopolies so there must be space for unpatentness. I do not 
-believe magnates such as Nitendo, Tencent, or Microsoft whose main incentives are shaped by VCs, can have the patience of interests to make quality games like one of my favorites - *Disco Elysium*.
+believe magnates such as Nitendo, Tencent, or Microsoft whose main incentives are shaped by VCs, can have the patience or interests to make quality games like one of my favorites - *Disco Elysium*.
 ![](../images/ip7.jpg)
 
 

@@ -878,24 +878,7 @@
 <h3 id="presentation-slide">presentation slide<a class="headerlink" href="#presentation-slide" title="Permanent link">&para;</a></h3>
 <p><img alt="" src="../../images/presentation.png" /></p>
 <h3 id="presentation-video">presentation video<a class="headerlink" href="#presentation-video" title="Permanent link">&para;</a></h3>
-<p>HTML5 MP4 ffmpeg encoding</p>
-<p>variable bit rate 1080p MP3:</p>
-<p>ffmpeg -i input_video -vcodec libx264 -crf 25 -preset medium -vf scale=-2:1080 -acodec libmp3lame -q:a 4 -ar 48000 -ac 2 output_video.mp4</p>
-<p>fixed bit rate 1080p MP2:</p>
-<p>ffmpeg -i input_video -vcodec libx264 -b:v 1000k -vf scale=-2:1080 -acodec mp2 -b:a 256k -ar 48000 -ac 2 output_video.mp4</p>
-<p>no audio:</p>
-<p>ffmpeg -i input_video -vcodec libx264 -b:v 1000k -vf scale=-2:1080 -an output_video.mp4</p>
-<p>crop size (width:height:xoffset:yoffset):</p>
-<p>ffmpeg -i input_video -vf crop=1500:800:200:100 -vcodec libx264 -b:v 1000k -an output_video.mp4</p>
-<p>trim time (-ss start time, -t duration):</p>
-<p>ffmpeg -i input_video -vcodec libx264 -b:v 1000k -an -ss 00:00:10 -t 00:00:10 output_video.mp4</p>
-<p>mix audio and video:</p>
-<p>ffmpeg -i input_video -vcodec libx264 -b:v 1000k -vf crop=1120:876:0:100 -i input_audio -acodec mp2 -b:a 256k -ar 48000 -ac 2 -ss 00:00:20 -t 00:00:20 output_video.mp4</p>
-<p>crop, pan, composite:</p>
-<p>ffmpeg -i input_video_1 -i input_video_2 -filter_complex &lsquo;[1:v]crop=175:95:930:860[cropout];[cropout]scale=350:190[scaleout];[0:v][scaleout]overlay=10:10[outv]&rsquo; -map &lsquo;[outv]&rsquo; -vcodec libx264 -b:v 1000k -map 0:a -acodec mp2 -b:a 256k -ac 2 -t 00:00:05 output_video.mp4</p>
-<p>numbered images to video:</p>
-<p>ffmpeg -r 30 -i %04d.jpg -vcodec libx264 -b:v 1000k -vf scale=-2:1080 -an output_video.mp4
-<img alt="" src="../../images/presentation.mp4" /></p>
+<p><img alt="" src="../../files/presentation.mp4" /></p>
 <h3 id="elaboration">Elaboration<a class="headerlink" href="#elaboration" title="Permanent link">&para;</a></h3>
 <p>In the first demo, I hope to realize in MDF board with laser cutter. It is not just because I need to evidence the learning of computer controlled cutting in FabLab, but also I hope to make the bag a bit fun. It can be used as a container not for books or laptop, but for small items or a box of snacks.  </p>
 <p>The glittering parts will be installed on left and right sides. I plan to cut some shapes that allow LED lights to be inserted and controlled by an electric sensor.  </p>
