@@ -67,6 +67,8 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 ###2. laser cutting
 
+
+[try](../files/pentagon.svg)
 ### observation and practice 
 
 No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 
