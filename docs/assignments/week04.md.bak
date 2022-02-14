@@ -67,6 +67,8 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 ###2. laser cutting
 
+
+[try](../files/)
 ### observation and practice 
 
 No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 
@@ -98,9 +100,10 @@ We also learned the meaning of DPI. It stands for "dots per inch". As each time 
 
 2. **Laser Cutter**  Open the lid →  place the cutting material on the working table → set the Focus/Jog → select the Job → Press go → MONITOR THE CUTTING PROCESS AND DON'T GO AWAY FOR SAFETY REASONS.  
 
-Open the lid, place the cutting material on the "bed", or working table. Press it with metal weight if necessary.  
+First, open the lid, place the cutting material on the "bed", or working table. Press it with metal weight if necessary.  
 
-To run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:  
+Then, to run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:  
+
    1. **Set Focus**. Laser beams are generated, output, then concentrated at the "waist" point where the power is the strongest. The reason to set the focus is hence to get the "beam waist". Since the laser producer tool's height is fixed, you should move the "bed", or the working table up and down to realize the focus setting.  
                  - Use a triangular plate to hang between the two screws of the laser cutting head. The hight of the plate is , so we can assume the beam waist is at the acute angle of the triangle.  
 				 - Turn the joystick left to select the speed. Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.  
