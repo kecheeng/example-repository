@@ -67,8 +67,6 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 ###2. laser cutting
 
-
-[try](../files/)
 ### observation and practice 
 
 No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 
@@ -133,7 +131,14 @@ The results are interesting: If the speed is 80% with other settings being defau
 At last, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
 ![](../images/lcp13.jpg)
 
+
 ### self design and final work
+Below are the files I created and used in actual work. This time I used Fusion360 to design the pentagon, and Inkscape to set up for laser cutting. 
+[](../files/pentagon.svg)
+[](../files/pentagon_kecheng_f3d.f3d)
+[](../files/pentagon_kecheng_stl.stl)
+[](../files/pentagon_kecheng_pdf.pdf)
+
 In week's three's fusion360 tiral, I drew a pentagon with slots. In this week's laser cutting, I thought things would be quite easy and straightforward with several steps like drawing, printing and analysing. However, I was so naive that the first step of this week was problematic, which ultimately made me refine and reflect on the trouble that I wanted to dodge. In the picture below, I found it a bit strange with unconnected lines.
 ![](../images/f360eplp1.jpg)
 
