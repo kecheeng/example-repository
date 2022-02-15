@@ -23,8 +23,23 @@ However, if it is a fresh board waiting to be used, like what I learned in the f
 ![](../images/pcb1.35.jpg)
 
 
-- Drill 
-- Mill 
+- **Drill**  
+
+Drill literally means to dig a whole through a surface. In pedagogy, "drill" is interpreted as practice.  
+
+Antti Mäntyniemi started the introduction by asking me whether I know 3D printing. I said no.  
+
+Then, he asked if I know x, y, z axis in spatial design. I said yes.  
+
+Now it is easy to understand: **drilling in electronics design means to move the machine tool up and down vertically.**  
+
+![the tools of the drill](../images/pcb1.36.jpg)
+
+That is why drill deals with **z** axis. 
+
+- **Mill**  
+
+Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool 
 - PCB blank
 - Sacrificial MDF bed 
 - Isolation cutting 
