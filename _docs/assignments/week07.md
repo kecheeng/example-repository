@@ -53,9 +53,11 @@ In the following draft, there are more key terms to keep in mind.
 
 It is very important to know the thickness of PCB plate (e.g., in my assignment the thickness is **1.635mm**.) because if you set the drill tool into the bed and mill, **the tool can be easily broken.**  
  
-- **Isolation cutting** 
-- Machine 
+- **Isolation cutting**  
 
+
+- **Machine.** The machine for the PCB milling in FabLab Oulu is Roland SRM-20. Of course, you have to set up parameters and run the machine from the connected desktop. 
+![the Roland SRM-20](../images/pcb1.38.jpg)
 
 ![](../images/pcb1.1.jpg)
 ![](../images/pcb1.2.jpg)
