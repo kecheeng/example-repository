@@ -8,7 +8,7 @@ Antti Mäntyniemi kindly used reciprocal teaching and maker education to let an 
 ## How to get a PCB
 
 ### Stage 1 Background knowledge for absolute beginners
-- What is a PCB? What is it used for?  
+- **What is a PCB? What is it used for?** 
 
 This sounds like a stupid question for engineering students, but it is still a basic question like "What is scaffolding" to outsiders of pedagogy, or "disenchantment" to sociology starters.  
 
@@ -22,9 +22,22 @@ The lines on the PCB board are called **circuit traces** or **tracks**. They can
 However, if it is a fresh board waiting to be used, like what I learned in the first week, it can be called a **PWB**(printed wiring board).  
 ![](../images/pcb1.35.jpg)
 
-- Why is it a basic thing for electronics design?
-- Drill 
-- Mill 
+
+- **Drill**  
+
+Drill literally means to dig a whole through a surface. In pedagogy, "drill" is interpreted as practice.  
+
+Antti Mäntyniemi started the introduction by asking me whether I know 3D printing. I said no.  
+
+Then, he asked if I know x, y, z axis in spatial design. I said yes.  
+
+Now it is easy to understand: **drilling in electronics design means to move the machine tool up and down vertically.**  
+
+That is why drill deals with **z** axis. 
+
+- **Mill**  
+
+Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool 
 - PCB blank
 - Sacrificial MDF bed 
 - Isolation cutting 
