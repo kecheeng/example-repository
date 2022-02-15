@@ -6,7 +6,7 @@ To me, even the final project may take longer time to achieve due to the changin
 
 ## Research on the topic
 
-In Neil's elaboration, **pattern** refers to inventions of a “matter" as well as the improvements to them. It does not give the inventors an automatic exemption from the being stolen or cheated, but only a name-printed, regional admission ticket into legal system if unfortunate things happen, never to say the expenses that will follow to defend the legal rights. Patent may sound rather professional and rigid, but in fact they must be novel, useful and not obvious. In daily language, those who are fake, cheating, against the principle of nature or human societies will not be acknowledged and hence patented. Below is the patent of a certain type of bike. 
+In Neil's elaboration, **patent** refers to inventions of a “matter" as well as the improvements to them. It does not give the inventors an automatic exemption from the being stolen or cheated, but only a name-printed, regional admission ticket into legal system if unfortunate things happen, never to say the expenses that will follow to defend the legal rights. Patent may sound rather professional and rigid, but in fact they must be novel, useful and not obvious. In daily language, those who are fake, cheating, against the principle of nature or human societies will not be acknowledged and hence patented. Below is the patent of a certain type of bike. 
 
 ![](../images/ip2.jpg)
 
