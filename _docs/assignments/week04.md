@@ -91,7 +91,10 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 
 
-1. NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on. 
+1. NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on.  
+
+![](../images/lcp18.jpg) 
+
 2. To turn on the laser printer: turn the round pääkytkin (headswitch) from 0 to 1 → turn the red handle to the air inside of the cutter flow (it is crucial as the air can circulate within the printer and clear off the combustion residuals which are hazardous). → Turn on the power switch of the machine. 
 ![](../images/lcp1.jpg)
 ![](../images/lcp2.jpg)
@@ -120,16 +123,22 @@ We also learned the meaning of DPI. It stands for "dots per inch". As each time 
 
 First, open the lid, place the cutting material on the "bed", or working table. Press it with metal weight if necessary.  
 
-Then, to run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions. Do three things in a row:  
+Then, to run the laser cutter, look at the small screen. Use the joystick to move up and down to select the functions.  
+![](../images/lcp16.jpg)  
 
-   1. **Set Focus**. Laser beams are generated, output, then concentrated at the "waist" point where the power is the strongest. The reason to set the focus is hence to get the "beam waist". Since the laser producer tool's height is fixed, you should move the "bed", or the working table up and down to realize the focus setting.  
-                 - Use a triangular plate to hang between the two screws of the laser cutting head. The hight of the plate is , so we can assume the beam waist is at the acute angle of the triangle.  
-				 - Turn the joystick left to select the speed. Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.  
+Do three things in a row:  
+
+   1. **Set Focus.** Laser beams are generated, output, then concentrated at the "waist" point where the power is the strongest. The reason to set the focus is hence to get the "beam waist". Since the laser producer tool's height is fixed, you should move the "bed", or the working table up and down to realize the focus setting.  
+                 - Use a triangular plate to hang between the two screws of the laser cutting head (see below). The hight of the plate is , so we can assume the beam waist is at the acute angle of the triangle.  
+				 ![](../images/lcp17.jpg)  
+				 
+				 - Turn the joystick left to select the speed (see below). Two arrows means fast, one arrow means slow. Usually you will start from the fast mode. Then turn the joystick up and down to move the working table. When you feel the triangle touches the material, shift it to slow mode to adjust the focus gently.  
+                 ![](../images/lcp15.jpg)				 
 
 				 
-   2. **Set Jog**  
+   2. **Set Jog.** This is to set up the beginning point of laser cutting. An red auxiliary beam can assist the setting.  
    
-   3. **Select the Job** 
+   3. **Select the Job.** Use the joystick to choose which laser cutting work your would like to do. 
 
 Diep and Antti R measured the MDF kerf (around 0.1mm). Another Antti and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn't put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
 ![](../images/lc6.jpg)

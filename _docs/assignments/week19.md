@@ -23,10 +23,11 @@ In Neil's elaboration, **patent** refers to inventions of a “matter" as well a
 
 ### presentation slide
 ![presentation slide](../images/presentation.png)
+[presentation slide](../images/presentation.png)
 
 
 ### presentation video
-![presentation video](../files/presentation.mp4)
+[presentation video](../files/presentation.mp4)
 
 ### Elaboration
 
