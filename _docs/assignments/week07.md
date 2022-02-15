@@ -39,7 +39,11 @@ That is why drill deals with **z** axis.
 
 - **Mill**  
 
-Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool 
+Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool horizonally, hence **x and y axis** are used.  
+
+![](../images/pcb1.1.jpg)  
+
+
 - PCB blank
 - Sacrificial MDF bed 
 - Isolation cutting 

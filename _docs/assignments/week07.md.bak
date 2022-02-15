@@ -33,11 +33,15 @@ Then, he asked if I know x, y, z axis in spatial design. I said yes.
 
 Now it is easy to understand: **drilling in electronics design means to move the machine tool up and down vertically.**  
 
+![the tools of the drill](../images/pcb1.36.jpg)
+
 That is why drill deals with **z** axis. 
 
 - **Mill**  
 
-Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool 
+Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool horizonally, hence **x and y axis** are used.  
+
+
 - PCB blank
 - Sacrificial MDF bed 
 - Isolation cutting 
