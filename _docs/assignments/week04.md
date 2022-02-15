@@ -91,7 +91,7 @@ The final work looks great. The sticky side was quite strong. Also, the rough si
 
 No matter how beautiful the design is, to get the laser cutting started, Behnaz showed us the safety issues that everyone should be serious about: 
 
-1. NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on.  
+1. <span style="color:red">NEVER LET THE LASER CUTTING WORK ALONE. ALWAYS KEEP AN EYE ON IT. </span>Luckily, FabLab Oulu installed a separate sensor to detect whether there are people within 2 meters when the laser cutting is on.  
 
 ![](../images/lcp18.jpg) 
 
