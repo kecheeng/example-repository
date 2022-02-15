@@ -41,12 +41,19 @@ That is why drill deals with **z** axis.
 
 Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool horizonally, hence **x and y axis** are used.  
 
+In the following draft, there are more key terms to keep in mind.  
+
 ![](../images/pcb1.1.jpg)  
 
 
-- PCB blank
-- Sacrificial MDF bed 
-- Isolation cutting 
+- **PCB blank.** The raw PCB working plate is called PCB blank. It has two layers. The lower part is a 1.6 mm plate; the upper surface is a 35μm copper foil (*1 mm = 1,000 μm).  
+
+- **Sacrificial MDF bed.** This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
+![](../images/pcb1.37.jpg)  
+
+It is very important to know the thickness of PCB plate (e.g., in my assignment the thickness is **1.635mm**.) because if you set the drill tool into the bed and mill, **the tool can be easily broken.**  
+ 
+- **Isolation cutting** 
 - Machine 
 - Important unit:1mm=1,000um
 
