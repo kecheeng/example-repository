@@ -39,7 +39,7 @@ That is why drill deals with **z** axis.
 
 - **Mill**  
 
-Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool horizonally, hence **x and y axis** are used.  
+Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool **horizonally**, hence **x and y axis** are used.  
 
 In the following draft, there are more key terms to keep in mind.  
 
@@ -55,7 +55,7 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
  
 - **Isolation cutting** 
 - Machine 
-- Important unit:1mm=1,000um
+
 
 ![](../images/pcb1.1.jpg)
 ![](../images/pcb1.2.jpg)

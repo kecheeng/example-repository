@@ -22,11 +22,11 @@ In Neil's elaboration, **patent** refers to inventions of a “matter" as well a
 ## Project Draft
 
 ### presentation slide
-![](../images/presentation.png)
+![presentation slide](../images/presentation.png)
 
 
 ### presentation video
-![](../files/presentation.mp4)
+![presentation video](../files/presentation.mp4)
 
 ### Elaboration
 
@@ -83,6 +83,7 @@ However, I also like the brief description of Fablab and Neil's frankness: My FB
 
 ## How about the patent?
 As I mentioned above, before choosing a patent, or whether to patent something, it is essential to equip myself with the notion, or more practically, the legal significance of patent.  
+
 China witnessed the developement of the notion of IP. Most people used to have rare sense of intellectual properties, assuming that they can use whatever they find from the internet or media. When music companies such as Sony and some famous singers like Jay Chow forbade people from free downloading, there were huge debates among netizens, some of which blamed them for being so mean and selfish. This misunderstanding has been well solved by progressive education and juridical judgements in the past decade.  
 ![](../images/ip4.jpg)
 
@@ -90,10 +91,12 @@ After studying Espacenet, Google Patents, and Patent Inspiration, I choose NOT t
 
 I do have 2 idols who have extraordinarily successful products but have not claimed them to be exclusive:
 
-1. *東方Project／とうほうプロジェクト* accompanied my childhood. ZUN, its author, chose to make the whole series including all the elements to be open sources. This worked so well with the fans communities as they worked together to extend the whole project to an unbelievable scale covering cosplay, hobby products, manga, re-creation, etc. which are full of imagination.
+1. *東方Project／とうほうプロジェクト* accompanied my childhood. ZUN, its author, chose to make the whole series including all the elements to be open sources. This went so well with the fans communities as they worked together to extend the whole project to an unbelievable scale covering cosplay, hobby products, manga, re-creation, etc. which are full of imagination.
 ![](../images/ip5.jpg)
 
-2. https://www.irasutoya.com/ The owner of the cute and amazing website has never shown its real face to the public, but has been constantly creating sound illustrations to be publicly used around the world. Some design houses hate it so much due to the fear of unemployment.  
+
+
+2. https://www.irasutoya.com/ The owner of the cute and amazing website has never shown its real face to the public, but has been constantly creating beautiful illustrations to be publicly used around the world, which have been totally free. Some design houses hate it so much due to the fear of unemployment.  
 ![](../images/ip6.jpg)
 
 In a serious stance, open sources is a democratic power to fight against monopolies so there must be space for unpatentness. I do not 
