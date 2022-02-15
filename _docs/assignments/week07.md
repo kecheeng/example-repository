@@ -23,6 +23,12 @@ However, if it is a fresh board waiting to be used, like what I learned in the f
 ![](../images/pcb1.35.jpg)
 
 
+In the following part, there are more key terms to keep in mind.  
+
+- **Machine.** The machine for the PCB milling in FabLab Oulu is Roland SRM-20. Of course, you have to set up parameters and run the machine from the connected desktop.  
+
+![the Roland SRM-20](../images/pcb1.38.jpg)
+
 - **Drill**  
 
 Drill literally means to dig a whole through a surface. In pedagogy, "drill" is interpreted as practice.  
@@ -41,12 +47,28 @@ That is why drill deals with **z** axis.
 
 Mill is not to make a house to grind grains into flour. In electronics design, mill means to move the tool **horizonally**, hence **x and y axis** are used.  
 
-In the following draft, there are more key terms to keep in mind.  
 
+- **rectangular-bit or v-bit.**  
+
+When drilling and milling the PCB plate, the machine will use **bit** to realize the task. The 2 most frequently used bits are rectangular and V-shape (as below).  
+ 
 ![](../images/pcb1.1.jpg)  
+
+When the PCB plate is perfectly flat, the rectangular bit leaves a milled track with the width to be 0.4mm, while the V-bit, depending on how deep it drills into the copper foil, makes the width ranging from 0.2-0.5 mm.  
+
+When the PCB plate is curved, both bit shapes can create irregular milled tracks.  
+
+It is quite abstract to talk about 0.2-0.5mm. So I used the vernier caliper to visualize the parameters.  
+
+![](../images/pcb1.3.jpg)
+
+In FabLab Oulu, the most commonly used bits are rectangular style as below.
+![the FabLab bit](../images/pcb1.27.jpg)  
 
 
 - **PCB blank.** The raw PCB working plate is called PCB blank. It has two layers. The lower part is a 1.6 mm plate; the upper surface is a 35μm copper foil (*1 mm = 1,000 μm).  
+![](../images/pcb1.2.jpg)  
+
 
 - **Sacrificial MDF bed.** This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
 ![](../images/pcb1.37.jpg)  
@@ -56,12 +78,7 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
 - **Isolation cutting**  
 
 
-- **Machine.** The machine for the PCB milling in FabLab Oulu is Roland SRM-20. Of course, you have to set up parameters and run the machine from the connected desktop. 
-![the Roland SRM-20](../images/pcb1.38.jpg)
 
-![](../images/pcb1.1.jpg)
-![](../images/pcb1.2.jpg)
-![](../images/pcb1.3.jpg)
 
 ### Stage 2
 ![](../images/pcb1.4.jpg)
