@@ -51,10 +51,11 @@ In the following draft, there are more key terms to keep in mind.
 - **Sacrificial MDF bed.** This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
 ![](../images/pcb1.37.jpg)  
 
-It is very important to know the thickness of PCB plate (e.g., in my assignment the thickness is **1.635mm**. 
+It is very important to know the thickness of PCB plate (e.g., in my assignment the thickness is **1.635mm**.) because if you set the drill tool into the bed and mill, **the tool can be easily broken.**  
+ 
 - **Isolation cutting** 
 - Machine 
-- Important unit:1mm=1,000um
+
 
 ![](../images/pcb1.1.jpg)
 ![](../images/pcb1.2.jpg)
