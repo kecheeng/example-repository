@@ -61,9 +61,6 @@ The end of observation and practice session. Quite straightforward experience. T
 
 ### self design and final work
 
-Below is the panda file I used for vinyl cut. I used Inscape and Extention-Roland CutStudio to finish the software part.  
-
-[The svg file for the panda](../files/panda.svg)  
 
 
 Without much talk, I got a panda bear svg file from the Internet, added a frame in Inkscape, exported it to Roland Cutstudio, made 3 sizes, then set up the cutter (mode: edge) as in the observation session.
@@ -163,16 +160,6 @@ At last, we also tested the different focuses of laser beam. The laser beam was 
 
 ### self design and final work
 
-Below are the files I created and used in actual work. This time I used Fusion360 to design the pentagon, and Inkscape to set up for laser cutting. 
-
-[The f3d file for the pentagon](../files/pentagon_kecheng_f3d.f3d)  
-Note: **.f3d** is Fusion 360's native 3D model format.  
-
-[The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
-Note: **.stl** is the global format to describe the surface geometry of a 3D object.
- 
-[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
-Still a note: pdf stands for **portable document format**. 
 
 
 Thank you Behnaz for helping me understand the meaning of those formats. Also thanks Antti R to help me with the codes for hyperlink in Github. 
@@ -233,5 +220,21 @@ It worked in a rather weird way...
 ![](../images/f360eplp18.jpg)
 
 I didn't care anymore, created a drawing and finally got a proper work even though the procedure was not the optimal. Luckily I don't have the passion to celebrate anything, and this is the most meaningful, diligent and hard working lunar new year so far in my life.
-![](../images/f360eplp19.jpg)
+![](../images/f360eplp19.jpg)  
+
+
+The files I used for this weekly assignment:
+
+**vinyl cutting**
+[The svg file for the panda](../files/panda.svg)  
+
+**laser cutting**
+[The f3d file for the pentagon](../files/pentagon_kecheng_f3d.f3d)  
+Note: **.f3d** is Fusion 360's native 3D model format.  
+
+[The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
+Note: **.stl** is the global format to describe the surface geometry of a 3D object.
+ 
+[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
+Still a note: pdf stands for **portable document format**. 
 
