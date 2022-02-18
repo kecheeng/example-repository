@@ -80,16 +80,23 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
 
 ### Stage 2  
 
-In Stage 2, I will introduce how to set up PCB traces (the body part) and outline (the shape) on https://mods.cba.mit.edu/.  
+In Stage 2, I will introduce how to initiate PCB traces (the body part) and outline (the shape) on https://mods.cba.mit.edu/.  
 
 It looks quite scary as below, but I marked the 6 main stepss to click and ignore at the same time.  
 
 ![](../images/pcb1.4.jpg)  
 
+The purpose of the big picture is to set the necessary parameters including the size of the PCB, the milling (peeling) parts, the width and depth of traces.  
+
+https://mods.cba.mit.edu/ allows FabLab Oulu users to set up parameters remotely through the big map above.  
+
+What I did was to go to the website → right click the mouse → choose programm → choose open server program → choose Roland PCB svg (the final file format is .svg).  
 
 ![](../images/pcb1.5.jpg)
 ![](../images/pcb1.6.jpg)
-![](../images/pcb1.7.jpg)
+![](../images/pcb1.7.jpg)  
+
+
 ![](../images/pcb1.8.jpg)
 ![](../images/pcb1.9.jpg)
 ![](../images/pcb1.10.jpg)

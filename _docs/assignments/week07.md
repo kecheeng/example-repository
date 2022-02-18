@@ -87,13 +87,33 @@ It looks quite scary as below, but I marked the 6 main stepss to click and ignor
 ![](../images/pcb1.4.jpg)  
 
 The purpose of the big picture is to set the necessary parameters including the size of the PCB, the milling (peeling) parts, the width and depth of traces.  
+
+https://mods.cba.mit.edu/ allows FabLab Oulu users to set up parameters remotely through the big map above.  
+
+What I did was to go to the website → right click the mouse → choose programm → choose open server program → choose Roland PCB svg (the final file format is .svg).  
+
 ![](../images/pcb1.5.jpg)
 ![](../images/pcb1.6.jpg)
-![](../images/pcb1.7.jpg)
-![](../images/pcb1.8.jpg)
-![](../images/pcb1.9.jpg)
-![](../images/pcb1.10.jpg)
-![](../images/pcb1.11.jpg)
+![](../images/pcb1.7.jpg)  
+
+**step 1** delete the unnecessary window: the WebSocket device (press "delete").  
+
+![](../images/pcb1.8.jpg)  
+
+Instead, right click the mouse in the empty place → choose file: save → get the new window.  
+
+![](../images/pcb1.9.jpg)  
+
+connect the **outputs** with **inputs** → clcik  **move to origin**. The purpose is to generate a tool path that Roland milling machine can understand.  
+
+![](../images/pcb1.10.jpg)  
+
+**step 2** reset the x/y/z parameters in origin. 
+![](../images/pcb1.11.jpg)  
+
+**step 3** load the **traces** file to modify.  
+
+
 ![](../images/pcb1.12.jpg)
 ![](../images/pcb1.13.jpg)
 ![](../images/pcb1.14.jpg)
