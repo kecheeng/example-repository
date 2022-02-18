@@ -102,20 +102,43 @@ What I did was to go to the website → right click the mouse → choose program
 
 ![](../images/pcb1.8.jpg)  
 
-Instead, right click the mouse in the empty place → choose file: save → get the new window.  
-
+Then, right click the mouse in the empty place → choose file: save → get a new window named **save file**. Just leave it there at the moment.  
+  
 ![](../images/pcb1.9.jpg)  
 
-connect the **outputs** with **inputs** → clcik  **move to origin**. The purpose is to generate a tool path that Roland milling machine can understand.  
+
+**step 2** load 2 .svg file (PCB traces and outline)  
+ 
+
+First, Antti gave me 2 pre-set **.svg** files for the PCB shape and body.
+
+**step 3** Invert the .svg files.  
+
+<span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  
+
+**step 4** Set PCB default.  
+Without special intention, usually you don't have to change anything.  
+
+**step 5** Set the mill raster 2D parameters.  
+ 
+<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a **loop action from step 2 to step 5.**
+
+
+**step 6** Finalize the setting.  
+
+First, reset the x/y/z parameters in origin to be all 0.  
+
+![](../images/pcb1.11.jpg) 
+
+Then, click  **move to origin**. The purpose is to generate a tool path that Roland milling machine can understand.  
+
+<span style="color:green">Also, rembmer to connect the **outputs** with **inputs** of step 1.</span>   
 
 ![](../images/pcb1.10.jpg)  
 
-**step 2** reset the x/y/z parameters in origin. 
-![](../images/pcb1.11.jpg)  
+Congratulations! I finished the PCB files setting.    
 
-**step 3** load the **traces** file to modify.  
 
-First, Antti sent me 2 preset .rml 
 ![](../images/pcb1.12.jpg)
 ![](../images/pcb1.13.jpg)
 ![](../images/pcb1.14.jpg)
