@@ -67,7 +67,9 @@ In FabLab Oulu, the most commonly used bits are rectangular style as below.
 
 
 - **PCB blank.** The raw PCB working plate is called PCB blank. It has two layers. The lower part is a 1.6 mm plate; the upper surface is a 35μm copper foil (*1 mm = 1,000 μm).  
-![](../images/pcb1.2.jpg)  
+![](../images/pcb1.2.jpg) 
+
+<span style="color:blue">The PCB format I made this time was UPDI format. </span>
 
 
 - **Sacrificial MDF bed.** This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
@@ -113,7 +115,7 @@ connect the **outputs** with **inputs** → clcik  **move to origin**. The purpo
 
 **step 3** load the **traces** file to modify.  
 
-
+First, Antti sent me 2 preset .rml 
 ![](../images/pcb1.12.jpg)
 ![](../images/pcb1.13.jpg)
 ![](../images/pcb1.14.jpg)
