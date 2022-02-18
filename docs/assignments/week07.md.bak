@@ -110,12 +110,31 @@ connect the **outputs** with **inputs** → clcik  **move to origin**. The purpo
 
 ![](../images/pcb1.10.jpg)  
 
-**step 2** reset the x/y/z parameters in origin. 
+**step 2** load 2 .svg file (PCB traces and outline)  
+ 
+
+First, Antti gave me 2 pre-set **.svg** files for the PCB shape and body.
+
+**step 3** Invert the .svg files.  
+
+<span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  
+
+**step 4** Set PCB default.  
+Without special intention, usually you don't have to change anything.  
+
+**step 5** Set the mill raster 2D parameters.  
+ 
+<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a **loop action from step 2 to step 5.**
+
+**step 
+
+
+
+**step 6** reset the x/y/z parameters in origin.  
+
 ![](../images/pcb1.11.jpg)  
 
-**step 3** load the **traces** file to modify.  
 
-First, Antti 
 ![](../images/pcb1.12.jpg)
 ![](../images/pcb1.13.jpg)
 ![](../images/pcb1.14.jpg)

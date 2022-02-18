@@ -865,15 +865,24 @@
 <img alt="" src="../../images/pcb1.7.jpg" />  </p>
 <p><strong>step 1</strong> delete the unnecessary window: the WebSocket device (press &ldquo;delete&rdquo;).  </p>
 <p><img alt="" src="../../images/pcb1.8.jpg" />  </p>
-<p>Instead, right click the mouse in the empty place → choose file: save → get the new window.  </p>
+<p>Then, right click the mouse in the empty place → choose file: save → get a new window named <strong>save file</strong>. Just leave it there at the moment.  </p>
 <p><img alt="" src="../../images/pcb1.9.jpg" />  </p>
-<p>connect the <strong>outputs</strong> with <strong>inputs</strong> → clcik  <strong>move to origin</strong>. The purpose is to generate a tool path that Roland milling machine can understand.  </p>
+<p><strong>step 2</strong> load 2 .svg file (PCB traces and outline)  </p>
+<p>First, Antti gave me 2 pre-set <strong>.svg</strong> files for the PCB shape and body.</p>
+<p><strong>step 3</strong> Invert the .svg files.  </p>
+<p><span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  </p>
+<p><strong>step 4</strong> Set PCB default.<br />
+Without special intention, usually you don&rsquo;t have to change anything.  </p>
+<p><strong>step 5</strong> Set the mill raster 2D parameters.  </p>
+<p><span style="color:green">This is a key step to get the &ldquo;millable&rdquo; .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a <strong>loop action from step 2 to step 5.</strong></p>
+<p><strong>step 6</strong> Finalize the setting.  </p>
+<p>First, reset the x/y/z parameters in origin to be all 0.  </p>
+<p><img alt="" src="../../images/pcb1.11.jpg" /> </p>
+<p>Then, click  <strong>move to origin</strong>. The purpose is to generate a tool path that Roland milling machine can understand.  </p>
+<p><span style="color:green">Also, rembmer to connect the <strong>outputs</strong> with <strong>inputs</strong> of step 1.</span>   </p>
 <p><img alt="" src="../../images/pcb1.10.jpg" />  </p>
-<p><strong>step 2</strong> reset the x/y/z parameters in origin. 
-<img alt="" src="../../images/pcb1.11.jpg" />  </p>
-<p><strong>step 3</strong> load the <strong>traces</strong> file to modify.  </p>
-<p>First, Antti sent me 2 preset .rml 
-<img alt="" src="../../images/pcb1.12.jpg" />
+<p>Congratulations! I finished the PCB files setting.    </p>
+<p><img alt="" src="../../images/pcb1.12.jpg" />
 <img alt="" src="../../images/pcb1.13.jpg" />
 <img alt="" src="../../images/pcb1.14.jpg" />
 <img alt="" src="../../images/pcb1.15.jpg" />
