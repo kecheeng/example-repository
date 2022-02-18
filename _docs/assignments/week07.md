@@ -78,10 +78,15 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
 - **Isolation cutting**  
 
 
+### Stage 2  
 
+In Stage 2, I will introduce how to initiate PCB traces (the body part) and outline (the shape) on https://mods.cba.mit.edu/.  
 
-### Stage 2
-![](../images/pcb1.4.jpg)
+It looks quite scary as below, but I marked the 6 main stepss to click and ignore at the same time.  
+
+![](../images/pcb1.4.jpg)  
+
+The purpose of the big picture is to set the necessary parameters including the size of the PCB, the milling (peeling) parts, the width and depth of traces.  
 ![](../images/pcb1.5.jpg)
 ![](../images/pcb1.6.jpg)
 ![](../images/pcb1.7.jpg)
