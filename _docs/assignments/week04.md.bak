@@ -61,9 +61,6 @@ The end of observation and practice session. Quite straightforward experience. T
 
 ### self design and final work
 
-Below is the panda file I used for vinyl cut. I used Inscape and Extention-Roland CutStudio to finish the software part.  
-
-[The svg file for the panda](../files/panda.svg)  
 
 
 Without much talk, I got a panda bear svg file from the Internet, added a frame in Inkscape, exported it to Roland Cutstudio, made 3 sizes, then set up the cutter (mode: edge) as in the observation session.
@@ -157,22 +154,24 @@ The results are interesting: If the speed is 80% with other settings being defau
 ![](../images/lcp11.jpg)
 ![](../images/lcp12.jpg)
 
-At last, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
+Then, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
 ![](../images/lcp13.jpg)
 
+Last, Behnaz introduced us a smaller laser printer in Oulu FabLab. It does not need extra setup for **focus**, but requires more manual work to install the air tube to a electric fan.  
+ 
+![](../images/lcp19.jpg)
+![](../images/lcp20.jpg)  
+
+The setup of the smaller printer is rather straightforward: turn on the switch and connect it to the preset laptop.  
+![](../images/lcp21.jpg)
+![](../images/lcp22.jpg)
+
+Behnaz guided us to see what different DPI sets were look like in this printer.  
+In fact, I was more secured to realize the same blue window of Epilog, as it meant that I could use existing skills to change parameters. It was also a good review of **vector**, **raster**, **DPI**, as well as the preset parameters in Advanced window. 
+![](../images/lcp23.jpg)
 
 ### self design and final work
 
-Below are the files I created and used in actual work. This time I used Fusion360 to design the pentagon, and Inkscape to set up for laser cutting. 
-
-[The f3d file for the pentagon](../files/pentagon_kecheng_f3d.f3d)  
-Note: **.f3d** is Fusion 360's native 3D model format.  
-
-[The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
-Note: **.stl** is the global format to describe the surface geometry of a 3D object.
- 
-[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
-Still a note: pdf stands for **portable document format**. 
 
 
 Thank you Behnaz for helping me understand the meaning of those formats. Also thanks Antti R to help me with the codes for hyperlink in Github. 
@@ -233,5 +232,21 @@ It worked in a rather weird way...
 ![](../images/f360eplp18.jpg)
 
 I didn't care anymore, created a drawing and finally got a proper work even though the procedure was not the optimal. Luckily I don't have the passion to celebrate anything, and this is the most meaningful, diligent and hard working lunar new year so far in my life.
-![](../images/f360eplp19.jpg)
+![](../images/f360eplp19.jpg)  
+
+
+The files I used for this weekly assignment:
+
+**vinyl cutting**
+[The svg file for the panda](../files/panda.svg)  
+
+**laser cutting**
+[The f3d file for the pentagon](../files/pentagon_kecheng_f3d.f3d)  
+Note: **.f3d** is Fusion 360's native 3D model format.  
+
+[The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
+Note: **.stl** is the global format to describe the surface geometry of a 3D object.
+ 
+[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
+Still a note: pdf stands for **portable document format**. 
 

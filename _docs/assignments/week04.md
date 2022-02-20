@@ -154,9 +154,29 @@ The results are interesting: If the speed is 80% with other settings being defau
 ![](../images/lcp11.jpg)
 ![](../images/lcp12.jpg)
 
-At last, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
+Then, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
 ![](../images/lcp13.jpg)
 
+Last, Behnaz introduced us a smaller laser printer in Oulu FabLab. It does not need extra setup for **focus**, but requires more manual work to install the air tube to a electric fan.  
+ 
+![](../images/lcp19.jpg)
+![](../images/lcp20.jpg)  
+
+The setup of the smaller printer is rather straightforward: turn on the switch and connect it to the preset laptop.  
+![](../images/lcp21.jpg)
+![](../images/lcp22.jpg)
+
+Behnaz guided us to see what different DPI sets were look like in this printer.  
+
+In fact, I was more secured to realize the same blue window of Epilog, as it meant that I could use existing skills to change parameters. It was also a good review of **vector**, **raster**, **DPI**, as well as the preset parameters in Advanced window. 
+![](../images/lcp23.jpg)  
+
+We tested 3 DPI settings: 150, 300(default), 600. The result was as below:  
+  
+![](../images/lcp24.jpg)  
+
+As DPI number increases, the "resolution" also goes up, which makes laser beam burn more intensively on the material surface, resulting in a darker engraving pattern.  
+ 
 
 ### self design and final work
 
