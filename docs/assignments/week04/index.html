@@ -963,6 +963,45 @@ Kerf is the part that laser beam burns away, which is why laser can &ldquo;cut&r
 <p>As DPI number increases, the &ldquo;resolution&rdquo; also goes up, which makes laser beam burn more intensively on the material surface, resulting in a darker engraving pattern.  </p>
 <h3 id="self-design-and-final-work_1">self design and final work<a class="headerlink" href="#self-design-and-final-work_1" title="Permanent link">&para;</a></h3>
 <p>Thank you Behnaz for helping me understand the meaning of those formats. Also thanks Antti R to help me with the codes for hyperlink in Github. </p>
+<p>I met some problems using Fusion360 at the begining of the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz&rsquo;s week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: <span style="color:red">parametric design!</span>  </p>
+<p>After hours of nervous attempt, I practised designing a pentagon with slots.  </p>
+<p>First, I randomly drew a pentagon under the menu of <strong>sketch + create</strong>. Then I clicked <strong>polygon - circumscribed polygon</strong> (actually the three selections are just different ways to define a polygon). It does not matter which side in the space to be the 2D canva.   </p>
+<p><img alt="" src="../../images/fp20.jpg" />  </p>
+<p>It did not have to be accurate for the size of the polygon as later I could use parameteric designs to constrain the key numbers.  </p>
+<p>While dragging the shape on the canva, I moved the mouse to left change the edge into 5.  </p>
+<p><img alt="" src="../../images/fp21.jpg" />  </p>
+<p>After this, I could get a raw, unparametrically constrained <strong>pentagon</strong>.  </p>
+<p><img alt="" src="../../images/fp1.jpg" /></p>
+<p>Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous vtubers emphasized. The logic is rather simple: Instead of setting parameters by hand for endless times in complicated design, you can just name certain parameters with their expressions (length, angle, etc.). So next time if you change something, click the part + sketch (the radial menu reminds me of the counterpart in Neverwinter Nights). It was chunky at first, but useful after getting used to it. Also, parametric design is powerful as when you constrain certain sides, lengths, angles, and other key parameters, when you change other factors, or feel free to reshape the original design, everything will be automatically and smartly reset which excatly thanks to the parametric restrictions.
+<img alt="" src="../../images/nwnradialmenu.jpg" /></p>
+<p>For example, for the pendagon, I named each side as &ldquo;side&rdquo;. Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
+<img alt="" src="../../images/fp2.jpg" /></p>
+<p>(After presentation) Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth&rsquo;s expression from typing 2.9mm to &ldquo;mdfthickness-kerf&rdquo;, instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of &ldquo;halfside&rdquo; into &ldquo;(side-slothwidth)/2&rdquo; to automatically get 25.05mm in value.<br />
+<img alt="" src="../../images/fp16.jpg" /></p>
+<p>(After presentation) As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
+Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the &ldquo;will be input&rdquo; value shown on the draft. 
+<img alt="" src="../../images/fp17.jpg" /></p>
+<p>(After presentation) It worked! the &ldquo;slotwidth&rdquo; is still 2.9mm, but defined by equations; The &ldquo;halfside&rdquo; was also smartly reset:)
+<img alt="" src="../../images/fp18.jpg" /></p>
+<p>To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label &ldquo;side&rdquo; instead of a number to change it into 72 mm (originally it was 72.654mm).
+<img alt="" src="../../images/fp3.jpg" /></p>
+<p>Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
+<img alt="" src="../../images/fp4.jpg" /></p>
+<p>Similarly, I drew a rectangle for the slot. Rather than typing numbers, I directly used the parameter names slotdepth (5mm) and slotwidth (2.9mm) to fast set the numbers.
+<img alt="" src="../../images/fp5.jpg" />
+<img alt="" src="../../images/fp6.jpg" /></p>
+<p>Indeed, it is quite challenging for an absolute beginner like me to memorize the key steps. Thus, I made a brief note of what I often used after watching videos and clicking around. Sketch allows basic line sketches. You can find basic shapes and lines in create column. The modify functions are easy to use. If it is just a 2D design, the curve corner, scissors, offset can help easily make joint shapes.
+For example, in my draft, I made a rectangular slot. If I didn&rsquo;t need the overlapping side, the scissors function can delete the extra side. Constraints have smart but powerful functions to align shapes. In my case, I intended to make the longer side of slot perpendicular to the pentagonal side. I just tried the function with 2 trials. If you move the mouse to each icon, there is a brief description to help understand each constraint logic. 
+<img alt="" src="../../images/fp8.jpg" /></p>
+<p>The slot, which consisted of 3 straight lines, can be duplicated so I quickly got 5 same slots for each pentagonal side. The problem arose: How to make the slot perfectly central to each side?
+<img alt="" src="../../images/fp9.jpg" /></p>
+<p>Parametric design worked again. To make the practice easier to calculate, I changed the side expression from 72mm to 53mm, allowing 3mm slotwidth (2.9mm in reality due to the kerf). In this way, there was 25 cm for each side if I centered the slot. I set a new parameter named &ldquo;halfside&rdquo; to be 25 mm.
+<img alt="" src="../../images/fp11.jpg" /></p>
+<p>After repeating the sketch, the use of halfside parameter, I got satisfactory pendagon with slots by simply several clicks.
+<img alt="" src="../../images/fp10.jpg" />
+<img alt="" src="../../images/fp12.jpg" /></p>
+<p>(After presentation) This is the final work with every key parameter being strictly defined by either typed number, or mathmatic equations.  Of course, you can hide the sublines by clicking the eye icon on the left, leaving only the final work you need. 
+<img alt="" src="../../images/fp19.jpg" /></p>
 <p>In week&rsquo;s three&rsquo;s fusion360 tiral, I drew a pentagon with slots. In this week&rsquo;s laser cutting, I thought things would be quite easy and straightforward with several steps like drawing, printing and analysing. However, I was so naive that the first step of this week was problematic, which ultimately made me refine and reflect on the trouble that I wanted to dodge. In the picture below, I found it a bit strange with unconnected lines.
 <img alt="" src="../../images/f360eplp1.jpg" /></p>
 <p>I clicked the drawing view settings and found that the lines were connected if I changed the scale in to 1:2. Then I happily exported it into pdf format.
