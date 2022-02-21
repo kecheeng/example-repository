@@ -202,109 +202,126 @@ After this, I could get a raw, unparametrically constrained **pentagon**.
 
 ![](../images/fp1.jpg)
 
-Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous vtubers emphasized. The logic is rather simple: Instead of setting parameters by hand for endless times in complicated design, you can just name certain parameters with their expressions (length, angle, etc.). So next time if you change something, click the part + sketch (the radial menu reminds me of the counterpart in Neverwinter Nights). It was chunky at first, but useful after getting used to it. Also, parametric design is powerful as when you constrain certain sides, lengths, angles, and other key parameters, when you change other factors, or feel free to reshape the original design, everything will be automatically and smartly reset which excatly thanks to the parametric restrictions.
+Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous vtubers emphasized.  
+
+The logic is rather simple: Instead of setting key numbers (side length, angle, etc.) by hand for endless times in complicated design, parametric design allows you to **define certain sides, lengths, angles, and into parameters**. <span style="color:green"> The parameters can be numbers, or mathmatic equations.</span> It is powerful as when you change some factors, e.g. the customers hope to have different sizes of the product, everything will be automatically and smartly reset **which cannot be achieved by Inkscape but Fusion360.**
+
+Instead of setting parameters by hand for endless times in complicated design, you can just **define certain parameters with their expressions (length, angle, etc.)**. So I clicked the **part + sketch** (the radial menu reminds me of the counterpart in Neverwinter Nights). It was chunky at first, but useful after getting used to it.  
+
 ![](../images/nwnradialmenu.jpg)
 
-For example, for the pendagon, I named each side as "side". Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
-![](../images/fp2.jpg)
+For example, for the pendagon, I named each side as "side". I also named a **kerf** (measured as 0.1mm in previous observation), the material thickness (expressed as mdfthickness) in 3mm (MDF board). The rest parameters were thus defined as:  
 
-(After presentation) Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth's expression from typing 2.9mm to "mdfthickness-kerf", instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of "halfside" into "(side-slothwidth)/2" to automatically get 25.05mm in value.  
+- slot width(expressed as slotwidth): mdfthickness - kerf  
+- halfside: (side-slotwidth)/2  
+
 ![](../images/fp16.jpg)
- 
-(After presentation) As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
-Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the "will be input" value shown on the draft. 
-![](../images/fp17.jpg)
 
-(After presentation) It worked! the "slotwidth" is still 2.9mm, but defined by equations; The "halfside" was also smartly reset:)
+ 
+As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset.  
+
+![](../images/fp17.jpg) 
+
+Returned to the original design, the "slotwidth" is still 2.9mm, but **defined by equations**; The "halfside" was also smartly reset:)
 ![](../images/fp18.jpg)
 
-To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label "side" instead of a number to change it into 72 mm (originally it was 72.654mm).
-![](../images/fp3.jpg)
+***
+***
 
-Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
-![](../images/fp4.jpg)
+The next step was to export the design as a printable pdf.  
 
-Similarly, I drew a rectangle for the slot. Rather than typing numbers, I directly used the parameter names slotdepth (5mm) and slotwidth (2.9mm) to fast set the numbers.
-![](../images/fp5.jpg)
-![](../images/fp6.jpg)
+I thought things would be quite easy and straightforward (**extrude → set a number of thickness → generate a new drawing from the design**). However, I was so naive, which ultimately made me refine and reflect on the trouble that I wanted to dodge.  
 
-Indeed, it is quite challenging for an absolute beginner like me to memorize the key steps. Thus, I made a brief note of what I often used after watching videos and clicking around. Sketch allows basic line sketches. You can find basic shapes and lines in create column. The modify functions are easy to use. If it is just a 2D design, the curve corner, scissors, offset can help easily make joint shapes.
-For example, in my draft, I made a rectangular slot. If I didn't need the overlapping side, the scissors function can delete the extra side. Constraints have smart but powerful functions to align shapes. In my case, I intended to make the longer side of slot perpendicular to the pentagonal side. I just tried the function with 2 trials. If you move the mouse to each icon, there is a brief description to help understand each constraint logic. 
-![](../images/fp8.jpg)
-
-The slot, which consisted of 3 straight lines, can be duplicated so I quickly got 5 same slots for each pentagonal side. The problem arose: How to make the slot perfectly central to each side?
-![](../images/fp9.jpg)
-
-Parametric design worked again. To make the practice easier to calculate, I changed the side expression from 72mm to 53mm, allowing 3mm slotwidth (2.9mm in reality due to the kerf). In this way, there was 25 cm for each side if I centered the slot. I set a new parameter named "halfside" to be 25 mm.
-![](../images/fp11.jpg)
-
-After repeating the sketch, the use of halfside parameter, I got satisfactory pendagon with slots by simply several clicks.
-![](../images/fp10.jpg)
-![](../images/fp12.jpg)
-
-(After presentation) This is the final work with every key parameter being strictly defined by either typed number, or mathmatic equations.  Of course, you can hide the sublines by clicking the eye icon on the left, leaving only the final work you need. 
-![](../images/fp19.jpg)
-
-
-In week's three's fusion360 tiral, I drew a pentagon with slots. In this week's laser cutting, I thought things would be quite easy and straightforward with several steps like drawing, printing and analysing. However, I was so naive that the first step of this week was problematic, which ultimately made me refine and reflect on the trouble that I wanted to dodge. In the picture below, I found it a bit strange with unconnected lines.
+At the beinning, as the picture below, I found it a bit strange with unconnected lines.
 ![](../images/f360eplp1.jpg)
 
-I clicked the drawing view settings and found that the lines were connected if I changed the scale in to 1:2. Then I happily exported it into pdf format.
+I clicked the drawing view settings and found that the lines were connected if I changed the scale in to **1:2**. Then I happily exported it into pdf format.
 ![](../images/f360eplp2.jpg)
 
-When I inspected the pdf file in Inkscape, I found the problem: ok, everything was shrunk into half size including the slot. Apparently, I could not use a slot with 1.5 mm in MDF.
+When I inspected the pdf file in Inkscape of the Oulu FabLab desktop, I found the problem: ok, **everything was shrunk into half size including the slot.** Apparently, I could not use a slot with 1.5 mm in MDF as the thickness was 3 mm.  
+
 ![](../images/f360eplp3.jpg)
 
-As time was very limited, I needed to hand in some tentative assignments on time, I directly used Inkscape to close the 1:1 scale pentagon lines through drawing.
+As time was very limited, I needed to hand in some tentative assignments on time, I directly used Inkscape to close the 1:1 scale pentagon lines through drawing.  
+
 ![](../images/f360eplp4.jpg)
 
-Then, I selected all the lines to set the width to be 0.02 mm for laser cutting (not graving).
+Then, I selected all the lines to set the width to be **0.02 mm** for laser cutting (not graving).  
+
 ![](../images/f360eplp5.jpg)
 
 I observed that the laser cutting work ran twice: first to cut the unconnected lines, then pinpointedly cut the modified parts from Inkscape, which proved its smartness in 2D design. 
 ![](../images/f360eplp6.jpg)
 
-I duplicated the pentagon to get 5 extra pieces.
+I duplicated the pentagon to get 5 extra pieces.  
+
 ![](../images/f360eplp7.jpg)
 
-After waiting for 1 minute, I took out the pieces. Before playiny, I used the vernier caliper to measure the side and slot. The results were satisfactory: side-53mm; slotwidth-0.3mm (0.1mm's credit for kerf).
+After waiting for 1 minute, I took out the pieces. Before playing, I used the vernier caliper to measure the side and slot. The results were satisfactory: side-53mm; slotwidth-0.3mm (0.1mm's credit for kerf).
 ![](../images/f360eplp8.jpg)
 ![](../images/f360eplp9.jpg)
 
-Finally I could play the pieces by putting them together. It looked stable and nice.
+Finally I could play the pieces by putting them together. It looked stable and nice.  
+
 ![](../images/f360eplp10.jpg)
 
-I particularly checked the interlocking part: since the slothdepth was 0.5 mm, the total interlock depth was 1.0 mm. It was fairly stable, but would be better If I made the slotwidth deeper, say, 1 mm. Also, the nodes and other interlocking designs are all worth exploring. 
-As for the function, pentagon looks elegant, so I would use Inkscape to draw some patterns or pictures and use it as a badge. The wizard card in Harry Potter is a good example. 
+I particularly checked the interlocking part: since the slothdepth was 0.5 mm, the total interlock depth was 1.0 mm. It was fairly stable, but would be better If I made the slotwidth deeper, say, 1 mm.  
+
+Also, the nodes and other interlocking designs are all worth exploring.  
+
+Behnaz also found that among the five slots, some of them were more stable than others, which may be the differences between horizontal and diagonal laser beam traces.  
+
+As for the function, pentagon looks elegant, so I would use Inkscape to draw some patterns or pictures and use it as a badge. The wizard card in Harry Potter is a good example.  
+ 
 ![](../images/hpwc.jpg)
 
-I thought it was over until I showed my concern of the unconnected lines in the drawing. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year, which unexpectedly made me learn something new.
 
-I clicked the pentagon, extruded with 3mm (to match the MDF thickness), got a 3D object, and thought everything was ok. However, the lines were still not connected in the drawing, which drove me confused at night.
+***
+***
+
+I still wanted to "close" the disconnected lines. Behnaz explained how the function of extrude works, which opened a great DLC of the week's project and occupied all my free time in 2022 lunar new year, which unexpectedly made me learn something new.  
+
+I clicked the pentagon, extruded with 3mm (to match the MDF thickness), got a 3D object, and thought everything was ok.  
+
+However, the lines were still not connected in the drawing, which drove me confused at night.  
+
 ![](../images/f360eplp11.jpg)
 ![](../images/f360eplp12.jpg)
 ![](../images/f360eplp13.jpg)
 
-I consulted Diep. She calmed me down then helped me through remote screen sharing. She suspected that I hadn't selected the whole shape but only the frame whose extruded version had not covered the whole design. I tried again by drawing and extruding a new pentagon. This time the whole shape was selected.
+I consulted Diep. She calmed me down then helped me through remote screen sharing. She suspected that I hadn't selected the whole shape but only the frame whose extruded version had not covered the whole design.  
+
+I tried again by drawing and extruding a new pentagon. This time the whole shape was selected.  
+
 ![](../images/f360eplp14.jpg)
 
-Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as the object is extruded on a surface rather than the frame.
+Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as the object is extruded on a surface rather than the frame.  
+
 ![](../images/f360eplp15.jpg)
 
-This time I was stuck because no matter how I changed the "select", the pentagon with slots was like a hollow ghost which was too naughty or transparent to be captured. I nearly gave up until I clicked the "surface" and added a "patch" to forcely create a surface within the shape. It seemed successful.
+This time I was stuck because no matter how I changed the "select", the pentagon with slots was like a hollow ghost which was too naughty or transparent to be captured. I nearly gave up until I clicked the **"surface" and added a "patch"** to forcely create a surface within the shape.  
+
+It seemed successful.
 ![](../images/f360eplp16.jpg)
 
-As the direction was reversed, I set the extrude parameter to be -3 mm. 
+As the direction was reversed, I set the extrude parameter to be -3 mm.  
+
 ![](../images/f360eplp17.jpg)
 
-It worked in a rather weird way...
+It worked in a rather weird way...  
+
 ![](../images/f360eplp18.jpg)
 
-I didn't care anymore, created a drawing and finally got a proper work even though the procedure was not the optimal. Luckily I don't have the passion to celebrate anything, and this is the most meaningful, diligent and hard working lunar new year so far in my life.
+I created a drawing and finally got a proper work even though the procedure was not the optimal. This was the most meaningful, diligent and hard working lunar new year so far in my life.  
+
 ![](../images/f360eplp19.jpg)  
 
+What I learned most from this week is that no matter how difficult the tasks might be, there will be multiple solutions.  
 
-The files I used for this weekly assignment:
+Also, if a software looks chunky and monstrous at the beginning, it is usually because of the abundance of functions and super convenience to solve specific issues. Unlike "user friendly" Excel and Word (they are easy to start but quite professional and powerful at the end), it is just the contrary way to reach suitable users. 
+
+
+**The files I used for this weekly assignment:**
 
 **vinyl cutting**
 [The svg file for the panda](../files/panda.svg)  
