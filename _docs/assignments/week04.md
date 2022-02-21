@@ -149,7 +149,8 @@ It is rather easy to laser cut. There are two steps:
    
 First, save the Inkscape .svg file as PDF file. Open the pdf, click the printing to get the blue window (Epilog Engraver WinX64 Fusion Properties) → Click the Advanced option to choose the preset modes (i.e., In our session, we used 3mm-MDF-engrave+cut and 3mm-acrylic-engrave+cut) → Finalize the setting in General opion.  
 
-300 DPI is fair enough for most cases; **raster** is for **engraving** while **vector** is for **line cutting**; The **speed, power and frequency** are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
+300 DPI is fair enough for most cases; **raster** is for **engraving** while **vector** is for **line cutting**.  
+
 ![](../images/lcp5.jpg)
 
 We also learned the meaning of **DPI**. It stands for "**dots per inch**". As each time the laser beam burns a little "dot" of the surface, when the dpi is 254, the laser beam can surely burn every corner of the inch. In this regard, the preset dpi 300 assumes that there are slightly overlapping burnt parts, which is enough for most engraving work. Otherwise, the surface might be over engraved (burnt like chocolate). 
@@ -180,24 +181,40 @@ Do three things in a row:
    
    3. **Select the Job.** Use the joystick to choose which laser cutting work your would like to do. 
 
-Diep and Antti R measured the MDF kerf (around 0.1mm). Another Antti and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn't put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
-![](../images/lc6.jpg)
+Diep and Antti R measured the MDF kerf (around 0.13mm). Antti J and me measured acrylic kerf. I used the vernier caliper twice. The first result was 0.065 mm, which was biased because I hadn't put the 10 small chips tightly together. When I did it twice, the result was more reasonable: 0.102 mm. In this regard, I could estimate that the kerf for acrylic laser was 0.1mm and set it in the parametric design.
+![](../images/lc6.jpg)  
 
-Then, we tested different laser speed and power on MDF to see different effects. 
+(from Diep's measurement)  
+
+![](../images/lc26.jpg)
+
+
+Then, we tested different laser speed and power on MDF to see different effects. The **speed, power and frequency** are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
 ![](../images/lcp7.jpg)
 ![](../images/lcp8.jpg)
 
-The results are meaningful: for vector cutting (upper part), the default values worked well, but if the speed was 40 (too fast), the laser could not cut through the MDF. Similar result happened if the power was only half (50%). When the speed is defaulted while removing 20% of the power, the vector cut still went well. We estimated that the vector cut on MDF could be effective if the power is above 60%. The frequency seemed to have little effect on vector cut (middle). The different raster (lower part) settings had remarkable effects on the engraving results. Even on the same surface, you can set different degrees of raster by changing the power. 
+The results are meaningful: for vector cutting (upper part), the default values worked well, but if the speed was 40 (too fast), the laser could not cut through the MDF.  
+
+Similar result happened if the power was only half (50%). When the speed is defaulted while removing 20% of the power, the vector cut still went well. We estimated that the vector cut on MDF could be effective if the power is above 60%.  
+
+The frequency seemed to have little effect on vector cut (middle). The different raster (lower part) settings had remarkable effects on the engraving results. Even on the same surface, you can set different degrees of raster by changing the power. 
 ![](../images/lcp9.jpg)
 
 We also tested different laser conditions on acrylic. 
 ![](../images/lcp10.jpg)
 
-The results are interesting: If the speed is 80% with other settings being defaulted, the laser cannot cut through the acrylic. When engraving, if the power is 5, you simply could not see apparent patterns on the surface. We were joking that it might be "useful" in cheating :)
+The results are interesting:  
+
+If the speed is 80% with other settings being defaulted, the laser cannot cut through the acrylic.  
+
+When engraving, if the power is 5, you simply could not see apparent patterns on the surface. We were joking that it might be "useful" in cheating :)  
+
 ![](../images/lcp11.jpg)
 ![](../images/lcp12.jpg)
 
-Then, we also tested the different focuses of laser beam. The laser beam was most concentrated on the thinnest point, or the "waist", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
+Then, we tested the effects of different focuses of laser beam.  
+
+The laser beam was most concentrated on the thinnest point, or the "**beam waist**", which has the most power. The upper and lower parts are like a sand clock. The results were not so obvious by appearance, but if I touched the engraved surfaces, the focused one was indeed tougher than others. 
 ![](../images/lcp13.jpg)
 
 Last, Behnaz introduced us a smaller laser printer in Oulu FabLab. It does not need extra setup for **focus**, but requires more manual work to install the air tube to a electric fan.  
@@ -225,7 +242,7 @@ As DPI number increases, the "resolution" also goes up, which makes laser beam b
 
 
 
-Thank you Behnaz for helping me understand the meaning of those formats. Also thanks Antti R to help me with the codes for hyperlink in Github. 
+I really appreciate Behnaz to help me understand the meaning of those formats. Also thanks Antti R to help me with the codes for hyperlink in Github. 
 
 I met some problems using Fusion360 at the begining of the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz's week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: <span style="color:red">parametric design!</span>  
 
@@ -253,9 +270,9 @@ Instead of setting parameters by hand for endless times in complicated design, y
 
 ![](../images/nwnradialmenu.jpg)
 
-For example, for the pendagon, I named each side as "side". I also named a **kerf** (measured as 0.1mm in previous observation), the material thickness (expressed as mdfthickness) in 3mm (MDF board). The rest parameters were thus defined as:  
+For example, for the pendagon, I named each side as "side". I also named a **kerf** (measured as 0.1 mm in previous observation), the material thickness (expressed as **mdfthickness**) in 3 mm (MDF board). The rest parameters were thus defined as:  
 
-- slot width(expressed as slotwidth): mdfthickness - kerf  
+- slot width(expressed as **slotwidth**): mdfthickness - kerf  
 - halfside: (side-slotwidth)/2  
 
 ![](../images/fp16.jpg)
@@ -338,7 +355,7 @@ I tried again by drawing and extruding a new pentagon. This time the whole shape
 
 ![](../images/f360eplp14.jpg)
 
-Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as the object is extruded on a surface rather than the frame.  
+Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as **the object is extruded on a surface rather than the frame.**  
 
 ![](../images/f360eplp15.jpg)
 
@@ -376,6 +393,6 @@ Note: **.f3d** is Fusion 360's native 3D model format.
 [The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
 Note: **.stl** is the global format to describe the surface geometry of a 3D object.
  
-[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
+[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)  
 Still a note: pdf stands for **portable document format**. 
 
