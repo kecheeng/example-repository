@@ -355,7 +355,7 @@ I tried again by drawing and extruding a new pentagon. This time the whole shape
 
 ![](../images/f360eplp14.jpg)
 
-Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as the object is extruded on a surface rather than the frame.  
+Then, I created a drawing and ok, scale 1:1, lines connected. At least it was clear that the lines could only be closed as long as **the object is extruded on a surface rather than the frame.**  
 
 ![](../images/f360eplp15.jpg)
 
@@ -393,6 +393,6 @@ Note: **.f3d** is Fusion 360's native 3D model format.
 [The stl file for the pentagon](../files/pentagon_kecheng_stl.stl)  
 Note: **.stl** is the global format to describe the surface geometry of a 3D object.
  
-[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)
+[The pdf file for the pentagon](../files/pentagon_kecheng_pdf.pdf)  
 Still a note: pdf stands for **portable document format**. 
 

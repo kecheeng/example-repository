@@ -380,6 +380,9 @@ What I learned most from this week is that no matter how difficult the tasks mig
 
 Also, if a software looks chunky and monstrous at the beginning, it is usually because of the abundance of functions and super convenience to solve specific issues. Unlike "user friendly" Excel and Word (they are easy to start but quite professional and powerful at the end), it is just the contrary way to reach suitable users. 
 
+Behnaz shared a small tip I found quite useful nowadays: When it is stuck, close and reopen.  
+ 
+
 
 **The files I used for this weekly assignment:**
 
