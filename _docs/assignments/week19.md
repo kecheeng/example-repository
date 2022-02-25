@@ -71,15 +71,12 @@ If students use the bag well, it can be spread to their parents as well as schoo
 For this humble design, I hope to start from family and friends' merit funding, say hundreds of euros to do demo test, to cover the transport and canteen fee in school visits, or the coffee bills when persuading neigbors or friends to buy a demo bag. If it can survive after the first year with a quantity demand more than 100, I can learn to expose it to cloud-funding or negotiate purchase commitment with some factories.
 
 ## Which copyright licenses will I consider and choose? Why?
-Instead of making a decision on which licenses I will choose under the pressure of FabLab weekly assignment and apparently my project is still in the air, I would rather be empty-minded to learn what common licenses are existing.  
-
-I will consider Creative Commons as their license ensure creators to get the recognition and credit for the work they produce. CC also allows the creator to retain copyright while approving others to copy and distribute or to make use of their work non-commercially. What's more, their Chinese webpage is quite user friendly.  
+Instead of making a decision on which licenses I will choose under the pressure of FabLab weekly assignment and apparently my project is still in the air, I would rather be empty-minded to learn what usual licenses are existing.  
  
-![](../images/ip3.jpg)
- 
-However, I also like the brief description of Fablab and Neil's frankness: My FB work "may be reproduced, modified, distributed, performed, and displayed for any purpose, but must acknowledge "project name". Copyright is retained and must be preserved. The work is provided as is; no warranty is provided, and users accept all liability."  
+After studying open-source vs free, Creative Commons, and Apache, I would like to use **fab** as the the licensing. Instead of flashy and ornate terms, the brief description of Fablab and Neil's frankness: My FB work "may be reproduced, modified, distributed, performed, and displayed for any purpose, but must acknowledge "project name". Copyright is retained and must be preserved. The work is provided as is; no warranty is provided, and users accept all liability."  
 
-# Why not? It's a good platform.  
+# Why not? It's a good platform. I am glad that people from different background to help me improve the design.  
+ 
 
 
 ## How about the patent?
