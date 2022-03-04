@@ -237,6 +237,12 @@ From my understanding, the milling work is a bit similar to laser cutting as bel
 
 At last, I got the first UPDI PCB, which is the fundamental layer for the next steps.  
 
-![](../images/pcb1.33.jpg)
+![](../images/pcb1.33.jpg)  
+
+A note: For absolute beginners, you might ask what UPDI means.  
+
+According to [onlinedocs.microchip](https://onlinedocs.microchip.com/pr/GUID-DDB0017E-84E3-4E77-AAE9-7AC4290E5E8B-en-US-4/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F) , UPDI stands for "Unified Program and Debug Interface". Basically, it is an interface (Microchip proprietary)to allow external programming and debugging of a device through the chips.  
+
+In common language, 
 
 ## How to attach components on top of the PCB?
