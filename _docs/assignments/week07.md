@@ -80,7 +80,7 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
 - **Isolation cutting**  
 
 
-### Stage 2  
+### Stage 2 Get 2 .rml files (the inner tracks & outline ) for milling 
 
 In Stage 2, I will introduce how to set up two files to be milled: **PCB traces (the body part) and outline (the shape)** on https://mods.cba.mit.edu/.  
 
@@ -179,7 +179,7 @@ After getting the two .rml files.
 
 Congratulations! I finished the PCB files setting.    
 
-### Stage 3  
+### Stage 3 Let's mill it on machine!  
 
 In Stage, I practised realizing the milled PCB on Roland SRM-20 machine.  
 

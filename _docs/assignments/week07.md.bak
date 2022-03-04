@@ -243,6 +243,8 @@ A note: For absolute beginners, you might ask what UPDI means.
 
 According to [onlinedocs.microchip](https://onlinedocs.microchip.com/pr/GUID-DDB0017E-84E3-4E77-AAE9-7AC4290E5E8B-en-US-4/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F) , UPDI stands for "Unified Program and Debug Interface". Basically, it is an interface (Microchip proprietary)to allow external programming and debugging of a device through the chips.  
 
-In common language, 
+In common language, it can be encoded from a "mother" language (it will appear later: **SWD**), and used to program another chip (for example: to programme a blinking LED through Arduino).   
+
+
 
 ## How to attach components on top of the PCB?
