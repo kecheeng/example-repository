@@ -171,26 +171,35 @@ Now, **redo steps 3-6 to set up the milling work of the outline.**
 
 One imporant note: click the invert <span style="color:red">You definitely do not want the whole PCB work to be removed away, leaving only the empty shape. </span>  
 
-After getting the two .rml files, Congratulations! I finished the PCB files setting.    
-
-
-
-
-
-
-
-
-
-
 ![](../images/pcb1.20.jpg)
 
-![](../images/pcb1.22.jpg)
-![](../images/pcb1.23.jpg)
+After getting the two .rml files.  
+![](../images/pcb1.26.jpg)  
 
-### Stage 3
+
+Congratulations! I finished the PCB files setting.    
+
+### Stage 3  
+
+In Stage, I practised realizing the milled PCB on Roland SRM-20 machine.  
+
+The working area is as below. You have to use the connected desktop to set up the machine.  
+
+![](../images/pcb1.39.jpg)  
+
+**step 1** stabilize the PCB plate  
+
+When milling work is on, the tool moves horizonally across the copper surface, which might cause subtle movement. In order to make the PCB plate stable, Antti introduced a smart solution:  
+
+- Use tapes to both the PCB bottom side and the top of the sacrificial bed.  
+- Apply a few drops of strong glue to attach the 2 sides. Avoid using too much glue as it may cause bulge to make the PCB plate not flat.  
+- Press a metal plate to attach the two sides for a while.  
+
+**step 2** set up the desktop parameters for Roland SRM-20  
+
 ![](../images/pcb1.24.jpg)
 ![](../images/pcb1.25.jpg)
-![](../images/pcb1.26.jpg)
+
 ![](../images/pcb1.27.jpg)
 ![](../images/pcb1.28.jpg)
 ![](../images/pcb1.29.jpg)
@@ -199,4 +208,4 @@ After getting the two .rml files, Congratulations! I finished the PCB files sett
 ![](../images/pcb1.32.jpg)
 ![](../images/pcb1.33.jpg)
 
-## How to ...?
+## How to attach components on top of the PCB?
