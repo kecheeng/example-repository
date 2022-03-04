@@ -226,7 +226,7 @@ It is suggested to do the inner traces and outline milling in order.  I used the
 ![](../images/pcb1.27.jpg)  
 ![](../images/pcb1.29.jpg)  
 
-As there are many residuals on top of the PCB, it is a good habit to use vacuum cleaner to remove the dust.  
+As there are many residuals on top of the PCB, it is a good habit to use vacuum cleaner to remove the dust. **Don't worry. It won't suck the freshly made PCB away in a second.** 
 
 ![](../images/pcb1.30.jpg)  
 
