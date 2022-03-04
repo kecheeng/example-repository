@@ -868,27 +868,33 @@
 <p>Then, right click the mouse in the empty place → choose file: save → get a new window named <strong>save file</strong>. Just leave it there at the moment.  </p>
 <p><img alt="" src="../../images/pcb1.9.jpg" />  </p>
 <p><strong>step 2</strong> load 2 .svg file (PCB traces and outline)  </p>
-<p>First, Antti gave me 2 pre-set <strong>.svg</strong> files for the PCB shape and body.</p>
+<p>First, Antti gave me 2 pre-set <strong>.svg</strong> files for the PCB shape and body.<br />
+<img alt="" src="../../images/pcb1.12.jpg" />  </p>
+<p>The whole work generally consists of 2 sections: the traces/inner paths of PCB, and the outline or shape of the PCB (for example, in this work the shape is a regular USB).  </p>
 <p><strong>step 3</strong> Invert the .svg files.  </p>
-<p><span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  </p>
+<p>Look at the left upper corner of the whole map, select the <strong>inner paths .SVG</strong> file.<br />
+<img alt="" src="../../images/pcb1.13.jpg" />  </p>
+<p>In the right window, click <strong>invert</strong> to redefine the zone to be removed.<br />
+<span style="color:yellow">It is important to remember that, in PCB milling setting, the black parts will be removed by the tools. The white parts are the copper layers that connnect the components via currents. So unlike vinyl cutting, you definetely don&rsquo;t want to make the PCB functions inverted. </span><br />
+<img alt="" src="../../images/pcb1.14.jpg" /><br />
+<img alt="" src="../../images/pcb1.15.jpg" />  </p>
 <p><strong>step 4</strong> Set PCB default.<br />
-Without special intention, usually you don&rsquo;t have to change anything.  </p>
+Without special intention, usually you don&rsquo;t have to change anything. Usually, you will just go on.</p>
 <p><strong>step 5</strong> Set the mill raster 2D parameters.  </p>
-<p><span style="color:green">This is a key step to get the &ldquo;millable&rdquo; .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a <strong>loop action from step 2 to step 5.</strong></p>
+<p><span style="color:green">This is a key step to get the &ldquo;millable&rdquo; .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require you to <strong>return from step 2 to step 5</strong> to set up the outline svg file later.<br />
+As you can see, the 2D mill file is basically a raster file which considers pixels rather than lines. The tool diameter determines the copper zones to be removed. The bigger the tool diameter is, the more copper surface will be removed. The cut depth defines how deep the tool will go into the board.<br />
+<img alt="" src="../../images/pcb1.16.jpg" />  </p>
+<p>Antti shared his experience of the three parameters: the diameter to be 0.3 mm; the cut depth as 0.07 mm (It is interesting as the thickness of copper layer is 35 μm (0.035 mm), so 0.07 mm doubles the thickness, allowing the 2 depth settings to be equal.<br />
+<img alt="" src="../../images/pcb1.17.jpg" />. </p>
 <p><strong>step 6</strong> Finalize the setting.  </p>
 <p>First, reset the x/y/z parameters in origin to be all 0.  </p>
 <p><img alt="" src="../../images/pcb1.11.jpg" /> </p>
 <p>Then, click  <strong>move to origin</strong>. The purpose is to generate a tool path that Roland milling machine can understand.  </p>
 <p><span style="color:green">Also, rembmer to connect the <strong>outputs</strong> with <strong>inputs</strong> of step 1.</span>   </p>
 <p><img alt="" src="../../images/pcb1.10.jpg" />  </p>
+<p><span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  </p>
 <p>Congratulations! I finished the PCB files setting.    </p>
-<p><img alt="" src="../../images/pcb1.12.jpg" />
-<img alt="" src="../../images/pcb1.13.jpg" />
-<img alt="" src="../../images/pcb1.14.jpg" />
-<img alt="" src="../../images/pcb1.15.jpg" />
-<img alt="" src="../../images/pcb1.16.jpg" />
-<img alt="" src="../../images/pcb1.17.jpg" />
-<img alt="" src="../../images/pcb1.18.jpg" />
+<p><img alt="" src="../../images/pcb1.18.jpg" />
 <img alt="" src="../../images/pcb1.19.jpg" />
 <img alt="" src="../../images/pcb1.20.jpg" />
 <img alt="" src="../../images/pcb1.21.jpg" />
