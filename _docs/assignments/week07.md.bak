@@ -127,13 +127,17 @@ In the right window, click **invert** to redefine the zone to be removed.
 ![](../images/pcb1.15.jpg)  
 
 
-
 **step 4** Set PCB default.  
-Without special intention, usually you don't have to change anything.  
+Without special intention, usually you don't have to change anything. Usually, you will just go on.
 
 **step 5** Set the mill raster 2D parameters.  
  
-<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a **loop action from step 2 to step 5.**
+<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require you to **return from step 2 to step 5** to set up the outline svg file later.  
+As you can see, the 2D mill file is basically a raster file which considers pixels rather than lines. The tool diameter determines the copper zones to be removed. The bigger the tool diameter is, the more copper surface will be removed. The cut depth defines how deep the tool will go into the board.  
+![](../images/pcb1.16.jpg)  
+
+Antti shared his experience of the three parameters: the diameter to be 0.3 mm; the cut depth as 0.07 mm (It is interesting as the thickness of copper layer is 35 μm (0.035 mm), so 0.07 mm doubles the thickness, allowing the 2 depth settings to be equal.  
+![](../images/pcb1.17.jpg) 
 
 
 **step 6** Finalize the setting.  
@@ -158,8 +162,8 @@ Congratulations! I finished the PCB files setting.
 
 
 
-![](../images/pcb1.16.jpg)
-![](../images/pcb1.17.jpg)
+
+
 ![](../images/pcb1.18.jpg)
 ![](../images/pcb1.19.jpg)
 ![](../images/pcb1.20.jpg)

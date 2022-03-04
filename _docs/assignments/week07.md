@@ -137,7 +137,7 @@ As you can see, the 2D mill file is basically a raster file which considers pixe
 ![](../images/pcb1.16.jpg)  
 
 Antti shared his experience of the three parameters: the diameter to be 0.3 mm; the cut depth as 0.07 mm (It is interesting as the thickness of copper layer is 35 μm (0.035 mm), so 0.07 mm doubles the thickness, allowing the 2 depth settings to be equal.  
-![](../images/pcb1.17.jpg) 
+![](../images/pcb1.17.jpg). 
 
 
 **step 6** Finalize the setting.  
