@@ -82,9 +82,9 @@ It is very important to know the thickness of PCB plate (e.g., in my assignment 
 
 ### Stage 2  
 
-In Stage 2, I will introduce how to initiate PCB traces (the body part) and outline (the shape) on https://mods.cba.mit.edu/.  
+In Stage 2, I will introduce how to set up two files to be milled: **PCB traces (the body part) and outline (the shape)** on https://mods.cba.mit.edu/.  
 
-It looks quite scary as below, but I marked the 6 main stepss to click and ignore at the same time.  
+It looks quite scary at the first glance, but I marked the 6 main stepss to click and ignore at the same time.  
 
 ![](../images/pcb1.4.jpg)  
 
@@ -122,7 +122,7 @@ Look at the left upper corner of the whole map, select the **inner paths .SVG** 
 ![](../images/pcb1.13.jpg)  
 
 In the right window, click **invert** to redefine the zone to be removed.  
-<span style="color:yellow">It is important to remember that, in PCB milling setting, the black parts will be removed by the tools. The white parts are the copper layers that connnect the components via currents. So unlike vinyl cutting, you definetely don't want to make the PCB functions inverted. </span>  
+<span style="color:green">It is important to remember that, in PCB milling setting, the black parts will be removed by the tools. The white parts are the copper layers that connnect the components via currents. So unlike vinyl cutting, you definetely don't want to make the PCB functions inverted. </span>  
 ![](../images/pcb1.14.jpg)  
 ![](../images/pcb1.15.jpg)  
 
@@ -137,7 +137,20 @@ As you can see, the 2D mill file is basically a raster file which considers pixe
 ![](../images/pcb1.16.jpg)  
 
 Antti shared his experience of the three parameters: the diameter to be 0.3 mm; the cut depth as 0.07 mm (It is interesting as the thickness of copper layer is 35 μm (0.035 mm), so 0.07 mm doubles the thickness, allowing the 2 depth settings to be equal.  
-![](../images/pcb1.17.jpg) 
+![](../images/pcb1.17.jpg)  
+
+Of course, you can also try different tool diameters. **Always keep in mind that the depth is critical especially when you have to set Roland machine by hand.**For instance, in this PCB board, the thickness is 1.635 mm, so you should limit the max depth to be reasonable. Otherwise, the tool may drill through the whole PCB board, breaking itself when conducting the milling work.  
+
+![](../images/pcb1.21.jpg)  
+
+After this, click **calculate** to get a redefined file which will be downloaded automatically.  
+
+![](../images/pcb1.18.jpg)  
+
+If you review the refined file, it shows the paths to be milled. The red arrows are the general sequences that the tool will go.  
+
+ ![](../images/pcb1.19.jpg)  
+
 
 
 **step 6** Finalize the setting.  
@@ -152,10 +165,13 @@ Then, click  **move to origin**. The purpose is to generate a tool path that Rol
 
 ![](../images/pcb1.10.jpg)  
 
-<span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  
 
 
-Congratulations! I finished the PCB files setting.    
+Now, **redo steps 3-6 to set up the milling work of the outline.**  
+
+One imporant note: click the invert <span style="color:red">You definitely do not want the whole PCB work to be removed away, leaving only the empty shape. </span>  
+
+After getting the two .rml files, Congratulations! I finished the PCB files setting.    
 
 
 
@@ -164,10 +180,10 @@ Congratulations! I finished the PCB files setting.
 
 
 
-![](../images/pcb1.18.jpg)
-![](../images/pcb1.19.jpg)
+
+
 ![](../images/pcb1.20.jpg)
-![](../images/pcb1.21.jpg)
+
 ![](../images/pcb1.22.jpg)
 ![](../images/pcb1.23.jpg)
 
