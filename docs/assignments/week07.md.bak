@@ -143,7 +143,7 @@ Of course, you can also try different tool diameters. **Always keep in mind that
 
 ![](../images/pcb1.21.jpg)  
 
-After this, click **calculate** to get a redefined file which will be downloaded automatically.  
+After this, click **calculate** to get a redefined file which will be downloaded automatically. The format is **.rml**.  
 
 ![](../images/pcb1.18.jpg)  
 
@@ -171,21 +171,9 @@ Now, **redo steps 3-6 to set up the milling work of the outline.**
 
 One imporant note: click the invert <span style="color:red">You definitely do not want the whole PCB work to be removed away, leaving only the empty shape. </span>  
 
-After getting the two .rml files, Congratulations! I finished the PCB files setting.    
-
-
-
-
-
-
-
-
-
-
 ![](../images/pcb1.20.jpg)
 
-![](../images/pcb1.22.jpg)
-![](../images/pcb1.23.jpg)
+After getting the two .rml files, Congratulations! I finished the PCB files setting.    
 
 ### Stage 3
 ![](../images/pcb1.24.jpg)
