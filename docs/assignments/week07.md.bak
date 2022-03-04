@@ -224,13 +224,19 @@ Delete previous jobs then click **Add** to load the 2 .rml files generated in St
 It is suggested to do the inner traces and outline milling in order.  I used the red tool to do the traces, then the yellow one for the outline.  
 
 ![](../images/pcb1.27.jpg)  
+![](../images/pcb1.29.jpg)  
 
+As there are many residuals on top of the PCB, it is a good habit to use vacuum cleaner to remove the dust.  
 
-![](../images/pcb1.28.jpg)
-![](../images/pcb1.29.jpg)
-![](../images/pcb1.30.jpg)
+![](../images/pcb1.30.jpg)  
+
+From my understanding, the milling work is a bit similar to laser cutting as below:  
+
 ![](../images/pcb1.31.jpg)
-![](../images/pcb1.32.jpg)
+![](../images/pcb1.32.jpg)  
+
+At last, I got the first UPDI PCB, which is the fundamental layer for the next steps.  
+
 ![](../images/pcb1.33.jpg)
 
 ## How to attach components on top of the PCB?
