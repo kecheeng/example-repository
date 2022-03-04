@@ -187,7 +187,7 @@ The working area is as below. You have to use the connected desktop to set up th
 
 ![](../images/pcb1.39.jpg)  
 
-**step 1** stabilize the PCB plate  
+**step 1** stabilize the PCB plate and insert the tools  
 
 When milling work is on, the tool moves horizonally across the copper surface, which might cause subtle movement. In order to make the PCB plate stable, Antti introduced a smart solution:  
 
@@ -195,10 +195,33 @@ When milling work is on, the tool moves horizonally across the copper surface, w
 - Apply a few drops of strong glue to attach the 2 sides. Avoid using too much glue as it may cause bulge to make the PCB plate not flat.  
 - Press a metal plate to attach the two sides for a while.  
 
+![](../images/pcb1.40.jpg)
+![](../images/pcb1.41.jpg)  
+
+Now it is to insert the tools manually. My left hand held and push the tool vertically into the small hole of the working head; My right hand used the screwer to fix the tool (clockwise: fix; anticlockwise: loose).  
+
+![](../images/pcb1.42.jpg)  
+  
 **step 2** set up the desktop parameters for Roland SRM-20  
 
-![](../images/pcb1.24.jpg)
-![](../images/pcb1.25.jpg)
+The general menu looks as below:  
+
+![](../images/pcb1.24.jpg)  
+
+There are 5 small steps in the menu. I marked the critical contents in red (most related to z axis).  
+ 
+1. Press View. The tool will go to the original position.
+2. Press X/Y at the bottom (Move). Then click ↑↓←→ arrows of X/Y axis to set the starting point of milling on X/Y axis (the working surface). The distance of movement is defined by **Cursor Steop**. If you choose Continue, the tool will move while you click the left mouse. If you choose **x100**, it moves for 1 mm.   
+3. Press X/Y on the dark zone on the right (Set Origin Point). It will reset the X/Y point to be "origin", shown as 0.00 mm on the left.  
+4. Press Z at the bottom (Move). When moving the tool vertically, be careful when you see it is going to touch the PCB surface. Change the Cursor Step from Continue to x100 then to x10 to adjust the tool.  
+
+Next, click the **cut** on the right bottom to open a new pop-up window as below:  
+ 
+![](../images/pcb1.25.jpg)  
+
+Delete previous jobs then click **Add** to load the 2 .rml files generated in Stage 2 (inner traces & outline).  
+
+It is suggested to do the inner traces and outline milling in order.   
 
 ![](../images/pcb1.27.jpg)
 ![](../images/pcb1.28.jpg)
