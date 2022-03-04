@@ -219,11 +219,13 @@ Next, click the **cut** on the right bottom to open a new pop-up window as below
  
 ![](../images/pcb1.25.jpg)  
 
-Delete previous jobs then click **Add** to load the 2 .rml files generated in Stage 2 (inner paths & outline).  
+Delete previous jobs then click **Add** to load the 2 .rml files generated in Stage 2 (inner traces & outline).  
 
- 
+It is suggested to do the inner traces and outline milling in order.  I used the red tool to do the traces, then the yellow one for the outline.  
 
-![](../images/pcb1.27.jpg)
+![](../images/pcb1.27.jpg)  
+
+
 ![](../images/pcb1.28.jpg)
 ![](../images/pcb1.29.jpg)
 ![](../images/pcb1.30.jpg)
