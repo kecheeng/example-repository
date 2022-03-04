@@ -110,18 +110,34 @@ Then, right click the mouse in the empty place → choose file: save → get a n
 **step 2** load 2 .svg file (PCB traces and outline)  
  
 
-First, Antti gave me 2 pre-set **.svg** files for the PCB shape and body.
+First, Antti gave me 2 pre-set **.svg** files for the PCB shape and body.  
+![](../images/pcb1.12.jpg)  
+
+The whole work generally consists of 2 sections: the traces/inner paths of PCB, and the outline or shape of the PCB (for example, in this work the shape is a regular USB).  
+
 
 **step 3** Invert the .svg files.  
 
-<span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  
+Look at the left upper corner of the whole map, select the **inner paths .SVG** file.  
+![](../images/pcb1.13.jpg)  
+
+In the right window, click **invert** to redefine the zone to be removed.  
+<span style="color:yellow">It is important to remember that, in PCB milling setting, the black parts will be removed by the tools. The white parts are the copper layers that connnect the components via currents. So unlike vinyl cutting, you definetely don't want to make the PCB functions inverted. </span>  
+![](../images/pcb1.14.jpg)  
+![](../images/pcb1.15.jpg)  
+
 
 **step 4** Set PCB default.  
-Without special intention, usually you don't have to change anything.  
+Without special intention, usually you don't have to change anything. Usually, you will just go on.
 
 **step 5** Set the mill raster 2D parameters.  
  
-<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require a **loop action from step 2 to step 5.**
+<span style="color:green">This is a key step to get the "millable" .rml files.</span> Since a milled PCB consists of the traces and an outline, there will be 2 .rml files which require you to **return from step 2 to step 5** to set up the outline svg file later.  
+As you can see, the 2D mill file is basically a raster file which considers pixels rather than lines. The tool diameter determines the copper zones to be removed. The bigger the tool diameter is, the more copper surface will be removed. The cut depth defines how deep the tool will go into the board.  
+![](../images/pcb1.16.jpg)  
+
+Antti shared his experience of the three parameters: the diameter to be 0.3 mm; the cut depth as 0.07 mm (It is interesting as the thickness of copper layer is 35 μm (0.035 mm), so 0.07 mm doubles the thickness, allowing the 2 depth settings to be equal.  
+![](../images/pcb1.17.jpg) 
 
 
 **step 6** Finalize the setting.  
@@ -136,15 +152,18 @@ Then, click  **move to origin**. The purpose is to generate a tool path that Rol
 
 ![](../images/pcb1.10.jpg)  
 
+<span style="color:red">This step is crucial as it determines which parts to be milled (removed), so be careful not to make the reversed effects. </span>  
+
+
 Congratulations! I finished the PCB files setting.    
 
 
-![](../images/pcb1.12.jpg)
-![](../images/pcb1.13.jpg)
-![](../images/pcb1.14.jpg)
-![](../images/pcb1.15.jpg)
-![](../images/pcb1.16.jpg)
-![](../images/pcb1.17.jpg)
+
+
+
+
+
+
 ![](../images/pcb1.18.jpg)
 ![](../images/pcb1.19.jpg)
 ![](../images/pcb1.20.jpg)
