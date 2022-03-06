@@ -1,11 +1,24 @@
-# 3. Computer Aided design
+# 3. Computer Aided Design
+
+This week (In the middle of January) Yrjö gave a lecture on computer aided design. I watched Neil's video, wrote the rusty draft, but seriously returned to the documentation on Mar 6, 2022, after 7 weeks of understanding, practice, and digestion of the knowledge through the experience of computer controlled cutting, PCB design, and observations of other people's work.  
+
+To me, it is like using statistics softwares such as SPSS, Stata, and MetLab: Always learn it under real tasks. 
 
 ## Research
+
+The 2 key concepts of this week are:  
+
+- **raster** (位图). Raster graphs are made by square **pixel**s. Pixel is the combination of picture and element, or in common language, a dot. Pixels are often measured in **dpi** (dots per inch), and directly affects the resolution of raster graphics, hence is an elementary concept in printing industry. The higher the dpi is, the "clearer" a picture looks.  
+
+- **vector** (矢量). 
+
 To design and study the raster and vector files, this time I tried Inkscape for 2D, and Fusion360 for 3D, both of which were totally new to me. It took me around 10 days to get used to their basic functions, during which I regulated my emotion, motivation, as well as the cognitive strategies to learn them. Professional and scary as they may be, they can be unbelievably convenient once knowing the logic and mechanisms of the complexity behind them.
 
-## Gallery + Elaboration
+## Practice + Elaboration
 
-### 1. 2D Raster and Vector: Inkscape
+### 1. 2D Raster: GIMP
+
+### 2. 2D Vector: Inkscape
 
 This is the 2nd pencil draft of the wooden bag for the final project.
 ![](../images/inks0.jpg)
@@ -36,10 +49,10 @@ After the modification, I still need to change the line width to 0.02 mm for las
 ![](../images/inks12.jpg)
 
 
-### 2. 3D Raster and Vector: Fusion360 
+### 3. 3D Raster and Vector: Fusion360 
 
-I met some problems using Fusion360 during the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, or Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz's week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: parametric design!
-  Therefore, I returned to this week's task then located the function of learning Fusion360 as to understand and try parametric designs. After hours of nervous attempt, I practised designing a pentagon with slots. Since this assignment was completed after week 4's content, I had already got the knowledge of kerf, so would directly post the portfolio here.
+I met some problems using Fusion360 during the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, or Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz's week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: parametric design!  
+Therefore, I returned to this week's task then located the function of learning Fusion360 as to understand and try parametric designs. After hours of nervous attempt, I practised designing a pentagon with slots. Since this assignment was completed after week 4's content, I had already got the knowledge of kerf, so would directly post the portfolio here.
 
 First, I randomly drew a pentagon under the menu of sketch + create.
 ![](../images/fp1.jpg)
