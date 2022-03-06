@@ -8,15 +8,28 @@ To me, it is like using statistics softwares such as SPSS, Stata, and MetLab: Al
 
 The 2 key concepts of this week are:  
 
-- **raster** (位图). Raster graphs are made by square **pixel**s. Pixel is the combination of picture and element, or in common language, a dot. Pixels are often measured in **dpi** (dots per inch), and directly affects the resolution of raster graphics, hence is an elementary concept in printing industry. The higher the dpi is, the "clearer" a picture looks.  
+- **raster** (位图). Raster graphs are made by square **pixel**s. Pixel is the combination of picture and element, or in common language, a dot. Pixels are often measured in **dpi** (dots per inch), and directly affects the resolution of raster graphics, hence is an elementary concept in printing industry. The higher the dpi is, the "clearer" a picture looks like. **.jpeg**, **.gif** are the most common raster files.   
 
-- **vector** (矢量). 
+- **vector** (矢量). Unlike pixel-based raster graphs, vector deploys geometric primitives to draw lines and curves which is independent from resolution and is smaller than raster pictures. Even if you zoom in, it looks as "clear" as the originnal size because the lines are always smooth which makes "resolution" basically not a concrete concept. **.ai**, **.svg** are the most commonly used vector files.  
+ 
+Below is a vivid comparison between raster and vector pictures.  
 
-To design and study the raster and vector files, this time I tried Inkscape for 2D, and Fusion360 for 3D, both of which were totally new to me. It took me around 10 days to get used to their basic functions, during which I regulated my emotion, motivation, as well as the cognitive strategies to learn them. Professional and scary as they may be, they can be unbelievably convenient once knowing the logic and mechanisms of the complexity behind them.
+![](../images/cad1.jpg)
+
+To try the raster and vector designs, I used GIMP for 2D raster, Inkscape for 2D vector, and Fusion360 for 3D models, all of which are new to me.  
+
+Before the course, my humble knowledge for computer aided design was Photoshops. Learning something new is challenging, which is not just about textbook knowledge. Take Fusion360 as an example, it took me around 10 days to get used to their basic functions, during which I regulated my emotion, motivation, as well as the cognitive strategies to learn them. When I gradually get desensitized, I found those professional softwares can be unbelievably convenient once knowing the logic and mechanisms to design really complicated things.  
 
 ## Practice + Elaboration
 
-### 1. 2D Raster: GIMP
+### 1. 2D Raster: GIMP  
+
+GIMP is entirely built by volunteers (of course super professional). When I opened the software, I was immediately attracted by its plain layout as well as user-friendly interfaces.  
+
+![](../images/raster1.jpg)  
+
+I tried 
+ 
 
 ### 2. 2D Vector: Inkscape
 
@@ -48,6 +61,7 @@ After the trial, I could focus more on the technical parts for the coming laser 
 After the modification, I still need to change the line width to 0.02 mm for laser cutting, redesign the trapezoid lines, justify the jigsaw teeth interlocking designs, and take kerf into consideration. 
 ![](../images/inks12.jpg)
 
+[The svg file for the practice](../files/inkscape bag modification.svg) 
 
 ### 3. 3D Raster and Vector: Fusion360 
 
