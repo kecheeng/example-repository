@@ -74,11 +74,14 @@ I zoomed in to find that the shape I drew was not smooth but was pixel-based. It
 This is the 2nd pencil draft of the wooden bag for the final project.
 ![](../images/inks0.jpg)
 
-As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files([The original svg file for the practice](../files/simplebox thingiverse.svg) ). 
+As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files([The original svg file for the practice](../files/simplebox thingiverse.svg) ).  
+
+
 ![](../images/inks1.jpg)
 ![](../images/inks2.jpg)
 
-I defined the parts that need modifications such as the flat bottom, interlocking designs, holes to allow the handle, and the trapezoid front-upper side. 
+After comparing with my final design, I defined the parts that need modifications such as the flat bottom, interlocking designs, the holes to allow the handle, and the trapezoid front-upper side.   
+
 ![](../images/inks4.jpg)
 
 The measurement is crucial in Inkscape design. I got the parameters including slot width and depth.
@@ -97,7 +100,9 @@ After the trial, I could focus more on the technical parts for the coming laser 
 ![](../images/inks11.jpg)
 
 After the modification, I still need to change the line width to 0.02 mm for laser cutting, redesign the trapezoid lines, justify the jigsaw teeth interlocking designs, and take kerf into consideration. 
-![](../images/inks12.jpg)
+![](../images/inks12.jpg)  
+
+One thing I noticed was that Inkscape is indeed a software suitable for vector design. When I zoomed in, the lines are curves were as clear and smooth as the original settings. There was no issue of "resolution".  
 
 [The modified svg file for the practice](../files/inkscape bag modification.svg) 
 
