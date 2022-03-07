@@ -64,9 +64,9 @@ Finally, I used **paint bucket tool** to paint the shape into red.
 
 ![](../images/raster8.jpg)  
 
+I zoomed in to find that the shape I drew was not smooth but was pixel-based. It showed that indeed GIMP is a graphic design software specialized in raster images.  
 
-
- 
+![](../images/raster9.jpg)  
  
 
 ### 2. 2D Vector: Inkscape
@@ -74,7 +74,7 @@ Finally, I used **paint bucket tool** to paint the shape into red.
 This is the 2nd pencil draft of the wooden bag for the final project.
 ![](../images/inks0.jpg)
 
-As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files. 
+As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files([The original svg file for the practice](../files/simplebox thingiverse.svg) ). 
 ![](../images/inks1.jpg)
 ![](../images/inks2.jpg)
 
@@ -99,7 +99,7 @@ After the trial, I could focus more on the technical parts for the coming laser 
 After the modification, I still need to change the line width to 0.02 mm for laser cutting, redesign the trapezoid lines, justify the jigsaw teeth interlocking designs, and take kerf into consideration. 
 ![](../images/inks12.jpg)
 
-[The svg file for the practice](../files/inkscape bag modification.svg) 
+[The modified svg file for the practice](../files/inkscape bag modification.svg) 
 
 ### 3. 3D Raster and Vector: Fusion360 
 
