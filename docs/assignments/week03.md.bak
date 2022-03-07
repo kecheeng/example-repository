@@ -106,56 +106,51 @@ One thing I noticed was that Inkscape is indeed a software suitable for vector d
 
 [The modified svg file for the practice](../files/inkscape bag modification.svg) 
 
-### 3. 3D Raster and Vector: Fusion360 
+### 3. 3D Raster and Vector: Fusion360  
 
-I met some problems using Fusion360 during the week mostly because I felt hesitant and scared of new software. I was anxious about the functions or unfamiliar keyboard combinations of Fusion360, just like when I started to programme at CMD, or Inkscape, or generally speaking, anything new including some classic RPGs such as Neverwinter Night, the Elder Scroll, etc. or living in a new country. It is more about personality. So, I tried to dodge Fusion360, but when it came to Behnaz's week for computer-controlled cutting, I must face it as Inkscape is smart except for one thing: parametric design!  
-Therefore, I returned to this week's task then located the function of learning Fusion360 as to understand and try parametric designs. After hours of nervous attempt, I practised designing a pentagon with slots. Since this assignment was completed after week 4's content, I had already got the knowledge of kerf, so would directly post the portfolio here.
+Fusion360 is a really powerful software to create 3D models. It has almost all necessary functions in 3D vector and parametric designs.  
 
-First, I randomly drew a pentagon under the menu of sketch + create.
-![](../images/fp1.jpg)
+The windows and menus are rather smartly categorized and displayed, but of course quite chunky for absolute beginners. My experience is to explore those functions in the desktops in Oulu Fablab.  
 
-Now comes to the parametric design, which Neil, Yrjo, Behnaz as well as numerous vtubers emphasized. The logic is rather simple: Instead of setting parameters by hand for endless times in complicated design, you can just name certain parameters with their expressions (length, angle, etc.). So next time if you change something, click the part + sketch (the radial menu reminds me of the counterpart in Neverwinter Nights). It was chunky at first, but useful after getting used to it. Also, parametric design is powerful as when you constrain certain sides, lengths, angles, and other key parameters, when you change other factors, or feel free to reshape the original design, everything will be automatically and smartly reset which excatly thanks to the parametric restrictions.
-![](../images/nwnradialmenu.jpg)
+To start, I chose the front size as the canva (the size menu is on the right). I clicked **solid - create - box** to get a basic box.  
 
-For example, for the pendagon, I named each side as "side". Because in the coming assignment I needed to test laser cutting, I also named a kerf (measured as 0.1mm), the material thickness in 3mm (MDF board), a slot width to be 2.9 mm (=MDF thickness 3mm - 0.1 kerf width). 
-![](../images/fp2.jpg)
+![](../images/3d1.jpg)  
 
-(After presentation) Behnaz informed me that parametric design was more about using mathmatic equations to define the parameters, which made me refine the work by changing the slotwidth's expression from typing 2.9mm to "mdfthickness-kerf", instantly I noticed that the value was calculated as 2.9mm. I then changed the expression of "halfside" into "(side-slothwidth)/2" to automatically get 25.05mm in value.  
-![](../images/fp16.jpg)
+Right click the box, find **Edit feature** to define the numbers of the width, length, and hight.  
  
-(After presentation) As a test, I modified the kerf into 0.3mm, then the other related parameters were immediately reset. 
-Now, I understand the logic of parametric design: the name is a label for some parameters (length, angle, etc.); the unit is a measurable unit such as mm, degree, etc. in accordance with the parametric nature; the expression is either a typed number, or mathmatic equation to make related parameters interdepend; the value is the "will be input" value shown on the draft. 
-![](../images/fp17.jpg)
+![](../images/3d2.jpg)  
 
-(After presentation) It worked! the "slotwidth" is still 2.9mm, but defined by equations; The "halfside" was also smartly reset:)
-![](../images/fp18.jpg)
+**Shell** allows you to choose a surface, set a width from the outline, then remove the rest from the inner outline to the middle point. The depth of the removal is from the chosen surface to the end of the opposite surface, but does not go through it.  
 
-To test the convnience of parametric design, I clicked the sketch function of a pendagon side, directly typed the label "side" instead of a number to change it into 72 mm (originally it was 72.654mm).
-![](../images/fp3.jpg)
+![](../images/3d3.jpg)  
+![](../images/3d4.jpg)  
 
-Now I immediately got a modified shape with all 5 sizes changed and interconstraint.
-![](../images/fp4.jpg)
+**Fillet** allows you to add curve to and edge, face, or feature. So I chose all the shape to create a 1 mm fillet.  
 
-Similarly, I drew a rectangle for the slot. Rather than typing numbers, I directly used the parameter names slotdepth (5mm) and slotwidth (2.9mm) to fast set the numbers.
-![](../images/fp5.jpg)
-![](../images/fp6.jpg)
+![](../images/3d5.jpg)  
 
-Indeed, it is quite challenging for an absolute beginner like me to memorize the key steps. Thus, I made a brief note of what I often used after watching videos and clicking around. Sketch allows basic line sketches. You can find basic shapes and lines in create column. The modify functions are easy to use. If it is just a 2D design, the curve corner, scissors, offset can help easily make joint shapes.
-For example, in my draft, I made a rectangular slot. If I didn't need the overlapping side, the scissors function can delete the extra side. Constraints have smart but powerful functions to align shapes. In my case, I intended to make the longer side of slot perpendicular to the pentagonal side. I just tried the function with 2 trials. If you move the mouse to each icon, there is a brief description to help understand each constraint logic. 
-![](../images/fp8.jpg)
+3D design can be quite challenging as when you want to "drag" a 2D shape, you have to use spatial imagination to define its direction and angle. Pretty much like tensor in physics.  
 
-The slot, which consisted of 3 straight lines, can be duplicated so I quickly got 5 same slots for each pentagonal side. The problem arose: How to make the slot perfectly central to each side?
-![](../images/fp9.jpg)
+![](../images/3d6.jpg)  
 
-Parametric design worked again. To make the practice easier to calculate, I changed the side expression from 72mm to 53mm, allowing 3mm slotwidth (2.9mm in reality due to the kerf). In this way, there was 25 cm for each side if I centered the slot. I set a new parameter named "halfside" to be 25 mm.
-![](../images/fp11.jpg)
+In fact, even in **sketch**, there are plenty of creative functions  to create, modify, and constraint different elements. I sensed that there are many ways to get the same design.  
 
-After repeating the sketch, the use of halfside parameter, I got satisfactory pendagon with slots by simply several clicks.
-![](../images/fp10.jpg)
-![](../images/fp12.jpg)
+Practically, it helped me to understand how those design mechanisms and logics are intepreted in programming languages. When I am expressing my needs, my expressions were better structured in professional words.  
 
-(After presentation) This is the final work with every key parameter being strictly defined by either typed number, or mathmatic equations.  Of course, you can hide the sublines by clicking the eye icon on the left, leaving only the final work you need. 
-![](../images/fp19.jpg)
+![](../images/3d7.jpg)  
 
-All in all, Fusion360 is a powerful and free software to do parametric design. You can see that the parameters are marked in a clear, concise, and professional way. Chunky as it may be at the first beginning, parametric design saves time and life in complicated designs. For example, if I have an original design of a piece of furniture, I can set 3-5 sizes. If the customers require special parameters, I just need to change the parameters in 10 seconds.
+One tricky thing that may makes beginners surprised is the saving function. Fusion 360 is automatically linked to the internet so the **save** is understood as saving the file to the online account.  
+
+So how to get an actual file to the PC? You have to click **Export**. I chose **.stl** (review: it is about vector) as the file format.  
+
+![](../images/3d8.jpg)  
+![](../images/3d9.jpg)  
+
+To better illustrate the texture of the design, I right clicked the box, chose **appearance**, and revised how the box would be shown. Wood is of course closer to my final design. Note that this appearance is only for display but not determines the final printing work.  
+
+![](../images/3d10.jpg) 
+
+[The 3D box file](../files/kc box v1.stl) 
+
+ 
 
