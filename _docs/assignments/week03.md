@@ -28,7 +28,45 @@ GIMP is entirely built by volunteers (of course super professional). When I open
 
 ![](../images/raster1.jpg)  
 
-I tried 
+To me, the most frustrating thing to learn a new software is the initial setting up. Without the key menus, I would be lost on very basic issues, such as "how to draw a line", "why my strokes are colourless", "where to find the colour", etc.  
+
+So, no matter you want to use shapes or painting tools, I found the window name **tool setting** super useful as it shows the properties of the shape or painting tools.  
+
+![](../images/raster2.jpg)  
+
+The menu may show either on the left or the right of the window, but looks like a TV or working board.   
+
+![](../images/raster3.jpg)
+
+To practise GIMP, I mainly tried the three basic ways of **constraint** to shapes.  
+
+I loaded a vault boy picture from the game Fallout. I wanted to draw a red heart on his chest.  
+
+First, I used **oval** shape to draw an oval.  
+
+![](../images/raster4.jpg)  
+
+Then, I drew another oval, with some parts intersected. I chose **combine** mode, so the outlines will be combined to create a new shape.  
+
+![](../images/raster5.jpg)  
+
+In fact, the four basic constraint logics are easy to understand, but powerful in design, no matter in 2D raster, vector or 3D models.  
+
+Later, I chose **intersect** mode to draw the third oval which left only the overlapping area. It looked a bit like a frog.  
+
+![](../images/raster6.jpg)  
+
+Well, why not make it into a frog? Remember to press **enter** to finish the drawing.  
+  
+![](../images/raster7.jpg)  
+
+Finally, I used **paint bucket tool** to paint the shape into red.  
+
+![](../images/raster8.jpg)  
+
+
+
+ 
  
 
 ### 2. 2D Vector: Inkscape

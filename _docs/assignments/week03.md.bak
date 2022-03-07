@@ -28,6 +28,16 @@ GIMP is entirely built by volunteers (of course super professional). When I open
 
 ![](../images/raster1.jpg)  
 
+To me, the most frustrating thing to learn a new software is the initial setting up. Without the key menus, I would be lost on very basic issues, such as "how to draw a line", "why my strokes are colourless", "where to find the colour", etc.  
+
+So, no matter you want to use shapes or painting tools, I found the window name **tool setting** super useful as it shows the properties of the shape or painting tools.  
+
+![](../images/raster2.jpg)  
+
+The menu may show either on the left or the right of the window, but looks like a TV or working board.   
+
+![](../images/raster3.jpg)
+
 I tried 
  
 
@@ -61,6 +71,7 @@ After the trial, I could focus more on the technical parts for the coming laser 
 After the modification, I still need to change the line width to 0.02 mm for laser cutting, redesign the trapezoid lines, justify the jigsaw teeth interlocking designs, and take kerf into consideration. 
 ![](../images/inks12.jpg)
 
+[The svg file for the practice](../files/inkscape bag modification.svg) 
 
 ### 3. 3D Raster and Vector: Fusion360 
 
