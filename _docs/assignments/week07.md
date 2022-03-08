@@ -252,7 +252,7 @@ In common language, it can be encoded from a "mother" language (it will appear l
 
 In this part, Antti Mäntyniemi taught me how to solder the electronic components on top of the PCB. Antti J guided me on the practice.  
 
-On 16 Feb 2002, Antti M gave me 6 components to observe and understand.  
+On 16 Feb 2002, Antti M gave me 6 components to observe and understand. I think those components are like LEGO.  
 
 ![](../images/solder1.jpg)  
 
@@ -274,13 +274,13 @@ The components can be collected from a retotable shelf with small drawers (looks
 
 ![](../images/solder2.jpg)  
 
-One note for absolute beginner: The caps can be lifted and removed...  
+One note for absolute beginners: The caps can be lifted and removed...  
 
 ![](../images/solder3.jpg)  
 
 The soldering work should be conducted in specific laboratory for electronics design. Luckily, there is one in FabLab.  
 
-<span style="color:blue">**Soldering** is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  
+As a basic skill in electronics production, <span style="color:blue">**Soldering** is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  
  
 ![](../images/solder7.jpg)  
 ![](../images/solder8.jpg)  
@@ -291,10 +291,31 @@ The elements needed are as below:
 
 1. solder wires. It is quite soft and stretchable. It is metal alloy with flux inside which improves electrical contact and mechanical strength. It looks grey as the metal alloy powder contains Sn, Ag, Cu, and Bi. 
 2. tape. Suggested by Antti M, it is important to know the professional ways to do something at the beginning. Before soldering, I used tapes to fix the PCB board on the table.   
-3. desoldering braid. It looks like a brown ribbon. If there is too much soldering on the board, I can press the braid on the soldered joints, press and heat it with the soldering iron to let it absorb the extra solder.  
+3. desoldering braid. It looks like a brown ribbon. If there is too much soldering on the board, I can press the braid on the soldered joints, press and heat it with the soldering pen tip to let it absorb or extract the extra solder. Be careful of the braid's heat when working.    
 4. abrasive. The copper surface on PCB plate can be oxidated, which looks dim. It is problematic as it may reject solder. So, an abrasive or brass sponge is useful to polish the copper surface by removing the oxidation.    
 5. soldering iron stand with sponge. In my picture, I put the soldering iron pen on coil spring of the stand. <span style="color:red">Remember that the iron pen can be super hot which literally burns skin. Always insert the iron pen into the coil spring before doing other things.</span> The sponge should be wet before soldering as you can wipe the hot pen to remove unnecessary solder.   
 6. helping hand (can be creative). The logic is to magnify the working zone, which increases accuracy. It can be a magnifying glass, or this time as Antti M suggested, my IPhone placed on a pod using the magnifying glass function on the camera. Here the skill of coordination between eye observation through magnifying glass and hand work is critical which needs plenty of training.  
-7. flux liquid (助焊剂). Flux is a chemical component to improve electrical contact and mechanical strength. In FabLab it used lead-free rosin core solder to make the work healthy. (40-50% rosin, 30% solvent, 5% rheology modifier, 2-5% activator).  
-8. ventilation.  
+7. flux liquid (助焊剂). Flux is a useful chemical component to improve electrical contact and mechanical strength. In FabLab it used lead-free rosin core solder to make the work healthy. (40-50% rosin, 30% solvent, 5% rheology modifier, 2-5% activator).  
+8. ventilation. Similar to laser cutting, when you melt the solder, there will be some smoke. It is a good habbit to turn the ventilation on to remove the smoke. Be careful not to let the tiny components be sipped away.  
+
+The soldering iron pen is connected to a soldering station with different temperature settings powered by electricity. 350 ℃ is recommended in most cases.  
+  
+![](../images/solder5.jpg)  
+
+Then, there are four steps for soldering:  
+
+1. Heat up the soldering pen, press its tip to the joint area between the circuit board and leg of components. Wait for 3-5 seconds.    
+2. Press the solder wire to the iron tip to be melted a bit. Ideally, the grey fluid should flow around the tip as well as the joint part.  
+3. Remove the solder wire, press the tip to the joint for 3-5 seconds.  
+4. Remove the soldering pen to the soldering iron stand. Observe the joint part to make sure it is properly and stably connected.  
+
+I observed Antti M's UPDI prototype then made my own. It helped me to better understand the "pattern" on the circuit board: Components are connected to the circuit board through legs which allow current and data transitions, laying the foundation for programming and information storage.  
+
+![](../images/solder6.jpg)  
+
+
+
+
+
+ 
 
