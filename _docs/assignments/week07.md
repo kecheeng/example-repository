@@ -252,6 +252,8 @@ In common language, it can be encoded from a "mother" language (it will appear l
 
 In this part, Antti Mäntyniemi taught me how to solder the electronic components on top of the PCB. Antti J guided me on the practice.  
 
+### Stage 1 Get the needed components  
+
 On 16 Feb 2002, Antti M gave me 6 components to observe and understand. I think those components are like LEGO.  
 
 ![](../images/solder1.jpg)  
@@ -277,6 +279,8 @@ The components can be collected from a retotable shelf with small drawers (looks
 One note for absolute beginners: The caps can be lifted and removed...  
 
 ![](../images/solder3.jpg)  
+
+### Stage 2 Let's solder  
 
 The soldering work should be conducted in specific laboratory for electronics design. Luckily, there is one in FabLab.  
 
@@ -309,7 +313,7 @@ Then, there are four steps for soldering:
 3. Remove the solder wire, press the tip to the joint for 3-5 seconds.  
 4. Remove the soldering pen to the soldering iron stand. Observe the joint part to make sure it is properly and stably connected.  
 
-I observed Antti M's UPDI prototype then made my own. It helped me to better understand the "pattern" on the circuit board: Components are connected to the circuit board through legs which allow current and data transitions, laying the foundation for programming and information storage.  
+I observed Antti M's UPDI prototype then made my own. It helped me to better understand the "pattern" on the circuit board: Components are connected to the circuit board through legs which allow current and data transitions, laying the foundation for electronics design.  
 
 ![](../images/solder6.jpg)  
 
