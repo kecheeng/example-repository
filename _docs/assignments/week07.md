@@ -317,6 +317,9 @@ I observed Antti M's UPDI prototype then made my own. It helped me to better und
 
 ![](../images/solder6.jpg)  
 
+![](../images/solder9.jpg)  
+  
+
 
 
 
