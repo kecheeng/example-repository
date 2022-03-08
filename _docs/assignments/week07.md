@@ -7,7 +7,8 @@ Antti Mäntyniemi kindly used reciprocal teaching and maker education to let an 
 
 ## How to get a PCB
 
-### Stage 1 Background knowledge for absolute beginners
+### Stage 1 Background knowledge for absolute beginners  
+
 - **What is a PCB? What is it used for?** 
 
 This sounds like a stupid question for engineering students, but it is still a basic question like "What is scaffolding" to outsiders of pedagogy, or "disenchantment" to sociology starters.  
@@ -247,4 +248,53 @@ In common language, it can be encoded from a "mother" language (it will appear l
 
 
 
-## How to attach components on top of the PCB?
+## How to attach components on top of the PCB?  
+
+In this part, Antti Mäntyniemi taught me how to solder the electronic components on top of the PCB. Antti J guided me on the practice.  
+
+On 16 Feb 2002, Antti M gave me 6 components to observe and understand.  
+
+![](../images/solder1.jpg)  
+
+The critical components are:  
+
+- the 14-leg component.  
+
+- the 3-leg component.  
+
+The less critical components are:  
+
+- the 4991-resistor x 2.  
+
+- the 王-shape component (with a cap).  
+
+- the 工-shape component (with a cap).  
+
+The components can be collected from a retotable shelf with small drawers (looks like a kebab oven).  
+
+![](../images/solder2.jpg)  
+
+One note for absolute beginner: The caps can be lifted and removed...  
+
+![](../images/solder3.jpg)  
+
+The soldering work should be conducted in specific laboratory for electronics design. Luckily, there is one in FabLab.  
+
+<span style="color:blue">**Soldering** is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  
+ 
+![](../images/solder7.jpg)  
+![](../images/solder8.jpg)  
+
+The elements needed are as below:  
+
+![](../images/solder4.jpg)  
+
+1. solder wires. It is quite soft and stretchable. It is metal alloy with flux inside which improves electrical contact and mechanical strength. It looks grey as the metal alloy powder contains Sn, Ag, Cu, and Bi. 
+2. tape. Suggested by Antti M, it is important to know the professional ways to do something at the beginning. Before soldering, I used tapes to fix the PCB board on the table.   
+3. desoldering braid. It looks like a brown ribbon. If there is too much soldering on the board, I can press the braid on the soldered joints, press and heat it with the soldering iron to let it absorb the extra solder.  
+4. abrasive. The copper surface on PCB plate can be oxidated, which looks dim. It is problematic as it may reject solder. So, an abrasive or brass sponge is useful to polish the copper surface by removing the oxidation.    
+5. soldering iron stand with sponge. In my picture, I put the soldering iron pen on coil spring of the stand. <span style="color:red">Remember that the iron pen can be super hot which literally burns skin. Always insert the iron pen into the coil spring before doing other things.</span> The sponge should be wet before soldering as you can wipe the hot pen to remove unnecessary solder.   
+6. helping hand (can be creative). The logic is to magnify the working zone, which increases accuracy. It can be a magnifying glass, or this time as Antti M suggested, my IPhone placed on a pod using the magnifying glass function on the camera. Here the skill of coordination between eye observation through magnifying glass and hand work is critical which needs plenty of training.  
+7. flux liquid (助焊剂). Flux is a chemical component to improve electrical contact and mechanical strength. In FabLab it used lead-free rosin core solder to make the work healthy. (40-50% rosin, 30% solvent, 5% rheology modifier, 2-5% activator).  
+8. ventilation.  
+
