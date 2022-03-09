@@ -40,7 +40,7 @@ The menu may show either on the left or the right of the window, but looks like 
 
 To practise GIMP, I mainly tried the three basic ways of **constraint** to shapes.  
 
-I loaded a vault boy picture from the game Fallout. I wanted to draw a red heart on his chest.  
+I loaded [a vault boy picture](../files/vaultboy1.webp)from the game **Fallout**. Note that the format is .webp. I wanted to draw a red heart on his chest.  
 
 First, I used **oval** shape to draw an oval.  
 
@@ -74,7 +74,7 @@ I zoomed in to find that the shape I drew was not smooth but was pixel-based. It
 This is the 2nd pencil draft of the wooden bag for the final project.
 ![](../images/inks0.jpg)
 
-As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files([The original svg file for the practice](../files/simplebox thingiverse.svg) ).  
+As an amateur, I studied thingiverse.com to get inspirations of the wooden box files with their svg files([The original .svg file before practice](../files/simplebox thingiverse.svg) ).  
 
 
 ![](../images/inks1.jpg)
@@ -104,7 +104,7 @@ After the modification, I still need to change the line width to 0.02 mm for las
 
 One thing I noticed was that Inkscape is indeed a software suitable for vector design. When I zoomed in, the lines are curves were as clear and smooth as the original settings. There was no issue of "resolution".  
 
-[The modified svg file for the practice](../files/inkscape bag modification.svg) 
+[The modified .svg file after practice](../files/inkscape bag modification.svg) 
 
 ### 3. 3D Raster and Vector: Fusion360  
 
@@ -150,7 +150,25 @@ To better illustrate the texture of the design, I right clicked the box, chose *
 
 ![](../images/3d10.jpg) 
 
-[The 3D box file](../files/kc box v1.stl) 
+[The 3D box file for practice](../files/kc box v1.stl) 
+
+
+**The files I used for this weekly assignment:**
+
+**GIMP**  
+
+[The original .webp file before practice](../files/vaultboy1.webp)  
+
+[The modified .webp file after practice](../files/vaultboy2.xcf)  
+ 
+**Inkscape**  
+
+[The original .svg file before practice](../files/simplebox thingiverse.svg)  
+
+[The modified .svg file after practice](../files/inkscape bag modification.svg)
+
+**Fusion360**
+
 
  
 
