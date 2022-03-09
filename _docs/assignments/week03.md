@@ -157,7 +157,7 @@ To better illustrate the texture of the design, I right clicked the box, chose *
 
 **GIMP**  
 
-[The modified .jpg file after practice](../files/vaultboy2.jpg)  
+[The modified .jpg file after practice](../images/vaultboy2.jpg)  
  
 **Inkscape**  
 
