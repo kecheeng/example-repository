@@ -1,16 +1,16 @@
 # Replace the text below to customize your site
-site_name: Fab Academy Student Name
+site_name: Kecheng Zhang Fab Academy Site
 site_description: My Fabacademy site
 
-site_author: Your name here
-docs_dir: docs
-site_dir: _site
+site_author: Kecheng Zhang
+docs_dir: _docs
+site_dir: docs
 copyright: Creative Commons Attribution Non Commercial
 theme:
   name: material
   # see https://squidfunk.github.io/mkdocs-material/getting-started/#color-palette
   palette:
-    primary: "deep"
+    primary: "lime"
     accent: "indigo"
   font:
     false
