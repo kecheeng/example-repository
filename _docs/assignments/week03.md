@@ -148,9 +148,7 @@ So how to get an actual file to the PC? You have to click **Export**. I chose **
 
 To better illustrate the texture of the design, I right clicked the box, chose **appearance**, and revised how the box would be shown. Wood is of course closer to my final design. Note that this appearance is only for display but not determines the final printing work.  
 
-![](../images/3d10.jpg) 
-
-[The 3D box file for practice](../files/kc box v1.stl)  
+![](../images/3d10.jpg)  
 
 
 **The files I created for this weekly assignment:**
