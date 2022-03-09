@@ -11,19 +11,23 @@ I particularly thank Ivan for the elaboration of knowledge as well as his patien
 ## Research
 
 
+## The exploration of GIT and Github  
+
+### GIT, Gitlab & Github  
+
+### The creation of a page on Github  
+
+### The management of local and remote repositories  
 
 
-![](../images/gh0.jpg)
-![](../images/gh1.jpg)
-![](../images/gh2.jpg)
-![](../images/gh3.jpg)
-![](../images/gh4.jpg)
-![](../images/gh5.jpg)
-![](../images/gh6.jpg)
-![](../images/gh7.jpg)
-![](../images/gh8.jpg)
-![](../images/gh9.jpg)
-![](../images/gh10.jpg)
-![](../images/gh11.jpg)
+## My personal website and Markdown exploration
+
+### Use static site generator to construct a personal site  
+
+### The toolbox for site modification: Markdown syntax 
+
+### Mkdocs: A great project documentation tool  
+
+
 
 
