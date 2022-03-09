@@ -18,6 +18,18 @@ theme:
     false
     # text: "Ubuntu"
     # code: "Ubuntu Mono"
+    
+theme:
+  palette:
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off
+        name: Swith to dark mode
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+        
 feature:
     - navigation.tabs
 extra:
