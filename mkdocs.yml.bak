@@ -14,21 +14,18 @@ theme:
     accent: "indigo"
     scheme: default
     
-  font:
-    false
-    # text: "Ubuntu"
-    # code: "Ubuntu Mono"
-    
-theme:
-  palette:
-      scheme: default
+    scheme: default
       toggle:
         icon: material/toggle-switch-off
         name: Swith to dark mode
       scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode        
+        name: Switch to light mode  
+  font:
+    false
+    # text: "Ubuntu"
+    # code: "Ubuntu Mono"       
 feature:
     - navigation.tabs
 extra:
