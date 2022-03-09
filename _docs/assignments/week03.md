@@ -159,13 +159,17 @@ To better illustrate the texture of the design, I right clicked the box, chose *
 
 [The original .webp file before practice](../files/vaultboy1.webp)  
 
-[The modified .webp file after practice](../files/vaultboy2.xcf)  
+[The modified .xcf file after practice](../files/vaultboy2.xcf)  
  
 **Inkscape**  
 
 [The original .svg file before practice](../files/simplebox thingiverse.svg)  
 
+[The original .pdf file before practice](../files/simplebox thingiverse.pdf)  
+
 [The modified .svg file after practice](../files/inkscape bag modification.svg)
+
+[The modified .pdf file after practice](../files/inkscape bag modification.pdf)
 
 **Fusion360**  
 
