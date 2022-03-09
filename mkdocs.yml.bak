@@ -28,8 +28,7 @@ theme:
       scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
-        
+        name: Switch to light mode        
 feature:
     - navigation.tabs
 extra:
