@@ -22,6 +22,10 @@ GIT is a fast, user-friendly, flexible version control system to allow users to 
    
 ![](../images/vcs2.jpg)  
 
+There are several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to go through Github where I must type **mkdocs build** manually.  
+
+![](../images/git1.jpg)  
+
 
 ### The creation of a page on Github  
 
@@ -32,7 +36,15 @@ GIT is a fast, user-friendly, flexible version control system to allow users to 
 
 ### Use static site generator to construct a personal site  
 
-### The toolbox for site modification: Markdown syntax 
+**Template** saves a lot of time for site builders as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to "fork your own" site by changing details.   
+
+### The toolbox for site modification: Markdown syntax  
+
+Let's have a direct comparision between html and markdown grammars.  
+
+![](../images/markdown1.jpg)  
+
+![](../images/markdown2.jpg) 
 
 ### Mkdocs: A great project documentation tool  
 

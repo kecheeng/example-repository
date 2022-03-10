@@ -186,7 +186,7 @@ Diep and Antti R measured the MDF kerf (around 0.13mm). Antti J and me measured 
 
 (from Diep's measurement)  
 
-![](../images/lc26.jpg)
+![](../images/lcp26.jpg)
 
 
 Then, we tested different laser speed and power on MDF to see different effects. The **speed, power and frequency** are the independent variables to control the laser beam results. The beam power is stronger either with slower speed, more power or frequency.
