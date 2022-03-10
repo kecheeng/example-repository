@@ -18,9 +18,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode 
-    primary: "lime"
-    accent: "indigo"
-    scheme: default
+      primary: "lime"
+      accent: "indigo"
     
   font:
     false

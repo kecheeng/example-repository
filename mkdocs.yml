@@ -24,7 +24,8 @@ theme:
   font:
     false
     # text: "Ubuntu"
-    # code: "Ubuntu Mono"       
+    # code: "Ubuntu Mono" 
+    
 feature:
     - navigation.tabs
 extra:
