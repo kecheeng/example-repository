@@ -36,7 +36,17 @@ There are several popular GIT code hosting sites with the same syntax. The bigge
 
 ### Use static site generator to construct a personal site  
 
-### The toolbox for site modification: Markdown syntax 
+**Template** saves a lot of time for site builders as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to "fork your own" site by changing details.   
+
+### The toolbox for site modification: Markdown syntax  
+
+Let's have a direct comparision between html and markdown grammars.  
+
+![](../images/markdown1.jpg)  
+
+![](../images/markdown2.jpg)  
+
+Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing.  
 
 ### Mkdocs: A great project documentation tool  
 
