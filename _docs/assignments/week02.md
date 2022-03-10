@@ -1,19 +1,31 @@
 # 2. Project management
 
-I am 32 years old. This was the first time I programmed in real use (not just a standarized homework of "hellow world", but seriously for writing documentation of the whole Fablab session).  
+I am 32 years old. This was the first time I programmed in real use (not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session).  
 
 Also, during COVID, I started everything online remotely, and had to get used to not only the programming or engineering knowledge, but also the entire Fablab logistics and criteria including the communication styles in local Oulu branch. Since my initial incentive is to experience maker education ethnographically, I had no face to lose, nor need I do things in a hurry as long as I do not give up.  
 
-Thus, I officially started the session with zero knowledge on Jan 11 2022, and returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration through some real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions.  
-   
+Thus, I officially started the session with zero knowledge on Jan 11 2022, and returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration through some real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions. It is very useful as now I feel more practical and relatable to Ivan and Neil's teaching materials (video, ppt, etc).  
+
+<span style="color:green">In this weekly assignment, I borrowed some of Ivan's ppt pictures for elaboration.</span>   
+     
 I particularly thank Ivan for the elaboration of knowledge as well as his patience, Diep for Markdown elaboration, and Antti R for extended Markdown knowledge such as the localhost: 8000.  
-
-## Research
-
-
+ 
 ## The exploration of GIT and Github  
 
 ### GIT, Gitlab & Github  
+
+When people create some files, there will be several verions which are not always ready or perfect, so different audience or cooperators may want to refer to specific versions at certain points, or construct different work paths, respectively. In this regard, it is needed to have an "online bank of files", which is Version Control System (VCS).  
+
+![](../images/vcs1.jpg)
+
+GIT is a fast, user-friendly, flexible version control system to allow users to record changes to a file or recall previous versions from it as it saves historical logs. Multiple users can thus work cooperatively on the shared files. Of course there are a number of popular VCS while this time we chose GIT as practice.  
+   
+![](../images/vcs2.jpg)  
+
+There are several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to go through Github where I must type **mkdocs build** manually.  
+
+![](../images/git1.jpg)  
+
 
 ### The creation of a page on Github  
 
