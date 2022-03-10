@@ -1,14 +1,22 @@
 # 2. Project management
 
-I am 32 years old. This was the first time I programmed in real use (not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session).  
+This week, Ivan taught us how to use GIT as a version control system to store, modify and recall files in local repository to online repository. After well configured, an individual can easily manage projects alone or invite others to work together in cyber space.  
 
-Also, during COVID, I started everything online remotely, and had to get used to not only the programming or engineering knowledge, but also the entire Fablab logistics and criteria including the communication styles in local Oulu branch. Since my initial incentive is to experience maker education ethnographically, I had no face to lose, nor need I do things in a hurry as long as I do not give up.  
+Howeve, I am 32 years old with no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
 
-Thus, I officially started the session with zero knowledge on Jan 11 2022, and returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration through some real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions. It is very useful as now I feel more practical and relatable to Ivan and Neil's teaching materials (video, ppt, etc).  
+To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which are freshly new to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, as well as the non-stop courses from Fablab(all new).  
+
+Also, during COVID, I started everything online remotely, and had to get used to not only the engineering knowledge, but also the entire Fablab logistics and criteria including the communication styles in local Oulu branch.  
+
+Since my initial incentive is to experience maker education ethnographically, I have no face to lose, nor need I do things in a hurry as long as I do not give up.  
+
+Thus, I officially started the session with zero knowledge on Jan 11 2022, but returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration via real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions.  
+
+It is very useful as now I feel more practical and relatable to Ivan and Neil's teaching materials (video, ppt, etc).  
 
 <span style="color:green">In this regard, I borrowed some of Ivan's ppt pictures for elaboration.</span>   
      
-I particularly thank Ivan for the elaboration of knowledge as well as his patience, Diep for Markdown elaboration, and Antti R for extended Markdown knowledge such as the localhost: 8000.  
+I particularly thank Ivan for the comprehensive introduction of the knowledge as well as his patience, Diep for encouragement, and Antti R for extended Markdown knowledge such as the localhost: 8000.  
  
 ## The exploration of GIT and Github  
 
@@ -30,12 +38,24 @@ There are also several popular GIT code hosting sites with the same syntax. The 
 
 Basic knowledge for absolute beginners:  
 
-<span style="color:blue">First of all, a website page is written in **html** syntax to allow **browsers** such as Chrome to read and display.</span>  
+<span style="color:yellow">First of all, a website is a text document. It is written in **html** syntax to allow **browsers** such as Chrome to read and display.</span>  
 
-- html is about the content and structure of a webpage.  
-- CSS is about the styles and designs (font, colour, size) of a webpage.  
-- Javascript is about the interactive elements with users.  
+- **html** is about the content and structure of a webpage.  
+- **CSS** is about the styles and designs (font, colour, size) of a webpage.  
+- **Javascript** is about the interactive elements with users.  
 
+Below is my first webpage using html sytanx.  
+
+![](../images/html1.jpg)  
+
+On the other hand, just like academic terms, in computer sciences, there are also many CS words that need to know:  
+
+- **configure**: create, install, establish.  
+- **repository**: warehouse, storage, a saving place.  
+- **local**: saved in your PC.  
+- **remote**: saved online (in VCS).  
+- **push**: upload files from local repository to the online repository.  
+- **pull**: the reversed flow of push.  
 
 ### The management of local and remote repositories  
 
