@@ -6,7 +6,7 @@ Also, during COVID, I started everything online remotely, and had to get used to
 
 Thus, I officially started the session with zero knowledge on Jan 11 2022, and returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration through some real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions. It is very useful as now I feel more practical and relatable to Ivan and Neil's teaching materials (video, ppt, etc).  
 
-<span style="color:green">In this weekly assignment, I borrowed some of Ivan's ppt pictures for elaboration.</span>   
+<span style="color:green">In this regard, I borrowed some of Ivan's ppt pictures for elaboration.</span>   
      
 I particularly thank Ivan for the elaboration of knowledge as well as his patience, Diep for Markdown elaboration, and Antti R for extended Markdown knowledge such as the localhost: 8000.  
  
@@ -14,20 +14,28 @@ I particularly thank Ivan for the elaboration of knowledge as well as his patien
 
 ### GIT, Gitlab & Github  
 
-When people create some files, there will be several verions which are not always ready or perfect, so different audience or cooperators may want to refer to specific versions at certain points, or construct different work paths, respectively. In this regard, it is needed to have an "online bank of files", which is Version Control System (VCS).  
+When people create some files, there will be several verions which are not always ready or perfect, so different audience or cooperators may want to refer to specific versions at certain points, or construct different work paths, respectively. Therefore, it is needed to have an "online bank of files", which is **Version Control System (VCS)**.  
 
 ![](../images/vcs1.jpg)
 
-GIT is a fast, user-friendly, flexible version control system to allow users to record changes to a file or recall previous versions from it as it saves historical logs. Multiple users can thus work cooperatively on the shared files. Of course there are a number of popular VCS while this time we chose GIT as practice.  
+GIT is a fast, user-friendly, flexible VCS to allow users to **record** changes to a file or **recall** previous versions from it as it saves historical logs. Multiple users can thus work cooperatively on the shared files. There are a number of popular VCS while this time we chose GIT as practice.  
    
 ![](../images/vcs2.jpg)  
 
-There are several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to go through Github where I must type **mkdocs build** manually.  
+There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to go through Github where I must type **mkdocs build** manually.  
 
 ![](../images/git1.jpg)  
 
-
 ### The creation of a page on Github  
+
+Basic knowledge for absolute beginners:  
+
+<span style="color:blue">First of all, a website page is written in **html** syntax to allow **browsers** such as Chrome to read and display.</span>  
+
+- html is about the content and structure of a webpage.  
+- CSS is about the styles and designs (font, colour, size) of a webpage.  
+- Javascript is about the interactive elements with users.  
+
 
 ### The management of local and remote repositories  
 
@@ -46,9 +54,14 @@ Let's have a direct comparision between html and markdown grammars.
 
 ![](../images/markdown2.jpg)  
 
-Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing.  
+Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing.  Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
 
 ### Mkdocs: A great project documentation tool  
+
+In the **_docs** files, a user uses markdown syntax to build up a site. <span style="color:red">To transfer the contents into html format, you must use **mkdocs** commands.</span>  
+  
+
+ 
 
 
 
