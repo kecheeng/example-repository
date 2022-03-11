@@ -2,7 +2,9 @@
 
 This week, Ivan taught us how to use GIT as a version control system to store, modify and recall files in local repository to online repository. After well configured, an individual can easily manage projects alone or invite others to work together in cyber space.  
 
-However, I am 32 years old with no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
+## Reflection  
+
+However, I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
 
 To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which are freshly new to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, as well as the non-stop courses from Fablab(all new).  
 
@@ -25,7 +27,6 @@ Things to install when using Github:
 - **Github (register a personal account)**: to host webpages on VCS  
 - **Python**: to run mkdocs   
 - **mkdocs**: to transcribe markdown codes to html format  
-
 
 ## Create, modify and host a personal webpage: from VCS to Markdown 
 
@@ -174,14 +175,27 @@ Let's have a direct comparision between html and markdown grammars.
 
 ![](../images/markdown2.jpg)  
 
-Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Markdown reads codes from top-down, vertical flow, so it omits the complicated layout setting. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
+Apparently, markdown is much easier to learn and use. Using plain text, it does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Markdown reads codes from top-down, vertical flow, so it omits the complicated layout setting. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
 
 Below are my frequently used markdown syntax:  
 
 - **xxx**: make the text bold.  
 - *xxx*: make the text in italics.  
 - **three start dots**: create a vertical line.  
-- **<span style="color:green"> text </span>**
+- **<span style="color:green"> text </spa(n)>**: colour specific text.  
+- **![](../images(or other files under _docs)/xxxx.jpg(or other format))**: attach a file to the webpage.  
+- **[xxxxxx](../images/createweb22.jpg)**: label a file to allow readers ot click and open a file in another window.  
+
+It looks weird so I posted the original code as below.  
+
+![](../images/createweb22.jpg)  
+
+Markdown language is commonly used in many modern webpages, where you can directly type some dots to change the elements of texts.  
+
+![](../images/createweb23.jpg)  
+
+![](../images/createweb24.jpg)
+ 
 ### Stage 3: Mkdocs: A great project documentation tool  
 
 In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
