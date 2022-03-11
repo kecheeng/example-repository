@@ -159,7 +159,7 @@ To realize it, install two things:
   
 ![](../images/createweb20.jpg)  
 
-So, every time after 
+So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
 
 ### Stage 5: The toolbox for webpage modification: Markdown syntax  
 
