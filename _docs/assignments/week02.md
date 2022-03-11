@@ -144,41 +144,9 @@ After customizing my own information, under Github, I MUST change the **doc** in
 ![](../images/createweb17.jpg)  
 ![](../images/createweb18.jpg)  
 
+## The management of local and remote repositories  
 
-### Stage 4: Mkdocs: A great project documentation tool  
-
-In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
-
-To realize it, install two things:  
-
-- Python.(Don't be scared)   
- 
-- mkdocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
-
-![](../images/createweb19.jpg)
-  
-![](../images/createweb20.jpg)  
-
-So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
-
-
-### Stage 5: The toolbox for webpage modification: Markdown syntax  
-
-Let's have a direct comparision between html and markdown grammars.  
-
-![](../images/markdown1.jpg)  
-
-![](../images/markdown2.jpg)  
-
-Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
-
-
-
-
-
-### The management of local and remote repositories  
-
-### SSH  
+### Stage 1: SSH  
 
 SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  
 
@@ -195,6 +163,46 @@ Go to home directory to find .ssh file. the **_id_rsa** is the private key. You 
 ![](../images/createweb8.jpg)  
 
 ![](../images/createweb16.jpg)  
+
+### Stage 2: The toolbox for webpage modification: Markdown syntax  
+
+Interestingly, nowadays many people have not realized that they are directly using markdown syntax rather than html in notepad.  
+
+Let's have a direct comparision between html and markdown grammars.  
+
+![](../images/markdown1.jpg)  
+
+![](../images/markdown2.jpg)  
+
+Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Markdown reads codes from top-down, vertical flow, so it omits the complicated layout setting. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
+
+Below are my frequently used markdown syntax:  
+
+- **xxx**: make the text bold.  
+- *xxx*: make the text in italics.  
+- **three start dots**: create a vertical line.  
+- **<span style="color:green"> text </spa(n)>**: colour specific text.  
+- **![](../images(or other files under _docs)/xxxx.jpg(or other format))**: attach a file to the webpage.  
+- **[xxxxxx](../images(or other files under _docs)/xxxx.jpg(or other format))**: label a file to allow readers ot click and open a file in another window.  
+ 
+### Stage 3: Mkdocs: A great project documentation tool  
+
+In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
+
+To realize it, install two things:  
+
+- Python.(Don't be scared)   
+ 
+- mkdocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
+
+![](../images/createweb19.jpg)
+  
+![](../images/createweb20.jpg)  
+
+So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
+
+![](../images/createweb21.jpg)  
+
 
 
 
