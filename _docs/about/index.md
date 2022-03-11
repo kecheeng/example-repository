@@ -1,7 +1,7 @@
 # About me
 
-![](../images/kechengavatar.png)
-
+![](../images/kechengavatar.png)  
+![](../images/class photo.jpg)  
 
 Hi! I am Kecheng Zhang from China. I am a master student of Learning, Education and Technology in the University of Oulu. I like to play RPGs, do casual reading, experience and create interesting things. However, I don't like cooking.  
 
@@ -26,7 +26,9 @@ I was born in Chengdu, the hometown of giant panda bears, hot pot, and spicy Sic
 
 ## Previous work
 
-I was a certified teacher for high school and K-12 education, and hope to continue to work in this field with a broader understanding of maker education. This is my first time to learn engineering.  
+I am a certified teacher for high school and K-12 education, and hope to continue to work in this field with a broader understanding of maker education. I believe in and have been teaching in heuristic approach, which concerns student centredness, inclusiveness, differentiation, activenss, etc. I think questioning is one of the core skills in teaching and learning.  
+ 
+This is my first time to learn engineering.  
 
 
 ### Final Project
