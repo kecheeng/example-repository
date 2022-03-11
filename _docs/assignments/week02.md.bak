@@ -104,24 +104,11 @@ Now, I needed to push the personal webpage to Github.
 
 ![](../images/createweb14.jpg)  
 
-6. Create a remote repository to "receive" the uploaded files from local repository.  
-
-![](../images/createweb13.jpg)  
-
-7. Folk my personal information based on the student template.  
-
-![](../images/createweb15.jpg)  
-
-8. **This step is crucial: _docs**  
-
-After customizing my own information, under Github, I MUST change the **doc** into **_doc**.  
-
-![](../images/createweb17.jpg)
-
-
-cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the _docs files (or updates) to remote repository.  
+6. Cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the _docs files (or updates) to remote repository.  
 
 ![](../images/gh1.jpg)  
+
+Try basic commands in GIT.  
 
 Notes on the codes:  
 
@@ -132,9 +119,13 @@ Notes on the codes:
 
 In fact, you can type **"git --help"** to find basic commands.  
 
-![](../images/createweb9.jpg)
+![](../images/createweb9.jpg)  
+  
+7. Create a remote repository to "receive" the uploaded files from local repository.  
 
-5. Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
+![](../images/createweb13.jpg)  
+
+8. Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
 
 ![](../images/createweb5.jpg)  
 
@@ -142,7 +133,35 @@ Finally, I can host the personal page through Github.
 
 ![](../images/createweb11.jpg)  
 
-### Stage 4: The toolbox for webpage modification: Markdown syntax  
+9. Fork my personal information based on the student template.  
+
+![](../images/createweb15.jpg)  
+
+10. **THIS STEP IS CRUCIAL: _docs**  
+
+After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
+ 
+![](../images/createweb17.jpg)  
+![](../images/createweb18.jpg)  
+
+
+### Stage 4: Mkdocs: A great project documentation tool  
+
+In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
+
+To realize it, install two things:  
+
+- Python.(Don't be scared)   
+ 
+- mkdocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
+
+![](../images/createweb19.jpg)
+  
+![](../images/createweb20.jpg)  
+
+
+
+### Stage 5: The toolbox for webpage modification: Markdown syntax  
 
 Let's have a direct comparision between html and markdown grammars.  
 
@@ -151,11 +170,6 @@ Let's have a direct comparision between html and markdown grammars.
 ![](../images/markdown2.jpg)  
 
 Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  
-
-### Stage 5: Mkdocs: A great project documentation tool  
-
-In the **_docs** files, a user uses markdown syntax to build up a site. <span style="color:red">To transfer the contents into html format, you must use **mkdocs** commands.</span>  
-  
 
 
 
@@ -181,8 +195,6 @@ Go to home directory to find .ssh file. the **_id_rsa** is the private key. You 
 
 ![](../images/createweb16.jpg)  
 
-
-## My personal website and Markdown exploration
 
 
 
