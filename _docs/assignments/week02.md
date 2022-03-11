@@ -165,8 +165,8 @@ Go to home directory to find .ssh file. the **_id_rsa** is the private key. You 
 
 ![](../images/createweb16.jpg)  
 
-### Stage 2: The toolbox for webpage modification: Markdown syntax  
-
+### Stage 2: Markdown: makes coding easier  
+  
 Interestingly, nowadays many people have not realized that they are directly using markdown syntax rather than html in notepad.  
 
 Let's have a direct comparision between html and markdown grammars.  
@@ -201,7 +201,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 ![](../images/createweb25.jpg)  
 
  
-### Stage 3: Mkdocs: A great project documentation tool  
+### Stage 3: Mkdocs: transcribe markdown to html language  
 
 In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
 
