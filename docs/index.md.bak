@@ -2,6 +2,6 @@
 
 ## Welcome to Kecheng's portfolio.
 
-![](./images/week01/assignment-photo.jpg)
+![](./images/week01/vaultboy.jpg)
 
 
