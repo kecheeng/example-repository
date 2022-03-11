@@ -174,6 +174,7 @@ Go to home directory to find .ssh file. the **_id_rsa** is the private key. You 
 
 ![](../images/createweb8.jpg)  
 
+![](../images/createweb16.jpg)  
 
 
 ## My personal website and Markdown exploration
