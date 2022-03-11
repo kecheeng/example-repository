@@ -102,11 +102,15 @@ Now, I needed to push the personal webpage to Github.
 
 5. Delete 2 unnecesary files: .gitlab-ci.yml and requirements.txt  
 
-![](../images/createweb13.jpg)  
+![](../images/createweb14.jpg)  
 
 6. Create a remote repository to "receive" the uploaded files from local repository.  
 
 ![](../images/createweb13.jpg)  
+
+7. Folk my personal information based on the student template.  
+
+![](../images/createweb15.jpg)  
 
 
 
