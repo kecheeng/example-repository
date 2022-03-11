@@ -112,6 +112,13 @@ Now, I needed to push the personal webpage to Github.
 
 ![](../images/createweb15.jpg)  
 
+8. **This step is crucial: _docs**  
+
+After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
+ 
+![](../images/createweb17.jpg)  
+![](../images/createweb18.jpg)  
+
 
 
 cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the _docs files (or updates) to remote repository.  
