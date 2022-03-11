@@ -361,30 +361,36 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#stage-4-mkdocs-a-great-project-documentation-tool" class="md-nav__link">
-    Stage 4: Mkdocs: A great project documentation tool
-  </a>
+      </ul>
+    </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#stage-5-the-toolbox-for-webpage-modification-markdown-syntax" class="md-nav__link">
-    Stage 5: The toolbox for webpage modification: Markdown syntax
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#the-management-of-local-and-remote-repositories" class="md-nav__link">
     The management of local and remote repositories
   </a>
   
+    <nav class="md-nav" aria-label="The management of local and remote repositories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stage-1-ssh" class="md-nav__link">
+    Stage 1: SSH
+  </a>
+  
 </li>
         
           <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    SSH
+  <a href="#stage-2-the-toolbox-for-webpage-modification-markdown-syntax" class="md-nav__link">
+    Stage 2: The toolbox for webpage modification: Markdown syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-3-mkdocs-a-great-project-documentation-tool" class="md-nav__link">
+    Stage 3: Mkdocs: A great project documentation tool
   </a>
   
 </li>
@@ -778,30 +784,36 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#stage-4-mkdocs-a-great-project-documentation-tool" class="md-nav__link">
-    Stage 4: Mkdocs: A great project documentation tool
-  </a>
+      </ul>
+    </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#stage-5-the-toolbox-for-webpage-modification-markdown-syntax" class="md-nav__link">
-    Stage 5: The toolbox for webpage modification: Markdown syntax
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#the-management-of-local-and-remote-repositories" class="md-nav__link">
     The management of local and remote repositories
   </a>
   
+    <nav class="md-nav" aria-label="The management of local and remote repositories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stage-1-ssh" class="md-nav__link">
+    Stage 1: SSH
+  </a>
+  
 </li>
         
           <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    SSH
+  <a href="#stage-2-the-toolbox-for-webpage-modification-markdown-syntax" class="md-nav__link">
+    Stage 2: The toolbox for webpage modification: Markdown syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-3-mkdocs-a-great-project-documentation-tool" class="md-nav__link">
+    Stage 3: Mkdocs: A great project documentation tool
   </a>
   
 </li>
@@ -933,7 +945,32 @@
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
 <img alt="" src="../../images/createweb18.jpg" />  </p>
-<h3 id="stage-4-mkdocs-a-great-project-documentation-tool">Stage 4: Mkdocs: A great project documentation tool<a class="headerlink" href="#stage-4-mkdocs-a-great-project-documentation-tool" title="Permanent link">&para;</a></h3>
+<h2 id="the-management-of-local-and-remote-repositories">The management of local and remote repositories<a class="headerlink" href="#the-management-of-local-and-remote-repositories" title="Permanent link">&para;</a></h2>
+<h3 id="stage-1-ssh">Stage 1: SSH<a class="headerlink" href="#stage-1-ssh" title="Permanent link">&para;</a></h3>
+<p>SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  </p>
+<p>There are public and private keys. THe public one can be shared to anyone for collaborative work, while the private one should be only stored in local PC.  </p>
+<p>You do no create the key on your own, but rather type <strong>ssh-keygen -t rsa -C &ldquo;your.email@example.com&rdquo; -b 4096</strong> to create a long chain based on cryptology.  </p>
+<p><img alt="" src="../../images/createweb6.jpg" />  </p>
+<p>Go to home directory to find .ssh file. the <strong>_id_rsa</strong> is the private key. You can open with a notepad (but don&rsquo;t share).  </p>
+<p><img alt="" src="../../images/createweb7.jpg" />  </p>
+<p><img alt="" src="../../images/createweb8.jpg" />  </p>
+<p><img alt="" src="../../images/createweb16.jpg" />  </p>
+<h3 id="stage-2-the-toolbox-for-webpage-modification-markdown-syntax">Stage 2: The toolbox for webpage modification: Markdown syntax<a class="headerlink" href="#stage-2-the-toolbox-for-webpage-modification-markdown-syntax" title="Permanent link">&para;</a></h3>
+<p>Interestingly, nowadays many people have not realized that they are directly using markdown syntax rather than html in notepad.  </p>
+<p>Let&rsquo;s have a direct comparision between html and markdown grammars.  </p>
+<p><img alt="" src="../../images/markdown1.jpg" />  </p>
+<p><img alt="" src="../../images/markdown2.jpg" />  </p>
+<p>Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Markdown reads codes from top-down, vertical flow, so it omits the complicated layout setting. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  </p>
+<p>Below are my frequently used markdown syntax:  </p>
+<ul>
+<li><strong>xxx</strong>: make the text bold.  </li>
+<li><em>xxx</em>: make the text in italics.  </li>
+<li><strong>three start dots</strong>: create a vertical line.  </li>
+<li><strong><span style="color:green"> text </spa(n)></strong>: colour specific text.  </li>
+<li><strong><img alt="" src="../images(or other files under _docs)/xxxx.jpg(or other format)" /></strong>: attach a file to the webpage.  </li>
+<li><strong><a href="../images(or other files under _docs)/xxxx.jpg(or other format)">xxxxxx</a></strong>: label a file to allow readers ot click and open a file in another window.  </li>
+</ul>
+<h3 id="stage-3-mkdocs-a-great-project-documentation-tool">Stage 3: Mkdocs: A great project documentation tool<a class="headerlink" href="#stage-3-mkdocs-a-great-project-documentation-tool" title="Permanent link">&para;</a></h3>
 <p>In the <strong>_docs</strong> files, a user usually uses markdown syntax to upload &amp; modify files to a webpage. <span style="color:red">To <strong>transcribe the contents into html format</strong> in <strong>docs</strong> file, you must use <strong>mkdocs</strong> commands.</span>  </p>
 <p>To realize it, install two things:  </p>
 <ul>
@@ -947,21 +984,7 @@
 <p><img alt="" src="../../images/createweb19.jpg" /></p>
 <p><img alt="" src="../../images/createweb20.jpg" />  </p>
 <p>So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m &ldquo;xxx&rdquo;, git push), <strong>you must also type &ldquo;mkdocs build&rdquo; to transcribe markdown into html saved in &ldquo;docs&rdquo;</strong>.  </p>
-<h3 id="stage-5-the-toolbox-for-webpage-modification-markdown-syntax">Stage 5: The toolbox for webpage modification: Markdown syntax<a class="headerlink" href="#stage-5-the-toolbox-for-webpage-modification-markdown-syntax" title="Permanent link">&para;</a></h3>
-<p>Let&rsquo;s have a direct comparision between html and markdown grammars.  </p>
-<p><img alt="" src="../../images/markdown1.jpg" />  </p>
-<p><img alt="" src="../../images/markdown2.jpg" />  </p>
-<p>Apparently, markdown is much easier to learn and use. It does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  </p>
-<h3 id="the-management-of-local-and-remote-repositories">The management of local and remote repositories<a class="headerlink" href="#the-management-of-local-and-remote-repositories" title="Permanent link">&para;</a></h3>
-<h3 id="ssh">SSH<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
-<p>SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  </p>
-<p>There are public and private keys. THe public one can be shared to anyone for collaborative work, while the private one should be only stored in local PC.  </p>
-<p>You do no create the key on your own, but rather type <strong>ssh-keygen -t rsa -C &ldquo;your.email@example.com&rdquo; -b 4096</strong> to create a long chain based on cryptology.  </p>
-<p><img alt="" src="../../images/createweb6.jpg" />  </p>
-<p>Go to home directory to find .ssh file. the <strong>_id_rsa</strong> is the private key. You can open with a notepad (but don&rsquo;t share).  </p>
-<p><img alt="" src="../../images/createweb7.jpg" />  </p>
-<p><img alt="" src="../../images/createweb8.jpg" />  </p>
-<p><img alt="" src="../../images/createweb16.jpg" />  </p>
+<p><img alt="" src="../../images/createweb21.jpg" />  </p>
 
               
             </article>
