@@ -4,7 +4,7 @@ This week, Ivan taught us how to use GIT as a version control system to store, m
 
 ## Reflection  
 
-However, I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
+I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
 
 To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which are freshly new to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, as well as the non-stop courses from Fablab(all new).  
 
@@ -85,27 +85,27 @@ In fact, if something can be a template, it must contain certain brilliant ideas
 
 Now, I needed to push the personal webpage to Github.  
 
-1. Open CMD, type **git config user.name "xxx"**, and **git config user.email "xxx@xxx"** to create a name and email address at GIT repository.  
+Step 1 Open CMD, type **git config user.name "xxx"**, and **git config user.email "xxx@xxx"** to create a name and email address at GIT repository.  
 
 ![](../images/createweb1.jpg)  
 
-2. type **git config --global user.email "xxx"** to make your username and email the same for all repositories at your GIT.  
+Step 2 **git config --global user.email "xxx"** to make your username and email the same for all repositories at your GIT.  
 
 ![](../images/createweb3.jpg)  
 
-3. I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
+Step 3 I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
 
 ![](../images/createweb2.jpg)  
 
-4. Go to the downloaded student template file, cut and paste them to personal local repository.  
+Step 4 Go to the downloaded student template file, cut and paste them to personal local repository.  
 
 ![](../images/createweb12.jpg)  
 
-5. Delete 2 unnecesary files: .gitlab-ci.yml and requirements.txt  
+Step 5 Delete 2 unnecesary files: .gitlab-ci.yml and requirements.txt  
 
 ![](../images/createweb14.jpg)  
 
-6. Cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the _docs files (or updates) to remote repository.  
+Step 6 Cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the _docs files (or updates) to remote repository.  
 
 ![](../images/gh1.jpg)  
 
@@ -122,11 +122,11 @@ In fact, you can type **"git --help"** to find basic commands.
 
 ![](../images/createweb9.jpg)  
   
-7. Create a remote repository to "receive" the uploaded files from local repository.  
+Step 7 Create a remote repository to "receive" the uploaded files from local repository.  
 
 ![](../images/createweb13.jpg)  
 
-8. Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
+Step 8 Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
 
 ![](../images/createweb5.jpg)  
 
@@ -134,11 +134,11 @@ Finally, I can host the personal page through Github.
 
 ![](../images/createweb11.jpg)  
 
-9. Fork my personal information based on the student template.  
+Step 9 Fork my personal information based on the student template.  
 
 ![](../images/createweb15.jpg)  
 
-10. **THIS STEP IS CRUCIAL: _docs**  
+Step 10 **THIS STEP IS CRUCIAL: _docs**  
 
 After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
  

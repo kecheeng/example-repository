@@ -4,7 +4,7 @@ This week, Ivan taught us how to use GIT as a version control system to store, m
 
 ## Reflection  
 
-However, I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
+I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
 
 To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which are freshly new to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, as well as the non-stop courses from Fablab(all new).  
 
@@ -165,8 +165,8 @@ Go to home directory to find .ssh file. the **_id_rsa** is the private key. You 
 
 ![](../images/createweb16.jpg)  
 
-### Stage 2: The toolbox for webpage modification: Markdown syntax  
-
+### Stage 2: Markdown: makes coding easier  
+  
 Interestingly, nowadays many people have not realized that they are directly using markdown syntax rather than html in notepad.  
 
 Let's have a direct comparision between html and markdown grammars.  
@@ -201,7 +201,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 ![](../images/createweb25.jpg)  
 
  
-### Stage 3: Mkdocs: A great project documentation tool  
+### Stage 3: Mkdocs: transcribe markdown to html language  
 
 In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
 
