@@ -451,7 +451,7 @@
   
     <li class="md-nav__item">
       <a href="../week05/" class="md-nav__link">
-        5. Electronics production
+        5. Electronics Design
       </a>
     </li>
   
@@ -875,7 +875,8 @@
 <p><img alt="" src="../../images/vcs1.jpg" /></p>
 <p>GIT is a fast, user-friendly, flexible VCS to allow users to <strong>record</strong> changes to a file or <strong>recall</strong> previous versions from it as it saves historical logs. Multiple users can thus work cooperatively on the shared files. There are a number of popular VCS while this time we chose GIT as practice.  </p>
 <p><img alt="" src="../../images/vcs2.jpg" />  </p>
-<p>There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to register a Github account where I must type <strong>mkdocs build</strong> every time manually.  </p>
+<p>There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Most people prefer to use Gitlab as it supports mkdocs which can transfer Markdown into html language remotely.  </p>
+<p>Unfortunately, I was robbed so had to register a Github account where I must type <strong>mkdocs build</strong> every time manually on PC as it does not support mkdocs.  </p>
 <p><img alt="" src="../../images/git1.jpg" />  </p>
 <h3 id="stage-2-the-creation-of-a-page">Stage 2: The creation of a page<a class="headerlink" href="#stage-2-the-creation-of-a-page" title="Permanent link">&para;</a></h3>
 <p>Basic knowledge for absolute beginners:  </p>
@@ -901,8 +902,9 @@
 <p>Now, I need to <strong>push</strong> my webpage to Github. In common language, we can say to <strong>post</strong> it online.  </p>
 <h3 id="stage-3-use-static-site-generator-to-construct-a-personal-site-then-deploy-on-github">Stage 3: Use static site generator to construct a personal site, then deploy on Github<a class="headerlink" href="#stage-3-use-static-site-generator-to-construct-a-personal-site-then-deploy-on-github" title="Permanent link">&para;</a></h3>
 <p>It is crucial to know the learning objectives throughout the process. The goal was not to become a html expert, but to generate a documentation page for project management. So, I&rsquo;d rather save time of typing codes line by line, but adopt some <strong>templates</strong> (note that you have to be careful of intellectual property issues when you want to &ldquo;borrow&rdquo; something).  </p>
-<p><strong>Template</strong> saves a lot of time for site builders as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to &ldquo;fork your own&rdquo; site by changing details.   </p>
+<p><strong>Template</strong> saves plenty of time from scratching the surface of &ldquo;hello world&rdquo; as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to &ldquo;fork your own&rdquo; site by changing details.   </p>
 <p><img alt="" src="../../images/template1.jpg" />  </p>
+<p><span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:green">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan&rsquo;s Fablab student template.  </p>
 <p>In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the &ldquo;backstage&rdquo; to see how certain codes and syntax effects the display of the text, which is good for active learners.  </p>
 <p><img alt="" src="../../images/html2.jpg" />  </p>
 <p>Now, I needed to push the personal webpage to Github.  </p>
@@ -921,10 +923,10 @@
 <p>Try basic commands in GIT.  </p>
 <p>Notes on the codes:  </p>
 <ul>
-<li><strong>git status</strong>: Check if there are updates in the local repository.  </li>
-<li><strong>git add .</strong>: Agree on the changes to index file. You can also add xxx(specific files, remember to have the &ldquo;full name.format&rdquo; typing) to add specific files.   </li>
-<li><strong>git commit </strong>: commit -m &ldquo;xxx&rdquo;: Commit the changes in local repository with a note or label.  </li>
-<li><strong>git push</strong>: Push (uploade) the files or updates from local repository to the online one in GIT.  </li>
+<li><strong>git status</strong>: Check if there are updated files in the local repository.  </li>
+<li><strong>git add .</strong>: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the &ldquo;full name.format&rdquo; typing) to add specific files.   </li>
+<li><strong>git commit -m &ldquo;xxx&rdquo;</strong>: Store the added files to the local repository. &ldquo;xxx&rdquo; is a note or label.  </li>
+<li><strong>git push</strong>: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    </li>
 </ul>
 <p>In fact, you can type <strong>&ldquo;git &ndash;help&rdquo;</strong> to find basic commands.  </p>
 <p><img alt="" src="../../images/createweb9.jpg" />  </p>
@@ -935,6 +937,9 @@
 <p>Finally, I can host the personal page through Github.  </p>
 <p><img alt="" src="../../images/createweb11.jpg" />  </p>
 <p><strong>Step 9</strong> Fork my personal information based on the student template.  </p>
+<p>To do so, open <em>mkdocs.yml</em> at the local repository with notepad++.  </p>
+<p><img alt="" src="../../images/mkdocs1.jpg" />  </p>
+<p>Then, I practised changing the title, adding a dark mode, the new colour of the webpage for spring, and customizing my social media information.  </p>
 <p><img alt="" src="../../images/createweb15.jpg" />  </p>
 <p><strong>Step 10</strong> <strong>THIS STEP IS CRUCIAL: _docs</strong>  </p>
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
