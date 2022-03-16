@@ -117,10 +117,10 @@ Try basic commands in GIT.
 
 Notes on the codes:  
 
-- **git status**: Check if there are updates in the local repository.  
-- **git add .**: Agree on the changes to index file. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
-- **git commit **: commit -m "xxx": Commit the changes in local repository with a note or label.  
-- **git push**: Push (uploade) the files or updates from local repository to the online one in GIT.  
+- **git status**: Check if there are updated files in the local repository.  
+- **git add .**: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
+- **git commit -m "xxx"**: Store the added files to the local repository. "xxx" is a note or label.  
+- **git push**: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    
 
 In fact, you can type **"git --help"** to find basic commands.  
 
@@ -139,6 +139,12 @@ Finally, I can host the personal page through Github.
 ![](../images/createweb11.jpg)  
 
 **Step 9** Fork my personal information based on the student template.  
+
+To do so, open *mkdocs.yml* at the local repository with notepad++.  
+
+![](../images/mkdocs1.jpg)  
+
+Then, I practised changing the title, adding a dark mode, the new colour of the webpage for spring, and customizing my social media information.  
 
 ![](../images/createweb15.jpg)  
 
