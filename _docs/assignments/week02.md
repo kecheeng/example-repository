@@ -40,7 +40,9 @@ GIT is a fast, user-friendly, flexible VCS to allow users to **record** changes 
    
 ![](../images/vcs2.jpg)  
 
-There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Unfortunately, I was robbed so had to register a Github account where I must type **mkdocs build** every time manually.  
+There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Most people prefer to use Gitlab as it supports mkdocs which can transfer Markdown into html language remotely.  
+
+Unfortunately, I was robbed so had to register a Github account where I must type **mkdocs build** every time manually on PC as it does not support mkdocs.  
 
 ![](../images/git1.jpg)  
 
@@ -75,9 +77,11 @@ Now, I need to **push** my webpage to Github. In common language, we can say to 
 
 It is crucial to know the learning objectives throughout the process. The goal was not to become a html expert, but to generate a documentation page for project management. So, I'd rather save time of typing codes line by line, but adopt some **templates** (note that you have to be careful of intellectual property issues when you want to "borrow" something).  
  
-**Template** saves a lot of time for site builders as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to "fork your own" site by changing details.   
+**Template** saves plenty of time from scratching the surface of "hello world" as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to "fork your own" site by changing details.   
 
 ![](../images/template1.jpg)  
+
+<span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:green">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan's Fablab student template.  
 
 In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the "backstage" to see how certain codes and syntax effects the display of the text, which is good for active learners.  
 

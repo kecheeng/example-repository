@@ -1,11 +1,6 @@
-# 5. Electronics production
+# 5. Electronics Design  
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
-
+This week I learned how to use Arduino to activate the UPDI board, Eagle to do basic circuit board design, fabricate and test the board, then ultimately can control an LED light to blink based on programming.  
+ 
 ## Research
 
-
-
-## Gallery
-
-![](../images/sample-photo.jpg)
