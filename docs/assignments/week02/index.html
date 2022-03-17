@@ -904,7 +904,7 @@
 <p>It is crucial to know the learning objectives throughout the process. The goal was not to become a html expert, but to generate a documentation page for project management. So, I&rsquo;d rather save time of typing codes line by line, but adopt some <strong>templates</strong> (note that you have to be careful of intellectual property issues when you want to &ldquo;borrow&rdquo; something).  </p>
 <p><strong>Template</strong> saves plenty of time from scratching the surface of &ldquo;hello world&rdquo; as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to &ldquo;fork your own&rdquo; site by changing details.   </p>
 <p><img alt="" src="../../images/template1.jpg" />  </p>
-<p><span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:green">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan&rsquo;s Fablab student template.  </p>
+<p><span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:red">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan&rsquo;s Fablab student template.  </p>
 <p>In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the &ldquo;backstage&rdquo; to see how certain codes and syntax effects the display of the text, which is good for active learners.  </p>
 <p><img alt="" src="../../images/html2.jpg" />  </p>
 <p>Now, I needed to push the personal webpage to Github.  </p>
@@ -930,10 +930,12 @@
 </ul>
 <p>In fact, you can type <strong>&ldquo;git &ndash;help&rdquo;</strong> to find basic commands.  </p>
 <p><img alt="" src="../../images/createweb9.jpg" />  </p>
+<p>Antti R taught me a very useful code to preview the webpage locally by typying <strong>mkdocs serve</strong> then open a window with the command <strong>localhost:8000</strong>. Every time I saved something on notepad, it will be refreshed immediately, which is great for checking and proofreading. To close it, press <strong>Ctrl + C</strong>.  </p>
 <p><strong>Step 7</strong> Create a remote repository to &ldquo;receive&rdquo; the uploaded files from local repository.  </p>
 <p><img alt="" src="../../images/createweb13.jpg" />  </p>
 <p><strong>Step 8</strong> Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of &ldquo;Your site is published at:.....&rdquo; as the ultimately webpage. It takes some time to refresh so do not worry.  </p>
 <p><img alt="" src="../../images/createweb5.jpg" />  </p>
+<p>The webpage works because it is deployed on the folder of <strong>docs</strong>.   </p>
 <p>Finally, I can host the personal page through Github.  </p>
 <p><img alt="" src="../../images/createweb11.jpg" />  </p>
 <p><strong>Step 9</strong> Fork my personal information based on the student template.  </p>
@@ -945,7 +947,26 @@
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
 <img alt="" src="../../images/createweb18.jpg" />  </p>
-<p>This is a preparation for mkdocs building.  </p>
+<p>In <strong>_docs</strong> folder I store and modify files in different folders, using <strong>markdown</strong> as source code. I put pictures and videos into <strong>images</strong>, and write documentations in <strong>assignments</strong>.  </p>
+<p><img alt="" src="../../images/_docs.jpg" />  </p>
+<p>In <strong>docs</strong> folder I store the <strong>html</strong> source code built by <strong>mkdocs</strong>. This is page that is deployed and shown ultimately.  </p>
+<p><img alt="" src="../../images/docs.jpg" />  </p>
+<p>If I take examine the <strong>mkdocs.yml</strong>file, I can see that <strong>docs_dir</strong> represents <strong>_docs folder</strong>, while <strong>site_dir</strong> for <strong>docs folder</strong>.  </p>
+<p><img alt="" src="../../images/docsdir.jpg" />   </p>
+<p>In the <strong>_docs</strong> files, a user usually uses markdown syntax to upload &amp; modify files to a webpage. <span style="color:red">To <strong>transcribe the contents into html format</strong> in <strong>docs</strong> file, you must use <strong>mkdocs</strong> commands.</span>  </p>
+<p>To realize it, install two things:  </p>
+<ul>
+<li>
+<p>Python.(Don&rsquo;t be scared)   </p>
+</li>
+<li>
+<p>MkDocs (type <strong>pip install mkdocs</strong> in CMD to install it. Mkdocs is monitored by Python).  </p>
+</li>
+</ul>
+<p><img alt="" src="../../images/createweb19.jpg" /></p>
+<p><img alt="" src="../../images/createweb20.jpg" />  </p>
+<p>So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m &ldquo;xxx&rdquo;, git push), <strong>you must also type &ldquo;mkdocs build&rdquo; to transcribe markdown into html saved in &ldquo;docs&rdquo;</strong>.  </p>
+<p><img alt="" src="../../images/createweb21.jpg" />  </p>
 <h2 id="the-management-of-local-and-remote-repositories">The management of local and remote repositories<a class="headerlink" href="#the-management-of-local-and-remote-repositories" title="Permanent link">&para;</a></h2>
 <h3 id="stage-1-ssh">Stage 1: SSH<a class="headerlink" href="#stage-1-ssh" title="Permanent link">&para;</a></h3>
 <p>SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  </p>
@@ -968,35 +989,25 @@
 <p>Apparently, markdown is much easier to learn and use. Using plain text, it does not require users to memorise very detailed syntax, but can pay more attention on the content writing. Markdown reads codes from top-down, vertical flow, so it omits the complicated layout setting. Of course, if you are an expert in html syntax, or want to debug very specific parts, or write more customised sites, it is rewarding to probe into html.  </p>
 <p>Below are my frequently used markdown syntax:  </p>
 <ul>
-<li><strong>xxx</strong>: make the text bold.  </li>
-<li><em>xxx</em>: make the text in italics.  </li>
-<li><strong>three start dots</strong>: create a vertical line.  </li>
-<li><strong><span style="color:green"> text </spa(n)></strong>: colour specific text.  </li>
-<li><strong><img alt="" src="../images(or other files under _docs)/xxxx.jpg(or other format)" /></strong>: attach a file to the webpage.  </li>
-<li><strong><a href="../../images/createweb22.jpg">xxxxxx</a></strong>: label a file to allow readers ot click and open a file in another window.  </li>
+<li>**xxx**(2 dots on each side): <strong>make the text bold</strong>.  </li>
+<li>*xxx*(1 dot on each side): *make the text in italics.  </li>
+<li>***: create a horizonal line.  </li>
 </ul>
-<p>It looks weird so I posted the original code as below.  </p>
+<hr />
+<ul>
+<li>&#x3c;span style=&rdquo;color:green&rdquo;&#x3E; text &#x3c;/span&#x3E;: <span style="color:green">colour specific text</span>.  </li>
+<li>![](): creat a link (video, picture, etc) to the webpage.  </li>
+<li>[xxx](): label a file as xxx to allow readers to click it and open a file in another window.  </li>
+</ul>
+<p>In fact, the syntax in notepad is as below. There are two important tips for to <strong>escape</strong> the syntax characters:  </p>
+<ul>
+<li>type \ before the sensitive characters </li>
+<li>use <strong>hex</strong> for some characters</li>
+</ul>
 <p><img alt="" src="../../images/createweb22.jpg" />  </p>
-<p>Markdown language is commonly used in many modern webpages, where you can directly type some dots to change the elements of texts.  </p>
-<p><img alt="" src="../../images/createweb23.jpg" />  </p>
-<p><img alt="" src="../../images/createweb24.jpg" />  </p>
 <p>Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  </p>
 <p><img alt="" src="../../images/createweb25.jpg" />  </p>
 <h3 id="stage-3-mkdocs-transcribe-markdown-to-html-language">Stage 3: Mkdocs: transcribe markdown to html language<a class="headerlink" href="#stage-3-mkdocs-transcribe-markdown-to-html-language" title="Permanent link">&para;</a></h3>
-<p>In the <strong>_docs</strong> files, a user usually uses markdown syntax to upload &amp; modify files to a webpage. <span style="color:red">To <strong>transcribe the contents into html format</strong> in <strong>docs</strong> file, you must use <strong>mkdocs</strong> commands.</span>  </p>
-<p>To realize it, install two things:  </p>
-<ul>
-<li>
-<p>Python.(Don&rsquo;t be scared)   </p>
-</li>
-<li>
-<p>MkDocs (type <strong>pip install mkdocs</strong> in CMD to install it. Mkdocs is monitored by Python).  </p>
-</li>
-</ul>
-<p><img alt="" src="../../images/createweb19.jpg" /></p>
-<p><img alt="" src="../../images/createweb20.jpg" />  </p>
-<p>So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m &ldquo;xxx&rdquo;, git push), <strong>you must also type &ldquo;mkdocs build&rdquo; to transcribe markdown into html saved in &ldquo;docs&rdquo;</strong>.  </p>
-<p><img alt="" src="../../images/createweb21.jpg" />  </p>
 
               
             </article>
