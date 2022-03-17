@@ -28,7 +28,7 @@ Things to install when using Github:
 - **Python**: to run mkdocs   
 - **mkdocs**: to transcribe markdown codes to html format  
 
-## Create, modify and host a personal webpage: from VCS to Markdown 
+## GIT  
 
 ### Stage 1: VCS, GIT, Gitlab & Github  
 
@@ -46,7 +46,7 @@ Unfortunately, I was robbed so had to register a Github account where I must typ
 
 ![](../images/git1.jpg)  
 
-### Stage 2: The creation of a page    
+### Stage 2: Creating a page    
 
 Basic knowledge for absolute beginners:  
 
@@ -73,9 +73,9 @@ On the other hand, just like academic terms, in computer sciences, there are als
 
 Now, I need to **push** my webpage to Github. In common language, we can say to **post** it online.  
 
-### Stage 3: Use static site generator to construct a personal site, then deploy on Github    
+## Description of the website    
 
-It is crucial to know the learning objectives throughout the process. The goal was not to become a html expert, but to generate a documentation page for project management. So, I'd rather save time of typing codes line by line, but adopt some **templates** (note that you have to be careful of intellectual property issues when you want to "borrow" something).  
+It is crucial to know the learning objectives throughout the process. The goal was not to become an html expert, but to generate a documentation page for project management. So, I'd rather save time of typing codes line by line, but adopt some **templates** (note that you have to be careful of intellectual property issues when you want to "borrow" something).  
  
 **Template** saves plenty of time from scratching the surface of "hello world" as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to "fork your own" site by changing details.   
 
@@ -144,7 +144,8 @@ Finally, I can host the personal page through Github.
 
 **Step 9** Fork my personal information based on the student template.  
 
-To do so, open *mkdocs.yml* at the local repository with notepad++.  
+To do so, open **mkdocs.yml** at the local repository with notepad++.  **mkdocs.yml** allows me to <span style="color:red">define the name of the site, the descriptions, social media links, colors, fonts, etcs</span>.  
+
 
 ![](../images/mkdocs1.jpg)  
 
@@ -152,72 +153,9 @@ Then, I practised changing the title, adding a dark mode, the new colour of the 
 
 ![](../images/createweb15.jpg)  
 
-**Step 10** **THIS STEP IS CRUCIAL: _docs**  
+**Step 10** Use Markdown to easily write syntax  
 
-After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
- 
-![](../images/createweb17.jpg)  
-![](../images/createweb18.jpg)  
-
-In **_docs** folder I store and modify files in different folders, using **markdown** as source code. I put pictures and videos into **images**, and write documentations in **assignments**.  
-
-![](../images/_docs.jpg)  
- 
-In **docs** folder I store the **html** source code built by **mkdocs**. This is page that is deployed and shown ultimately.  
-  
-![](../images/docs.jpg)  
-
-If I take examine the **mkdocs.yml**file, I can see that **docs_dir** represents **\_docs folder**, while **site_dir** for **docs folder**.  
-  
-![](../images/docsdir.jpg)   
-
-In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
-
-To realize it, install two things:  
-
-- Python.(Don't be scared)   
- 
-- MkDocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
-
-![](../images/createweb19.jpg)
-  
-![](../images/createweb20.jpg)  
-
-So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
-
-![](../images/createweb21.jpg)  
-
-## The management of local and remote repositories  
-
-### Stage 1: SSH  
-
-SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  
-
-There are public and private keys. THe public one can be shared to anyone for collaborative work, while the private one should be only stored in local PC.  
-
-You do no create the key on your own, but rather type **ssh-keygen -t rsa -C "your.email@example.com" -b 4096** to create a long chain based on cryptology.  
-
-![](../images/createweb6.jpg)  
-
-Go to home directory to find .ssh file. the **_id_rsa** is the private key. You can open with a notepad (but don't share).  
-
-![](../images/createweb7.jpg)  
-
-![](../images/createweb8.jpg)  
-
-![](../images/createweb16.jpg)  
-
-If you redo the ssh-keygen code, it means that the computer will randomly create a new pair of SSH. If you click y to overwrite the SSH, remember to copy & paste the new public key to the GIT.  
-
-!{}(../images/ssh1.png)
-
-Otherwise, your new push will be denied as the public SSH is unmatched.  
-
-![](../images/ssh2.png)  
-
-### Stage 2: Markdown: makes coding easier  
-  
-Interestingly, many people have not realized that they are directly using markdown language rather than html in notepad to modify personal webpage.  
+Interestingly, it took me weeks to realise that I had been using **markdown** language rather than html in notepad to modify personal webpage.  
 
 Let's have a direct comparision between html and markdown grammars.  
 
@@ -249,6 +187,75 @@ In fact, the syntax in notepad is as below. There are two important tips for to 
 Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  
 
 ![](../images/createweb25.jpg)  
+
+
+**Step 11** **\_docs → mkdocs build → docs**  
+
+Basically, in this step, I used **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. There are many softwares to realise so, and I used **mkdocs** to transcribe **markdown** into **html**. Gitlab can directly go through this step remotely, whereas Github requires users to type mkdocs mannually.  
+
+After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
+ 
+![](../images/createweb17.jpg)  
+![](../images/createweb18.jpg)  
+
+In **_docs** folder I store and modify files in different folders, using **markdown** as source code. I put pictures and videos into **images**, and write documentations in **assignments**.  
+
+![](../images/_docs.jpg)  
+ 
+In **docs** folder I store the **html** source code built by **mkdocs**. This is page that is deployed and shown ultimately.  
+  
+![](../images/docs.jpg)  
+
+If I take examine the **mkdocs.yml**file, I can see that **docs_dir** represents **\_docs folder**, while **site_dir** for **docs folder**.  
+  
+![](../images/docsdir.jpg)   
+
+In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
+
+To realize it, install two things:  
+
+- Python.(Don't be scared)   
+ 
+- MkDocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
+
+![](../images/createweb19.jpg)
+  
+![](../images/createweb20.jpg)  
+
+So, every time after modifying things in **\_doc**, run the 4 steps (**git status, git add ., git commit -m "xxx", git push)**to store files in **markdown**. Then, I should type **mkdocs build** to transcribe markdown into **html** saved in **docs**. Then, redo **git status, git add ., git commit -m "xxx", git push** to synchronize the deployed website remotely.  
+ 
+![](../images/createweb21.jpg)  
+
+
+
+### Stage 1: SSH  
+
+SSH can be understood as keys to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  
+
+There are public and private keys. THe public one can be shared to anyone for collaborative work, while the private one should be only stored in local PC.  
+
+You do no create the key on your own, but rather type **ssh-keygen -t rsa -C "your.email@example.com" -b 4096** to create a long chain based on cryptology.  
+
+![](../images/createweb6.jpg)  
+
+Go to home directory to find .ssh file. the **_id_rsa** is the private key. You can open with a notepad (but don't share).  
+
+![](../images/createweb7.jpg)  
+
+![](../images/createweb8.jpg)  
+
+![](../images/createweb16.jpg)  
+
+If you redo the ssh-keygen code, it means that the computer will randomly create a new pair of SSH. If you click y to overwrite the SSH, remember to copy & paste the new public key to the GIT.  
+
+![](../images/ssh1.png)
+
+Otherwise, your new push will be denied as the public SSH is unmatched.  
+
+![](../images/ssh2.png)  
+
+### Stage 2: Markdown: makes coding easier  
+  
 
  
 ### Stage 3: Mkdocs: transcribe markdown to html language  
