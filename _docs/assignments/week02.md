@@ -81,7 +81,7 @@ It is crucial to know the learning objectives throughout the process. The goal w
 
 ![](../images/template1.jpg)  
 
-<span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:green">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan's Fablab student template.  
+<span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:red">Start Bootstrap</span> are popular template websites for portfolio. For Fablab assignment, this time I adopted Ivan's Fablab student template.  
 
 In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the "backstage" to see how certain codes and syntax effects the display of the text, which is good for active learners.  
 
@@ -125,7 +125,9 @@ Notes on the codes:
 In fact, you can type **"git --help"** to find basic commands.  
 
 ![](../images/createweb9.jpg)  
-  
+
+Antti R taught me a very useful code to preview the webpage locally by typying **mkdocs serve** then open a window with the command **localhost:8000**. Every time I saved something on notepad, it will be refreshed immediately, which is great for checking and proofreading. To close it, press **Ctrl + C**.  
+      
 **Step 7** Create a remote repository to "receive" the uploaded files from local repository.  
 
 ![](../images/createweb13.jpg)  
@@ -133,6 +135,8 @@ In fact, you can type **"git --help"** to find basic commands.
 **Step 8** Go to Github remote repository, click Setting - Pages, make sure the Branch to be master. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
 
 ![](../images/createweb5.jpg)  
+
+The webpage works because it is deployed on the folder of **docs**.   
 
 Finally, I can host the personal page through Github.  
 
@@ -155,7 +159,33 @@ After customizing my own information, under Github, I MUST change the **doc** in
 ![](../images/createweb17.jpg)  
 ![](../images/createweb18.jpg)  
 
-This is a preparation for mkdocs building.  
+In **_docs** folder I store and modify files in different folders, using **markdown** as source code. I put pictures and videos into **images**, and write documentations in **assignments**.  
+
+![](../images/_docs.jpg)  
+ 
+In **docs** folder I store the **html** source code built by **mkdocs**. This is page that is deployed and shown ultimately.  
+  
+![](../images/docs.jpg)  
+
+If I take examine the **mkdocs.yml**file, I can see that **docs_dir** represents **\_docs folder**, while **site_dir** for **docs folder**.  
+  
+![](../images/docsdir.jpg)   
+
+In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
+
+To realize it, install two things:  
+
+- Python.(Don't be scared)   
+ 
+- MkDocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
+
+![](../images/createweb19.jpg)
+  
+![](../images/createweb20.jpg)  
+
+So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
+
+![](../images/createweb21.jpg)  
 
 ## The management of local and remote repositories  
 
@@ -199,23 +229,23 @@ Apparently, markdown is much easier to learn and use. Using plain text, it does 
 
 Below are my frequently used markdown syntax:  
 
-- **xxx**: make the text bold.  
-- *xxx*: make the text in italics.  
-- **three start dots**: create a vertical line.  
-- **<span style="color:green"> text </spa(n)>**: colour specific text.  
-- **![](../images(or other files under _docs)/xxxx.jpg(or other format))**: attach a file to the webpage.  
-- **[xxxxxx](../images/createweb22.jpg)**: label a file to allow readers ot click and open a file in another window.  
+- \*\*xxx\*\*(2 dots on each side): **make the text bold**.  
+- \*xxx\*(1 dot on each side): *make the text in italics.  
+- \*\*\*: create a horizonal line.  
+***  
+ 
+- &#x3cspan style="color:green"&#x3E text &#x3c/span&#x3E: <span style="color:green">colour specific text</span>.  
+- \!\[\](): creat a link (video, picture, etc) to the webpage.  
+- \[xxx](): label a file as xxx to allow readers to click it and open a file in another window.  
 
-It looks weird so I posted the original code as below.  
+In fact, the syntax in notepad is as below. There are two important tips for to **escape** the syntax characters:  
+
+- type \ before the sensitive characters 
+- use **hex** for some characters
 
 ![](../images/createweb22.jpg)  
 
-Markdown language is commonly used in many modern webpages, where you can directly type some dots to change the elements of texts.  
-
-![](../images/createweb23.jpg)  
-
-![](../images/createweb24.jpg)  
-
+   
 Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  
 
 ![](../images/createweb25.jpg)  
@@ -223,21 +253,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
  
 ### Stage 3: Mkdocs: transcribe markdown to html language  
 
-In the **_docs** files, a user usually uses markdown syntax to upload & modify files to a webpage. <span style="color:red">To **transcribe the contents into html format** in **docs** file, you must use **mkdocs** commands.</span>  
 
-To realize it, install two things:  
-
-- Python.(Don't be scared)   
- 
-- MkDocs (type **pip install mkdocs** in CMD to install it. Mkdocs is monitored by Python).  
-
-![](../images/createweb19.jpg)
-  
-![](../images/createweb20.jpg)  
-
-So, every time after modifying things in _doc, run the 4 steps (git status, git add ., git commit -m "xxx", git push), **you must also type "mkdocs build" to transcribe markdown into html saved in "docs"**.  
-
-![](../images/createweb21.jpg)  
 
 
 
