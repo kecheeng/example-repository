@@ -348,15 +348,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#stage-1-vcs-git-gitlab-github" class="md-nav__link">
-    Stage 1: VCS, GIT, Gitlab &amp; Github
+  <a href="#vcs-git-gitlab-github" class="md-nav__link">
+    VCS, GIT, Gitlab &amp; Github
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#stage-2-creating-a-page" class="md-nav__link">
-    Stage 2: Creating a page
+  <a href="#creating-a-page" class="md-nav__link">
+    Creating a page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-commands-in-git" class="md-nav__link">
+    Key commands in GIT
   </a>
   
 </li>
@@ -381,22 +388,15 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#ssh" class="md-nav__link">
     SSH
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#key-commands-in-git" class="md-nav__link">
-    Key commands in GIT
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -771,15 +771,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#stage-1-vcs-git-gitlab-github" class="md-nav__link">
-    Stage 1: VCS, GIT, Gitlab &amp; Github
+  <a href="#vcs-git-gitlab-github" class="md-nav__link">
+    VCS, GIT, Gitlab &amp; Github
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#stage-2-creating-a-page" class="md-nav__link">
-    Stage 2: Creating a page
+  <a href="#creating-a-page" class="md-nav__link">
+    Creating a page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-commands-in-git" class="md-nav__link">
+    Key commands in GIT
   </a>
   
 </li>
@@ -804,22 +811,15 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#ssh" class="md-nav__link">
     SSH
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#key-commands-in-git" class="md-nav__link">
-    Key commands in GIT
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -856,7 +856,7 @@
 <li><strong>mkdocs</strong>: to transcribe markdown codes to html format  </li>
 </ul>
 <h2 id="git">GIT<a class="headerlink" href="#git" title="Permanent link">&para;</a></h2>
-<h3 id="stage-1-vcs-git-gitlab-github">Stage 1: VCS, GIT, Gitlab &amp; Github<a class="headerlink" href="#stage-1-vcs-git-gitlab-github" title="Permanent link">&para;</a></h3>
+<h3 id="vcs-git-gitlab-github">VCS, GIT, Gitlab &amp; Github<a class="headerlink" href="#vcs-git-gitlab-github" title="Permanent link">&para;</a></h3>
 <p>When people create files, there will be several verions which are not always ready or perfect, while different audience or cooperators may refer specific versions at certain points, or construct different work paths, respectively. Therefore, it is needed to have an &ldquo;online bank of files&rdquo;, which is <strong>Version Control System (VCS)</strong>.  </p>
 <p><img alt="" src="../../images/vcs1.jpg" /></p>
 <p>GIT is a fast, user-friendly, flexible VCS to allow users to <strong>record</strong> changes to a file, or <strong>recall</strong> previous versions from as it saves historical logs. Multiple users can thus work cooperatively on the shared files. There are a number of popular VCS while this time we chose <strong>GIT</strong> as practice.  </p>
@@ -864,7 +864,7 @@
 <p>There are also several popular GIT code hosting sites with the same syntax. The biggest difference between Gitlab and Github is that the previous one needs a credit card verification. Most people prefer to use Gitlab as it supports mkdocs which can <strong>transcribe Markdown into html language remotely</strong>.  </p>
 <p>Unfortunately, I was robbed so had to register a Github account where I must type <strong>mkdocs build</strong> every time manually on PC as it does not support mkdocs.  </p>
 <p><img alt="" src="../../images/git1.jpg" />  </p>
-<h3 id="stage-2-creating-a-page">Stage 2: Creating a page<a class="headerlink" href="#stage-2-creating-a-page" title="Permanent link">&para;</a></h3>
+<h3 id="creating-a-page">Creating a page<a class="headerlink" href="#creating-a-page" title="Permanent link">&para;</a></h3>
 <p>Basic knowledge for absolute beginners:  </p>
 <p><span style="color:yellow">First of all, a website is a text document. It is written in <strong>html</strong> syntax to allow <strong>browsers</strong> such as Chrome to read and display.</span> A modern webpage usually consists of three parts:  </p>
 <ul>
@@ -886,6 +886,17 @@
 <li><strong>deploy</strong>: show, run, display.  </li>
 </ul>
 <p>Now, I need to <strong>push</strong> my webpage to Github. In common language, we can say to <strong>post</strong> it online.  </p>
+<h3 id="key-commands-in-git">Key commands in GIT<a class="headerlink" href="#key-commands-in-git" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>git status</strong>: Check if there are updated files in the local repository.  </li>
+<li><strong>git add .</strong>: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the &ldquo;full name.format&rdquo; typing) to add specific files.   </li>
+<li><strong>git commit -m &ldquo;xxx&rdquo;</strong>: Store the added files to the local repository. &ldquo;xxx&rdquo; is a note or label.  </li>
+<li><strong>git push</strong>: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    </li>
+</ul>
+<p>In fact, you can type <strong>&ldquo;git &ndash;help&rdquo;</strong> to find basic commands.  </p>
+<p><img alt="" src="../../images/createweb9.jpg" />  </p>
+<p>Antti R taught me a very useful code to preview the webpage locally by typying &ldquo;<strong>mkdocs serve</strong>&rdquo; then open a window with the command &ldquo;<strong>localhost:8000</strong>&rdquo;. Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  </p>
+<p>To close it, press <strong>Ctrl + C</strong>. </p>
 <h2 id="description-of-the-website">Description of the website<a class="headerlink" href="#description-of-the-website" title="Permanent link">&para;</a></h2>
 <p>It is crucial to know the learning objectives throughout the process. The goal was not to become an html expert, but to generate a documentation page for project management. Thus, I did not want to use the &ldquo;hello world&rdquo; as my website, but looked for some <strong>templates</strong>.  </p>
 <h3 id="template">Template<a class="headerlink" href="#template" title="Permanent link">&para;</a></h3>
@@ -894,12 +905,12 @@
 <p><span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:red">Start Bootstrap</span> are popular template websites. For Fablab assignment, this time I adopted Ivan&rsquo;s Fablab student template.  </p>
 <p>In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the &ldquo;backstage&rdquo; to see how certain codes and syntax effects the display of the text, which is good for active learners. However, you should pay attention to intellectual property issues when you want to &ldquo;borrow&rdquo; something from others&rsquo; webpage.  </p>
 <p><img alt="" src="../../images/html2.jpg" />  </p>
-<p>Now, I needed to host the personal webpage to Github.  </p>
+<p><span style="color:yellow">Now, I needed to host the personal webpage to Github.</span>  </p>
 <p><strong>Step 1</strong> Open <strong>CMD</strong>, type <strong>git config user.name &ldquo;xxx&rdquo;</strong>, and <strong>git config user.email &ldquo;xxx@xxx&rdquo;</strong> to create a name and email address at GIT repository.  </p>
 <p><img alt="" src="../../images/createweb1.jpg" />  </p>
 <p><strong>Step 2</strong> <strong>git config &ndash;global user.email &ldquo;xxx&rdquo;</strong> to make your username and email the same for all repositories at your GIT.  </p>
 <p><img alt="" src="../../images/createweb3.jpg" />  </p>
-<h2 id="ssh">SSH<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h2>
+<h3 id="ssh">SSH<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
 <p>SSH can be understood as <strong>keys</strong> to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  </p>
 <p>There are public and private keys. The public one can be shared to anyone for collaborative work, while the private one should be only stored in local PC.  </p>
 <p>You do no create the key on your own, but rather type <strong>ssh-keygen -t rsa -C &ldquo;your.email@example.com&rdquo; -b 4096</strong> to create a long chain based on cryptology.  </p>
@@ -920,17 +931,6 @@
 <p><img alt="" src="../../images/createweb14.jpg" />  </p>
 <p><strong>Step 6</strong> Cut <strong>index.html</strong> and <strong>style.css</strong> to the newly created local repository. Then, go to CMD, do the following 4 steps to push the files saved at _docs folder to remote repository.  </p>
 <p><img alt="" src="../../images/gh1.jpg" />  </p>
-<h2 id="key-commands-in-git">Key commands in GIT<a class="headerlink" href="#key-commands-in-git" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>git status</strong>: Check if there are updated files in the local repository.  </li>
-<li><strong>git add .</strong>: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the &ldquo;full name.format&rdquo; typing) to add specific files.   </li>
-<li><strong>git commit -m &ldquo;xxx&rdquo;</strong>: Store the added files to the local repository. &ldquo;xxx&rdquo; is a note or label.  </li>
-<li><strong>git push</strong>: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    </li>
-</ul>
-<p>In fact, you can type <strong>&ldquo;git &ndash;help&rdquo;</strong> to find basic commands.  </p>
-<p><img alt="" src="../../images/createweb9.jpg" />  </p>
-<p>Antti R taught me a very useful code to preview the webpage locally by typying &ldquo;<strong>mkdocs serve</strong>&rdquo; then open a window with the command &ldquo;<strong>localhost:8000</strong>&rdquo;. Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  </p>
-<p>To close it, press <strong>Ctrl + C</strong>.  </p>
 <p><strong>Step 7</strong> Create a remote repository to &ldquo;receive&rdquo; the uploaded files from local repository.  </p>
 <p><img alt="" src="../../images/createweb13.jpg" />  </p>
 <p><strong>Step 8</strong> Go to Github remote repository, click <strong>Setting - Pages</strong>, make sure the <strong>Branch</strong> to be <strong>master</strong>. You can see the information of &ldquo;Your site is published at:.....&rdquo; as the ultimately webpage. It takes some time to refresh so do not worry.  </p>
