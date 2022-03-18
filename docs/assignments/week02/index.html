@@ -938,27 +938,28 @@
 <p>Otherwise, your new push will be denied as the public SSH is unmatched.  </p>
 <p><img alt="" src="../../images/ssh2.png" />  </p>
 <h3 id="creating-the-site">Creating the site<a class="headerlink" href="#creating-the-site" title="Permanent link">&para;</a></h3>
-<p>I used Ivan&rsquo;s Fablab student webpage template from his Github page. I copied the url, and typed <strong>git clone &ldquo;the url&rdquo;</strong>.  </p>
+<p><strong>Step 1</strong>  I used Ivan&rsquo;s Fablab student webpage template from his Github page. I downloaded the compressed zip file from Moodle.  </p>
 <p><img alt="" src="../../images/createweb2.jpg" />  </p>
-<p><strong>Step 4</strong> Go to the downloaded student template file, cut and paste them to personal local repository.  </p>
+<p><strong>Step 2</strong> In CMD, I typed &ldquo;mkdir example website github&rdquo; to configure my local repository for Github.  </p>
+<p><img alt="" src="../../images/mkdir1.jpg" /></p>
+<p><strong>Step 3</strong> Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  </p>
 <p><img alt="" src="../../images/createweb12.jpg" />  </p>
-<p><strong>Step 5</strong> Delete 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  </p>
+<p>I deleted 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  </p>
 <p><img alt="" src="../../images/createweb14.jpg" />  </p>
-<p><strong>Step 6</strong> Cut <strong>index.html</strong> and <strong>style.css</strong> to the newly created local repository. Then, go to CMD, do the following 4 steps to push the files saved at _docs folder to remote repository.  </p>
-<p><img alt="" src="../../images/gh1.jpg" />  </p>
-<p><strong>Step 7</strong> Create a remote repository to &ldquo;receive&rdquo; the uploaded files from local repository.  </p>
+<p><strong>Step 4</strong> I created a remote repository to &ldquo;receive&rdquo; the uploaded files from local repository.  </p>
 <p><img alt="" src="../../images/createweb13.jpg" />  </p>
-<p><strong>Step 8</strong> Go to Github remote repository, click <strong>Setting - Pages</strong>, make sure the <strong>Branch</strong> to be <strong>master</strong>. You can see the information of &ldquo;Your site is published at:.....&rdquo; as the ultimately webpage. It takes some time to refresh so do not worry.  </p>
+<p>Then, in the remote repository, I clicked <strong>Setting - Pages</strong>, made sure the <strong>Branch</strong> to be <strong>master</strong>. You can see the information of &ldquo;Your site is published at:.....&rdquo; as the ultimately webpage. It takes some time to refresh so do not worry.  </p>
 <p><img alt="" src="../../images/createweb5.jpg" />  </p>
-<p>The webpage works because it is deployed on the folder of <strong>docs</strong>.   </p>
+<p><strong>Step 5</strong> Then, I went to CMD, did the following 4 steps to push the files saved at _docs folder to remote repository.  </p>
+<p><img alt="" src="../../images/gh1.jpg" />  </p>
 <p>Finally, I can host the personal page at Github.  </p>
 <p><img alt="" src="../../images/createweb11.jpg" />  </p>
-<p><strong>Step 9</strong> Fork my personal information based on the student template.  </p>
+<p><strong>Step 6</strong> Fork my personal information based on the student template.  </p>
 <p>To do so, open <strong>mkdocs.yml</strong> at the local repository with notepad++.  <strong>mkdocs.yml</strong> allows me to <span style="color:red">define the name of the site, the descriptions, social media links, colors, fonts, etc</span>.  </p>
 <p><img alt="" src="../../images/mkdocs1.jpg" />  </p>
 <p>In this regard, I practised changing the title, adding a dark mode, the new colour of the webpage for spring, and customizing my social media information.  </p>
 <p><img alt="" src="../../images/createweb15.jpg" />  </p>
-<p><strong>Step 10</strong> Use Markdown to easily write syntax  </p>
+<p><strong>Use Markdown to easily write syntax</strong>  </p>
 <p>Interestingly, it took me weeks to realise that I had been using <strong>markdown</strong> language rather than html on notepad to modify personal webpage.  </p>
 <p>Why markdown is recommended? Let&rsquo;s have a direct comparision between markdown &amp; html grammar.  </p>
 <p><img alt="" src="../../images/markdown1.jpg" />  </p>
@@ -985,7 +986,7 @@
 <p><img alt="" src="../../images/createweb22.jpg" />  </p>
 <p>Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  </p>
 <p><img alt="" src="../../images/createweb25.jpg" />  </p>
-<p><strong>Step 11</strong> <strong>_docs → Mkdocs → docs</strong>  </p>
+<p><strong>Step 7</strong> <strong>_docs → Mkdocs → docs</strong>  </p>
 <p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
