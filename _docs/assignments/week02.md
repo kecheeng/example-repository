@@ -30,7 +30,7 @@ Things to install when using Github:
 
 ## GIT  
 
-### Stage 1: VCS, GIT, Gitlab & Github  
+### VCS, GIT, Gitlab & Github  
 
 When people create files, there will be several verions which are not always ready or perfect, while different audience or cooperators may refer specific versions at certain points, or construct different work paths, respectively. Therefore, it is needed to have an "online bank of files", which is **Version Control System (VCS)**.  
 
@@ -46,7 +46,7 @@ Unfortunately, I was robbed so had to register a Github account where I must typ
 
 ![](../images/git1.jpg)  
 
-### Stage 2: Creating a page    
+### Creating a page    
 
 Basic knowledge for absolute beginners:  
 
@@ -73,6 +73,21 @@ On the other hand, just like academic terms, in computer sciences, there are als
 
 Now, I need to **push** my webpage to Github. In common language, we can say to **post** it online.  
 
+### Key commands in GIT  
+  
+- **git status**: Check if there are updated files in the local repository.  
+- **git add .**: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
+- **git commit -m "xxx"**: Store the added files to the local repository. "xxx" is a note or label.  
+- **git push**: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    
+
+In fact, you can type **"git --help"** to find basic commands.  
+
+![](../images/createweb9.jpg)  
+
+Antti R taught me a very useful code to preview the webpage locally by typying "**mkdocs serve**" then open a window with the command "**localhost:8000**". Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  
+
+To close it, press **Ctrl + C**. 
+
 ## Description of the website    
 
 It is crucial to know the learning objectives throughout the process. The goal was not to become an html expert, but to generate a documentation page for project management. Thus, I did not want to use the "hello world" as my website, but looked for some **templates**.  
@@ -89,7 +104,7 @@ In fact, if something can be a template, it must contain certain brilliant ideas
 
 ![](../images/html2.jpg)  
 
-Now, I needed to host the personal webpage to Github.  
+<span style="color:yellow">Now, I needed to host the personal webpage to Github.</span>  
 
 **Step 1** Open **CMD**, type **git config user.name "xxx"**, and **git config user.email "xxx@xxx"** to create a name and email address at GIT repository.  
 
@@ -99,7 +114,7 @@ Now, I needed to host the personal webpage to Github.
 
 ![](../images/createweb3.jpg)  
 
-## SSH  
+### SSH  
 
 SSH can be understood as **keys** to the GIT servers. Every time if someone (including the original creator) wants to upload or modify something from local repository, the server will check if the keys are matched.  
 
@@ -125,7 +140,6 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 ![](../images/ssh2.png)  
 
-
 **Step 3** I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
 
 ![](../images/createweb2.jpg)  
@@ -141,21 +155,6 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 **Step 6** Cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the files saved at \_docs folder to remote repository.  
 
 ![](../images/gh1.jpg)  
-
-## Key commands in GIT  
-  
-- **git status**: Check if there are updated files in the local repository.  
-- **git add .**: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
-- **git commit -m "xxx"**: Store the added files to the local repository. "xxx" is a note or label.  
-- **git push**: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    
-
-In fact, you can type **"git --help"** to find basic commands.  
-
-![](../images/createweb9.jpg)  
-
-Antti R taught me a very useful code to preview the webpage locally by typying "**mkdocs serve**" then open a window with the command "**localhost:8000**". Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  
-
-To close it, press **Ctrl + C**.  
       
 **Step 7** Create a remote repository to "receive" the uploaded files from local repository.  
 
