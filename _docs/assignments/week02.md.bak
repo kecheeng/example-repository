@@ -142,37 +142,39 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 ### Creating the site  
 
-I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
+**Step 1**  I used Ivan's Fablab student webpage template from his Github page. I downloaded the compressed zip file from Moodle.  
 
 ![](../images/createweb2.jpg)  
 
-**Step 4** Go to the downloaded student template file, cut and paste them to personal local repository.  
+**Step 2** In CMD, I typed "mkdir example website github" to configure my local repository for Github.  
+
+![](../images/mkdir1.jpg)
+
+**Step 3** Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  
 
 ![](../images/createweb12.jpg)  
 
-**Step 5** Delete 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  
+I deleted 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  
 
 ![](../images/createweb14.jpg)  
 
-**Step 6** Cut **index.html** and **style.css** to the newly created local repository. Then, go to CMD, do the following 4 steps to push the files saved at \_docs folder to remote repository.  
-
-![](../images/gh1.jpg)  
-      
-**Step 7** Create a remote repository to "receive" the uploaded files from local repository.  
+**Step 4** I created a remote repository to "receive" the uploaded files from local repository.  
 
 ![](../images/createweb13.jpg)  
-
-**Step 8** Go to Github remote repository, click **Setting - Pages**, make sure the **Branch** to be **master**. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
+      
+Then, in the remote repository, I clicked **Setting - Pages**, made sure the **Branch** to be **master**. You can see the information of "Your site is published at:....." as the ultimately webpage. It takes some time to refresh so do not worry.  
 
 ![](../images/createweb5.jpg)  
 
-The webpage works because it is deployed on the folder of **docs**.   
+**Step 5** Then, I went to CMD, did the following 4 steps to push the files saved at \_docs folder to remote repository.  
+
+![](../images/gh1.jpg)  
 
 Finally, I can host the personal page at Github.  
 
 ![](../images/createweb11.jpg)  
 
-**Step 9** Fork my personal information based on the student template.  
+**Step 6** Fork my personal information based on the student template.  
 
 To do so, open **mkdocs.yml** at the local repository with notepad++.  **mkdocs.yml** allows me to <span style="color:red">define the name of the site, the descriptions, social media links, colors, fonts, etc</span>.  
 
@@ -182,7 +184,7 @@ In this regard, I practised changing the title, adding a dark mode, the new colo
 
 ![](../images/createweb15.jpg)  
 
-**Step 10** Use Markdown to easily write syntax  
+Use Markdown to easily write syntax  
 
 Interestingly, it took me weeks to realise that I had been using **markdown** language rather than html on notepad to modify personal webpage.  
 
@@ -219,7 +221,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 ![](../images/createweb25.jpg)  
 
 
-**Step 11** **\_docs → Mkdocs → docs**  
+**Step 7** **\_docs → Mkdocs → docs**  
 
 Basically, in this step, I used **Mkdocs** as a **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
 
