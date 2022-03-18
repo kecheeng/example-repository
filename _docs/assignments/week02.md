@@ -140,7 +140,9 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 ![](../images/ssh2.png)  
 
-**Step 3** I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
+### Creating the site  
+
+I used Ivan's Fablab student webpage template from his Github page. I copied the url, and typed **git clone "the url"**.  
 
 ![](../images/createweb2.jpg)  
 
@@ -195,7 +197,7 @@ Apparently, markdown is much easier to learn and use. Using plain text, it does 
 Below are my frequently used markdown syntax:  
 
 - \*\*xxx\*\*(2 dots on each side): **make the text bold**.  
-- \*xxx\*(1 dot on each side): *make the text in italics.  
+- \*xxx\*(1 dot on each side): *make the text in italics*.  
 - \*\*\*: create a horizonal line.  
 ***  
  
@@ -217,9 +219,9 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 ![](../images/createweb25.jpg)  
 
 
-**Step 11** **\_docs → mkdocs build → docs**  
+**Step 11** **\_docs → Mkdocs → docs**  
 
-Basically, in this step, I used **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. There are many softwares to realise it, and I used **mkdocs** to transcribe **markdown** into **html**. Gitlab can directly go through this step remotely, whereas Github requires users to type mkdocs mannually.  
+Basically, in this step, I used **Mkdocs** as a **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
 
 After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
  
