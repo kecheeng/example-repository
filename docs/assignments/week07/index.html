@@ -884,7 +884,7 @@
 <li><strong>PCB blank.</strong> The raw PCB working plate is called PCB blank. It has two layers. The lower part is a 1.6 mm plate; the upper surface is a 35μm copper foil (*1 mm = 1,000 μm).<br />
 <img alt="" src="../../images/pcb1.2.jpg" /> </li>
 </ul>
-<p><span style="color:blue">The PCB format I made this time was UPDI format. </span></p>
+<p><span style="color:yellow">The PCB format I made this time was UPDI format. </span></p>
 <ul>
 <li><strong>Sacrificial MDF bed.</strong> This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
 <img alt="" src="../../images/pcb1.37.jpg" />  </li>
@@ -1017,7 +1017,7 @@ As you can see, the 2D mill file is basically a raster file which considers pixe
 <p><img alt="" src="../../images/solder3.jpg" />  </p>
 <h3 id="stage-2-lets-solder">Stage 2 Let&rsquo;s solder<a class="headerlink" href="#stage-2-lets-solder" title="Permanent link">&para;</a></h3>
 <p>The soldering work should be conducted in specific laboratory for electronics design. Luckily, there is one in FabLab.  </p>
-<p>As a basic skill in electronics production, <span style="color:blue"><strong>Soldering</strong> is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  </p>
+<p>As a basic skill in electronics production, <span style="color:yellow"><strong>Soldering</strong> is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  </p>
 <p><img alt="" src="../../images/solder7.jpg" /><br />
 <img alt="" src="../../images/solder8.jpg" />  </p>
 <p>The elements needed are as below:  </p>
@@ -1034,16 +1034,23 @@ As you can see, the 2D mill file is basically a raster file which considers pixe
 </ol>
 <p>The soldering iron pen is connected to a soldering station with different temperature settings powered by electricity. 350 ℃ is recommended in most cases.  </p>
 <p><img alt="" src="../../images/solder5.jpg" />  </p>
-<p>Then, there are four steps for soldering:  </p>
+<p>Then, there are four steps for soldering (ideally, 4-5 seconds per joint):  </p>
 <ol>
-<li>Heat up the soldering pen, press its tip to the joint area between the circuit board and leg of components. Wait for 3-5 seconds.    </li>
-<li>Press the solder wire to the iron tip to be melted a bit. Ideally, the grey fluid should flow around the tip as well as the joint part.  </li>
-<li>Remove the solder wire, press the tip to the joint for 3-5 seconds.  </li>
+<li>Heat up the soldering pen, press its tip to the joint area between the circuit board and leg of components. Wait for 1 second.    </li>
+<li>Add solder: Press the solder wire to the iron tip to be melted a bit. Ideally, the grey fluid should flow around the tip as well as the joint part.  </li>
+<li>Remove the solder wire, press the tip to the joint for 2-3 seconds.  </li>
 <li>Remove the soldering pen to the soldering iron stand. Observe the joint part to make sure it is properly and stably connected.  </li>
 </ol>
 <p>I observed Antti M&rsquo;s UPDI prototype then made my own. It helped me to better understand the &ldquo;pattern&rdquo; on the circuit board: Components are connected to the circuit board through legs which allow current and data transitions, laying the foundation for electronics design.  </p>
 <p><img alt="" src="../../images/solder6.jpg" />  </p>
 <p><img alt="" src="../../images/solder9.jpg" />  </p>
+<p><strong>The files that I used for this assignment</strong>:  </p>
+<p>original .svg files:</p>
+<p><a href="../../files/Programmer-UPDI-D11C-Edge_CutsReziseFilled1mmMarginCentered.svg">the outline</a>  </p>
+<p><a href="../../files/Programmer-UPDI-D11C-F_CuResize1mmMarginCentered.svg">the traces</a>  </p>
+<p>customised .rml files:  </p>
+<p><a href="../../files/SVG%20image-outline.rml">the outline</a>  </p>
+<p><a href="../../files/SVG%20image-traces.rml">the traces</a></p>
 
               
             </article>
