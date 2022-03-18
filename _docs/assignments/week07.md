@@ -70,7 +70,7 @@ In FabLab Oulu, the most commonly used bits are rectangular style as below.
 - **PCB blank.** The raw PCB working plate is called PCB blank. It has two layers. The lower part is a 1.6 mm plate; the upper surface is a 35μm copper foil (*1 mm = 1,000 μm).  
 ![](../images/pcb1.2.jpg) 
 
-<span style="color:blue">The PCB format I made this time was UPDI format. </span>
+<span style="color:yellow">The PCB format I made this time was UPDI format. </span>
 
 
 - **Sacrificial MDF bed.** This is a thick plate to hold the PCB working plate. MDF is a common choice. This sacrificial bed surface needs to be polished and engraved after worn out.
@@ -284,7 +284,7 @@ One note for absolute beginners: The caps can be lifted and removed...
 
 The soldering work should be conducted in specific laboratory for electronics design. Luckily, there is one in FabLab.  
 
-As a basic skill in electronics production, <span style="color:blue">**Soldering** is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  
+As a basic skill in electronics production, <span style="color:yellow">**Soldering** is a process to use a soldering iron (the pen) to melt the thin solder lines on top of the component legs to connect the components to the circuit board.</span>  
  
 ![](../images/solder7.jpg)  
 ![](../images/solder8.jpg)  
@@ -306,11 +306,11 @@ The soldering iron pen is connected to a soldering station with different temper
   
 ![](../images/solder5.jpg)  
 
-Then, there are four steps for soldering:  
+Then, there are four steps for soldering (ideally, 4-5 seconds per joint):  
 
-1. Heat up the soldering pen, press its tip to the joint area between the circuit board and leg of components. Wait for 3-5 seconds.    
-2. Press the solder wire to the iron tip to be melted a bit. Ideally, the grey fluid should flow around the tip as well as the joint part.  
-3. Remove the solder wire, press the tip to the joint for 3-5 seconds.  
+1. Heat up the soldering pen, press its tip to the joint area between the circuit board and leg of components. Wait for 1 second.    
+2. Add solder: Press the solder wire to the iron tip to be melted a bit. Ideally, the grey fluid should flow around the tip as well as the joint part.  
+3. Remove the solder wire, press the tip to the joint for 2-3 seconds.  
 4. Remove the soldering pen to the soldering iron stand. Observe the joint part to make sure it is properly and stably connected.  
 
 I observed Antti M's UPDI prototype then made my own. It helped me to better understand the "pattern" on the circuit board: Components are connected to the circuit board through legs which allow current and data transitions, laying the foundation for electronics design.  
@@ -318,6 +318,20 @@ I observed Antti M's UPDI prototype then made my own. It helped me to better und
 ![](../images/solder6.jpg)  
 
 ![](../images/solder9.jpg)  
+
+**The files that I used for this assignment**:  
+
+original .svg files:
+
+[the outline](../files/Programmer-UPDI-D11C-Edge_CutsReziseFilled1mmMarginCentered.svg)  
+
+[the traces](../files/Programmer-UPDI-D11C-F_CuResize1mmMarginCentered.svg)  
+
+customised .rml files:  
+
+[the outline](../files/SVG image-outline.rml)  
+
+[the traces](../files/SVG image-traces.rml)
   
 
 
