@@ -73,6 +73,21 @@ On the other hand, just like academic terms, in computer sciences, there are als
 
 Now, I need to **push** my webpage to Github. In common language, we can say to **post** it online.  
 
+### Key commands in GIT  
+  
+- **git status**: Check if there are updated files in the local repository.  
+- **git add .**: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
+- **git commit -m "xxx"**: Store the added files to the local repository. "xxx" is a note or label.  
+- **git push**: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    
+
+In fact, you can type **"git --help"** to find basic commands.  
+
+![](../images/createweb9.jpg)  
+
+Antti R taught me a very useful code to preview the webpage locally by typying "**mkdocs serve**" then open a window with the command "**localhost:8000**". Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  
+
+To close it, press **Ctrl + C**. 
+
 ## Description of the website    
 
 It is crucial to know the learning objectives throughout the process. The goal was not to become an html expert, but to generate a documentation page for project management. Thus, I did not want to use the "hello world" as my website, but looked for some **templates**.  
@@ -125,21 +140,9 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 ![](../images/ssh2.png)  
 
-### Key commands in GIT  
-  
-- **git status**: Check if there are updated files in the local repository.  
-- **git add .**: Track the updated files and prepare them to be commited. You can also add xxx(specific files, remember to have the "full name.format" typing) to add specific files.   
-- **git commit -m "xxx"**: Store the added files to the local repository. "xxx" is a note or label.  
-- **git push**: Synchronise the files stored in local repository to remote counterpart. After this step, the locally saved files will be moved to the GIT repository.    
+### Creating the site  
 
-In fact, you can type **"git --help"** to find basic commands.  
-
-![](../images/createweb9.jpg)  
-
-Antti R taught me a very useful code to preview the webpage locally by typying "**mkdocs serve**" then open a window with the command "**localhost:8000**". Every time I save something on notepad, the localhost will be refreshed immediately to allow checking and proofreading.  
-
-To close it, press **Ctrl + C**.  
-**Step 3** I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
+I used Ivan's Fablab student webpage template from his Github page. Copy the url, and type **git clone "the url"**.  
 
 ![](../images/createweb2.jpg)  
 
@@ -194,7 +197,7 @@ Apparently, markdown is much easier to learn and use. Using plain text, it does 
 Below are my frequently used markdown syntax:  
 
 - \*\*xxx\*\*(2 dots on each side): **make the text bold**.  
-- \*xxx\*(1 dot on each side): *make the text in italics.  
+- \*xxx\*(1 dot on each side): *make the text in italics*.  
 - \*\*\*: create a horizonal line.  
 ***  
  
@@ -216,9 +219,9 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 ![](../images/createweb25.jpg)  
 
 
-**Step 11** **\_docs → mkdocs build → docs**  
+**Step 11** **\_docs → Mkdocs → docs**  
 
-Basically, in this step, I used **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. There are many softwares to realise it, and I used **mkdocs** to transcribe **markdown** into **html**. Gitlab can directly go through this step remotely, whereas Github requires users to type mkdocs mannually.  
+Basically, in this step, I used **Mkdocs** as a **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
 
 After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
  

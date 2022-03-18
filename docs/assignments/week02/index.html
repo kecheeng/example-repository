@@ -395,6 +395,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#creating-the-site" class="md-nav__link">
+    Creating the site
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -818,6 +825,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#creating-the-site" class="md-nav__link">
+    Creating the site
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -923,7 +937,8 @@
 <p><img alt="" src="../../images/ssh1.png" /></p>
 <p>Otherwise, your new push will be denied as the public SSH is unmatched.  </p>
 <p><img alt="" src="../../images/ssh2.png" />  </p>
-<p><strong>Step 3</strong> I used Ivan&rsquo;s Fablab student webpage template from his Github page. Copy the url, and type <strong>git clone &ldquo;the url&rdquo;</strong>.  </p>
+<h3 id="creating-the-site">Creating the site<a class="headerlink" href="#creating-the-site" title="Permanent link">&para;</a></h3>
+<p>I used Ivan&rsquo;s Fablab student webpage template from his Github page. I copied the url, and typed <strong>git clone &ldquo;the url&rdquo;</strong>.  </p>
 <p><img alt="" src="../../images/createweb2.jpg" />  </p>
 <p><strong>Step 4</strong> Go to the downloaded student template file, cut and paste them to personal local repository.  </p>
 <p><img alt="" src="../../images/createweb12.jpg" />  </p>
@@ -952,7 +967,7 @@
 <p>Below are my frequently used markdown syntax:  </p>
 <ul>
 <li>**xxx**(2 dots on each side): <strong>make the text bold</strong>.  </li>
-<li>*xxx*(1 dot on each side): *make the text in italics.  </li>
+<li>*xxx*(1 dot on each side): <em>make the text in italics</em>.  </li>
 <li>***: create a horizonal line.  </li>
 </ul>
 <hr />
@@ -970,8 +985,8 @@
 <p><img alt="" src="../../images/createweb22.jpg" />  </p>
 <p>Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  </p>
 <p><img alt="" src="../../images/createweb25.jpg" />  </p>
-<p><strong>Step 11</strong> <strong>_docs → mkdocs build → docs</strong>  </p>
-<p>Basically, in this step, I used <strong>Static Site Generator</strong> to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. There are many softwares to realise it, and I used <strong>mkdocs</strong> to transcribe <strong>markdown</strong> into <strong>html</strong>. Gitlab can directly go through this step remotely, whereas Github requires users to type mkdocs mannually.  </p>
+<p><strong>Step 11</strong> <strong>_docs → Mkdocs → docs</strong>  </p>
+<p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
 <img alt="" src="../../images/createweb18.jpg" />  </p>
