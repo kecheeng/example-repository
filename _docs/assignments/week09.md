@@ -1,6 +1,6 @@
 # 9. Embedded programming  
 
-With the basic knowledge of PCB and soldering, this week I continued the electronics courses taught by Antti Mäntyniemi for embedded programming. I guess this is the foundation for Input design.  
+With the basic knowledge of PCB and soldering, this week I continued the electronics courses taught by Antti Mäntyniemi for embedded programming on a STDI chip. The learning objective is to produce a programmed STDI PCB board with an LED controlled by a button. The functions of LED and the button shall be programmmed. I guess this is the foundation for Input design.  
 
 This time the course is a typical engineering style: use a professional software (KiCad) to design the work, then realise it with computer-controlled machine (LPKF ProtoMat S62).  
 
@@ -26,7 +26,7 @@ One of the most important things for independent study is to find the right reso
 
 #### The relation between PCB and electronic schematic  
 
-PCB stands for printed circuit board. The board is a physical representation of schematic that can be understood as the "logic" or "soul" of the board.  
+PCB stands for printed circuit board. The board is a physical representation of schematic that can be understood as the "logic" or "soul" of the board. By programming the component functions in schematic,  
 
 ## Gallery
 
