@@ -150,7 +150,9 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 ![](../images/mkdir1.jpg)
 
-**Step 3** Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  
+**Step 3** In CMD, I typed "git init" to create a local repository.  
+
+Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  
 
 ![](../images/createweb12.jpg)  
 
@@ -169,6 +171,11 @@ Then, in the remote repository, I clicked **Setting - Pages**, made sure the **B
 **Step 5** Then, I went to CMD, did the following 4 steps to push the files saved at \_docs folder to remote repository.  
 
 ![](../images/gh1.jpg)  
+
+Then, in CMD I typed **git remote add origin git@github.com:kecheeng/example-repository.git** to generate a link between my local and remote repositories. Everytime if I use git push, the data can be correctly pushed to this remote repository. It needs SSH key so again shows the necessity of creating SSH keys.  
+
+![](../images/link1.jpg)  
+
 
 Finally, I can host the personal page at Github.  
 
@@ -204,8 +211,8 @@ Below are my frequently used markdown syntax:
 ***  
  
 - &#x3cspan style="color:green"&#x3E text &#x3c/span&#x3E: <span style="color:green">colour specific text</span>.  
-- \!\[\](): creat a link (video, picture, etc) to the webpage.  
-- \[xxx](): label a file as xxx to allow readers to click it and open a file in another window.  
+- \!\[\](): attach a file such as pictures to the webpage.  
+- \[xxx](): create a hyperlink to allow readers to click it and open a file in another window.  
 - \-  : create a bullet.  
 
 In fact, the syntax in notepad is as below. There are two important tips for to **escape** the syntax characters:  
@@ -223,7 +230,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 
 **Step 7** **\_docs → Mkdocs → docs**  
 
-Basically, in this step, I used **Mkdocs** as a **Static Site Generator** to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
+Basically, in this step, I used **Mkdocs** as a **Static Site Generator** written in Python to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
 
 After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
  
