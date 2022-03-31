@@ -942,7 +942,8 @@
 <p><img alt="" src="../../images/createweb2.jpg" />  </p>
 <p><strong>Step 2</strong> In CMD, I typed &ldquo;mkdir example website github&rdquo; to configure my local repository for Github.  </p>
 <p><img alt="" src="../../images/mkdir1.jpg" /></p>
-<p><strong>Step 3</strong> Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  </p>
+<p><strong>Step 3</strong> In CMD, I typed &ldquo;git init&rdquo; to create a local repository.  </p>
+<p>Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  </p>
 <p><img alt="" src="../../images/createweb12.jpg" />  </p>
 <p>I deleted 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  </p>
 <p><img alt="" src="../../images/createweb14.jpg" />  </p>
@@ -952,6 +953,8 @@
 <p><img alt="" src="../../images/createweb5.jpg" />  </p>
 <p><strong>Step 5</strong> Then, I went to CMD, did the following 4 steps to push the files saved at _docs folder to remote repository.  </p>
 <p><img alt="" src="../../images/gh1.jpg" />  </p>
+<p>Then, in CMD I typed <strong>git remote add origin git@github.com:kecheeng/example-repository.git</strong> to generate a link between my local and remote repositories. Everytime if I use git push, the data can be correctly pushed to this remote repository. It needs SSH key so again shows the necessity of creating SSH keys.  </p>
+<p><img alt="" src="../../images/link1.jpg" />  </p>
 <p>Finally, I can host the personal page at Github.  </p>
 <p><img alt="" src="../../images/createweb11.jpg" />  </p>
 <p><strong>Step 6</strong> Fork my personal information based on the student template.  </p>
@@ -974,8 +977,8 @@
 <hr />
 <ul>
 <li>&#x3c;span style=&rdquo;color:green&rdquo;&#x3E; text &#x3c;/span&#x3E;: <span style="color:green">colour specific text</span>.  </li>
-<li>![](): creat a link (video, picture, etc) to the webpage.  </li>
-<li>[xxx](): label a file as xxx to allow readers to click it and open a file in another window.  </li>
+<li>![](): attach a file such as pictures to the webpage.  </li>
+<li>[xxx](): create a hyperlink to allow readers to click it and open a file in another window.  </li>
 <li>-  : create a bullet.  </li>
 </ul>
 <p>In fact, the syntax in notepad is as below. There are two important tips for to <strong>escape</strong> the syntax characters:  </p>
@@ -987,7 +990,7 @@
 <p>Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  </p>
 <p><img alt="" src="../../images/createweb25.jpg" />  </p>
 <p><strong>Step 7</strong> <strong>_docs → Mkdocs → docs</strong>  </p>
-<p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
+<p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> written in Python to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
 <img alt="" src="../../images/createweb18.jpg" />  </p>
