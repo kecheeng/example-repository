@@ -853,13 +853,13 @@
 <h1 id="2-project-management">2. Project management<a class="headerlink" href="#2-project-management" title="Permanent link">&para;</a></h1>
 <p>This week, Ivan taught us how to use GIT as a version control system to store, modify and recall files in local repository to online repository. After well configured, an individual can easily manage projects alone or invite others to work together in cyber space.  </p>
 <h2 id="reflection">Reflection<a class="headerlink" href="#reflection" title="Permanent link">&para;</a></h2>
-<p>I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of &ldquo;hello world&rdquo;, but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  </p>
+<p>I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized exercise of &ldquo;hello world&rdquo;, but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  </p>
 <p>To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which were fresh to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, GIT, the workflow of each command, as well as the non-stop courses from Fablab(all new).  </p>
 <p>Also, during COVID, I started everything online, and had to get used to not only the engineering knowledge, but also the entire Fablab logistics and criteria including the communication styles in local Oulu branch.  </p>
 <p>Since my initial incentive is to experience maker education ethnographically, I have no face to lose, nor need I do things in a hurry as long as I do not give up. <strong>It is a process of problem solving</strong>.  </p>
 <p>Thus, I officially began the session with zero knowledge on Jan 11 2022, but returned to construct the documentation on Mar 9, 2022, after 10 weeks of constant practice and exploration via real project managements such as computer-aided design, computer-controlled cutting, intellectual property, electronics productions.  </p>
 <p>It is very useful as now I feel more practical and relatable to Ivan and Neil&rsquo;s teaching materials (video, ppt, etc).  </p>
-<p><span style="color:green">In this regard, I borrowed some of Ivan&rsquo;s ppt pictures for elaboration.</span>   </p>
+<p><span style="color:yellow">In this regard, I borrowed some of Ivan&rsquo;s ppt pictures for elaboration.</span>  Even so, I spent another 3 weeks digesting and understanding the logical steps.  </p>
 <p>I particularly thank Ivan for his comprehensive introduction of the knowledge as well as patience, Diep for encouragement, and Antti R for extended Markdown knowledge such as the localhost: 8000.  </p>
 <p>Things to install when using Github:  </p>
 <ul>
@@ -917,7 +917,7 @@
 <p><strong>Template</strong> saves plenty of time from scratching the surface of website construction as the html, CSS, and Javascript contents have been preset. You need to understand the basic logics and syntax of those parts to &ldquo;fork your own&rdquo; site by changing details.   </p>
 <p><img alt="" src="../../images/template1.jpg" />  </p>
 <p><span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:red">Start Bootstrap</span> are popular template websites. For Fablab assignment, this time I adopted Ivan&rsquo;s Fablab student template.  </p>
-<p>In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the &ldquo;backstage&rdquo; to see how certain codes and syntax effects the display of the text, which is good for active learners. However, you should pay attention to intellectual property issues when you want to &ldquo;borrow&rdquo; something from others&rsquo; webpage.  </p>
+<p>In fact, if something can be a template, it must contain some brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the &ldquo;backstage&rdquo; to see how specific codes and syntax effects the display of the text, which is good for active learners. However, you should pay attention to intellectual property issues when you want to &ldquo;borrow&rdquo; something from others&rsquo; webpage.  </p>
 <p><img alt="" src="../../images/html2.jpg" />  </p>
 <p><span style="color:yellow">Now, I needed to host the personal webpage to Github.</span>  </p>
 <p><strong>Step 1</strong> Open <strong>CMD</strong>, type <strong>git config user.name &ldquo;xxx&rdquo;</strong>, and <strong>git config user.email &ldquo;xxx@xxx&rdquo;</strong> to create a name and email address at GIT repository.  </p>
@@ -943,7 +943,7 @@
 <p><strong>Step 2</strong> In CMD, I typed &ldquo;mkdir example website github&rdquo; to configure my local repository for Github.  </p>
 <p><img alt="" src="../../images/mkdir1.jpg" /></p>
 <p><strong>Step 3</strong> In CMD, I typed &ldquo;git init&rdquo; to create a local repository.  </p>
-<p>Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  </p>
+<p>Then, I went to the downloaded student template file, cut and pasted all the files to my Github local repository.  </p>
 <p><img alt="" src="../../images/createweb12.jpg" />  </p>
 <p>I deleted 2 unnecesary files: .gitlab-ci.yml and requirements.txt.  </p>
 <p><img alt="" src="../../images/createweb14.jpg" />  </p>
@@ -955,6 +955,7 @@
 <p><img alt="" src="../../images/gh1.jpg" />  </p>
 <p>Then, in CMD I typed <strong>git remote add origin git@github.com:kecheeng/example-repository.git</strong> to generate a link between my local and remote repositories. Everytime if I use git push, the data can be correctly pushed to this remote repository. It needs SSH key so again shows the necessity of creating SSH keys.  </p>
 <p><img alt="" src="../../images/link1.jpg" />  </p>
+<p>Now, type <strong>git remote</strong> and <strong>git push</strong>, which allow me to push the webpage to remote repository.  </p>
 <p>Finally, I can host the personal page at Github.  </p>
 <p><img alt="" src="../../images/createweb11.jpg" />  </p>
 <p><strong>Step 6</strong> Fork my personal information based on the student template.  </p>
@@ -990,7 +991,7 @@
 <p>Of course, there are many interesting markdown syntax from the cheatsheet worth exploring.(https://cheatography.com/snidd111/cheat-sheets/gitlab-markdown/)  </p>
 <p><img alt="" src="../../images/createweb25.jpg" />  </p>
 <p><strong>Step 7</strong> <strong>_docs → Mkdocs → docs</strong>  </p>
-<p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> written in Python to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
+<p>Basically, in this step, I used <strong>Mkdocs</strong> as a <strong>Static Site Generator</strong> written in Python to <span style="color:yellow">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   </p>
 <p>After customizing my own information, under Github, I MUST change the <strong>doc</strong> into <strong>_doc</strong>. Then, create an empty file named <strong>doc</strong>.  </p>
 <p><img alt="" src="../../images/createweb17.jpg" /><br />
 <img alt="" src="../../images/createweb18.jpg" />  </p>
@@ -998,7 +999,7 @@
 <p><img alt="" src="../../images/_docs.jpg" />  </p>
 <p>In <strong>docs</strong> folder I store the <strong>html</strong> source code built by <strong>mkdocs</strong>. This is page that is deployed and shown ultimately.  </p>
 <p><img alt="" src="../../images/docs.jpg" />  </p>
-<p>If I examine the <strong>mkdocs.yml</strong> file, I can see that <strong>docs_dir</strong> represents <strong>_docs folder</strong>, while <strong>site_dir</strong> for <strong>docs folder</strong>.  </p>
+<p>If I examine the <strong>mkdocs.yml</strong> file, I can see that <strong>docs_dir</strong> represents <strong>_docs folder</strong>, whereas <strong>site_dir</strong> for <strong>docs folder</strong>.  </p>
 <p><img alt="" src="../../images/docsdir.jpg" />   </p>
 <p>In the <strong>_docs</strong> files, a user usually employs markdown syntax to upload &amp; modify files to a webpage. <span style="color:red">To <strong>transcribe the contents into html format</strong> in <strong>docs</strong> file, you must use <strong>mkdocs</strong> commands.</span>  </p>
 <p>To realize it, install two things accordingly:  </p>
