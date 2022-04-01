@@ -4,7 +4,7 @@ This week, Ivan taught us how to use GIT as a version control system to store, m
 
 ## Reflection  
 
-I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized homework of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
+I am 32 years old with literally no programming knowledge. This was the first time I programmed in real use(not just a standarized exercise of "hello world", but seriously for writing documentation of the whole Fablab session). To be honest, it took me some time to realise why this programming was about project management.  
 
 To finish the task, I installed Gitlab (failed to use due to the credit card verification), Github, GitCMD, Python, Mkdocs, all of which were fresh to me. It means that I had to simultaneously learn and understand those computer sciences tools apart from the programming, the logic of VCS, GIT, the workflow of each command, as well as the non-stop courses from Fablab(all new).  
 
@@ -16,7 +16,7 @@ Thus, I officially began the session with zero knowledge on Jan 11 2022, but ret
 
 It is very useful as now I feel more practical and relatable to Ivan and Neil's teaching materials (video, ppt, etc).  
 
-<span style="color:green">In this regard, I borrowed some of Ivan's ppt pictures for elaboration.</span>   
+<span style="color:yellow">In this regard, I borrowed some of Ivan's ppt pictures for elaboration.</span>  Even so, I spent another 3 weeks digesting and understanding the logical steps.  
      
 I particularly thank Ivan for his comprehensive introduction of the knowledge as well as patience, Diep for encouragement, and Antti R for extended Markdown knowledge such as the localhost: 8000.  
  
@@ -100,7 +100,7 @@ It is crucial to know the learning objectives throughout the process. The goal w
 
 <span style="color:red">Bootstrap, Wrap Boostrap</span>, and <span style="color:red">Start Bootstrap</span> are popular template websites. For Fablab assignment, this time I adopted Ivan's Fablab student template.  
 
-In fact, if something can be a template, it must contain certain brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the "backstage" to see how certain codes and syntax effects the display of the text, which is good for active learners. However, you should pay attention to intellectual property issues when you want to "borrow" something from others' webpage.  
+In fact, if something can be a template, it must contain some brilliant ideas. You can right click the mouse on any webpage, or press F12, to open the "backstage" to see how certain codes and syntax effects the display of the text, which is good for active learners. However, you should pay attention to intellectual property issues when you want to "borrow" something from others' webpage.  
 
 ![](../images/html2.jpg)  
 
@@ -152,7 +152,7 @@ Otherwise, your new push will be denied as the public SSH is unmatched.
 
 **Step 3** In CMD, I typed "git init" to create a local repository.  
 
-Then, I went to the downloaded student template file, cut and paste all the files to my Github local repository.  
+Then, I went to the downloaded student template file, cut and pasted all the files to my Github local repository.  
 
 ![](../images/createweb12.jpg)  
 
@@ -176,6 +176,7 @@ Then, in CMD I typed **git remote add origin git@github.com:kecheeng/example-rep
 
 ![](../images/link1.jpg)  
 
+Now, type **git remote** and **git push**, which allow me to push the webpage to remote repository.  
 
 Finally, I can host the personal page at Github.  
 
@@ -211,8 +212,8 @@ Below are my frequently used markdown syntax:
 ***  
  
 - &#x3cspan style="color:green"&#x3E text &#x3c/span&#x3E: <span style="color:green">colour specific text</span>.  
-- \!\[\](): creat a link (video, picture, etc) to the webpage.  
-- \[xxx](): label a file as xxx to allow readers to click it and open a file in another window.  
+- \!\[\](): attach a file such as pictures to the webpage.  
+- \[xxx](): create a hyperlink to allow readers to click it and open a file in another window.  
 - \-  : create a bullet.  
 
 In fact, the syntax in notepad is as below. There are two important tips for to **escape** the syntax characters:  
@@ -230,7 +231,7 @@ Of course, there are many interesting markdown syntax from the cheatsheet worth 
 
 **Step 7** **\_docs → Mkdocs → docs**  
 
-Basically, in this step, I used **Mkdocs** as a **Static Site Generator** written in Python to <span style="color:green">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
+Basically, in this step, I used **Mkdocs** as a **Static Site Generator** written in Python to <span style="color:yellow">transcribe other computer language, source code, and characters into html that can be deployed as a website</span>. Gitlab can directly execute mkdocs in the serve, whereas Github does not. Therefore, I have to type mkdocs mannually each time.   
 
 After customizing my own information, under Github, I MUST change the **doc** into **_doc**. Then, create an empty file named **doc**.  
  
@@ -245,7 +246,7 @@ In **docs** folder I store the **html** source code built by **mkdocs**. This is
   
 ![](../images/docs.jpg)  
 
-If I examine the **mkdocs.yml** file, I can see that **docs_dir** represents **\_docs folder**, while **site_dir** for **docs folder**.  
+If I examine the **mkdocs.yml** file, I can see that **docs_dir** represents **\_docs folder**, whereas **site_dir** for **docs folder**.  
   
 ![](../images/docsdir.jpg)   
 
