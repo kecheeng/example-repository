@@ -515,15 +515,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#solve-the-rats-nest-puzzles" class="md-nav__link">
-    Solve the rats' nest puzzles
+  <a href="#tips-for-debugging" class="md-nav__link">
+    Tips for debugging
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tips-for-debugging" class="md-nav__link">
-    Tips for debugging
+  <a href="#solve-the-rats-nest-puzzles" class="md-nav__link">
+    Solve the rats' nest puzzles
   </a>
   
 </li>
@@ -901,15 +901,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#solve-the-rats-nest-puzzles" class="md-nav__link">
-    Solve the rats' nest puzzles
+  <a href="#tips-for-debugging" class="md-nav__link">
+    Tips for debugging
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#tips-for-debugging" class="md-nav__link">
-    Tips for debugging
+  <a href="#solve-the-rats-nest-puzzles" class="md-nav__link">
+    Solve the rats' nest puzzles
   </a>
   
 </li>
@@ -961,7 +961,11 @@
 <h1 id="9-embedded-programming">9. Embedded programming<a class="headerlink" href="#9-embedded-programming" title="Permanent link">&para;</a></h1>
 <p>With the basic knowledge of PCB and soldering, this week I continued the electronics courses taught by Antti Mäntyniemi for embedded programming on a STDI chip. The learning objective is to produce a programmed STDI PCB board with an LED controlled by a button. The functions of LED and the button shall be programmmed. I guess this is the foundation for Input design.  </p>
 <p>This time the course is a typical engineering style: use a professional software (KiCad) to design the work, then realise it with computer-controlled machine (LPKF ProtoMat S62).  </p>
-<p>Based on the prior knowledg of PCB, Antti M used reverse engineering to teach. He made me observe a prototype of final PCB work, and guided me to think, disassemble the process of realisation backwards.    </p>
+<p>Based on the prior knowledg of PCB, Antti M used <strong>reverse engineering</strong> to teach. He made me observe a prototype of final PCB work, and guided me to think, disassemble the process of realisation backwards.    </p>
+<p>Below is target work of schematic:<br />
+<img alt="" src="../images/kicad11.jpg" />  </p>
+<p>as well as the target work of PCB:<br />
+<img alt="" src="../../images/kicad12.jpg" />  </p>
 <h2 id="research">Research<a class="headerlink" href="#research" title="Permanent link">&para;</a></h2>
 <h3 id="the-use-of-fablab-treasure-box">The use of fablab treasure box<a class="headerlink" href="#the-use-of-fablab-treasure-box" title="Permanent link">&para;</a></h3>
 <p>One of the most important things for independent study is to find the right resources. Antti used the <a href="https://academy.cba.mit.edu/classes/">Fablab course material website</a> which I found significant as I can find all necessary stuff recognised by Fablab.  </p>
@@ -985,6 +989,7 @@
 <h4 id="the-relation-between-pcb-and-electronic-schematic">The relation between PCB and electronic schematic<a class="headerlink" href="#the-relation-between-pcb-and-electronic-schematic" title="Permanent link">&para;</a></h4>
 <p>PCB stands for printed circuit board. The board is a physical representation of schematic that can be understood as the &ldquo;logic&rdquo; or &ldquo;soul&rdquo; of the board. By programming the component functions in schematic, you can define the connections of the pins as well as the workflows of the PCB.   </p>
 <p><img alt="" src="../../images/schematic1.jpg" />  </p>
+<p><img alt="" src="../../images/schematic2.jpg" /></p>
 <h2 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">&para;</a></h2>
 <h3 id="use-kicad-to-set-2-printable-files">Use KiCad to set 2 printable files<a class="headerlink" href="#use-kicad-to-set-2-printable-files" title="Permanent link">&para;</a></h3>
 <p>For this step, we used <strong>KiCad</strong> as the software to design the schematic.   </p>
@@ -992,11 +997,42 @@
 <p>Below is the interface of Kicad.  </p>
 <p><img alt="" src="../../images/kicad2.jpg" />  </p>
 <h4 id="set-up-the-kicad-libraries">Set up the KiCad Libraries<a class="headerlink" href="#set-up-the-kicad-libraries" title="Permanent link">&para;</a></h4>
-<p>An important feature of embedded programming is that you do NOT have to scratch from the surface.   </p>
+<p>Open a new schematic file.  </p>
+<p>An important feature of embedded programming is that you do NOT have to scratch from the surface, but can directly search for the needed items in the digital libraries.  </p>
+<p>To realise it, open KiCad. You have to install required libraries (for example: fab contains 17,241 items). Luckily, they have all been properly set in the desktops of Fablab Oulu. </p>
 <h4 id="find-proper-itemscomponents">Find proper Items(components)<a class="headerlink" href="#find-proper-itemscomponents" title="Permanent link">&para;</a></h4>
+<p>The needed items are:  </p>
+<ul>
+<li>microcontroller (Microcontroller_ATtiny412_SSFR)  </li>
+<li>pinheader (Conne_Pinheader_SMD (pinheader is the &ldquo;needle&rdquo; while socket is the &ldquo;receiver&rdquo;))  </li>
+<li>capacitor (C)  </li>
+<li>LED  </li>
+<li>resistor (R)  </li>
+<li>button (BUTTON_B35N)  </li>
+</ul>
+<p>Below are the items in the library:  </p>
+<p><img alt="" src="../../images/kicad3.jpg" /><br />
+<img alt="" src="../../images/kicad4.jpg" /><br />
+<img alt="" src="../../images/kicad5.jpg" /><br />
+<img alt="" src="../../images/kicad6.jpg" /><br />
+<img alt="" src="../../images/kicad7.jpg" />  </p>
+<p>They are shown in the schematic as below:  </p>
+<p><img alt="" src="../../images/kicad8.jpg" /><br />
+<img alt="" src="../../images/kicad9.jpg" /><br />
+<img alt="" src="../../images/kicad10.jpg" />  </p>
+<p>Then, add <strong>3 VCC</strong> and <strong>6 GND</strong>.  </p>
+<p><img alt="" src="../../images/kicad13.jpg" /><br />
+<img alt="" src="../../images/kicad14.jpg" />  </p>
 <h4 id="draw-lines-to-link-the-items">Draw lines to link the items<a class="headerlink" href="#draw-lines-to-link-the-items" title="Permanent link">&para;</a></h4>
-<h4 id="solve-the-rats-nest-puzzles">Solve the rats&rsquo; nest puzzles<a class="headerlink" href="#solve-the-rats-nest-puzzles" title="Permanent link">&para;</a></h4>
+<p>This steps is to give items electronic connections in a logical flow. To do so, you need to draw lines between different pins.   </p>
+<p>Below is the prototype:  </p>
+<p><img alt="" src="../../images/kicad15.jpg" />  </p>
+<p>This is a quite straightforward step:  </p>
+<p><img alt="" src="../../images/kicad16.jpg" />  </p>
+<p>It takes patience and focus, but I got the work as below:  </p>
+<p><img alt="" src="../../images/kicad17.jpg" />  </p>
 <h4 id="tips-for-debugging">Tips for debugging<a class="headerlink" href="#tips-for-debugging" title="Permanent link">&para;</a></h4>
+<h4 id="solve-the-rats-nest-puzzles">Solve the rats&rsquo; nest puzzles<a class="headerlink" href="#solve-the-rats-nest-puzzles" title="Permanent link">&para;</a></h4>
 <h4 id="add-a-filled-zone-to-the-schematic">Add a filled zone to the schematic<a class="headerlink" href="#add-a-filled-zone-to-the-schematic" title="Permanent link">&para;</a></h4>
 <h4 id="generate-gerber-files">Generate .gerber files<a class="headerlink" href="#generate-gerber-files" title="Permanent link">&para;</a></h4>
 <h3 id="use-protomat-s62-to-mill-it-out">Use ProtoMat S62 to mill it out<a class="headerlink" href="#use-protomat-s62-to-mill-it-out" title="Permanent link">&para;</a></h3>
