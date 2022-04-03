@@ -4,7 +4,13 @@ With the basic knowledge of PCB and soldering, this week I continued the electro
 
 This time the course is a typical engineering style: use a professional software (KiCad) to design the work, then realise it with computer-controlled machine (LPKF ProtoMat S62).  
 
-Based on the prior knowledg of PCB, Antti M used reverse engineering to teach. He made me observe a prototype of final PCB work, and guided me to think, disassemble the process of realisation backwards.    
+Based on the prior knowledg of PCB, Antti M used **reverse engineering** to teach. He made me observe a prototype of final PCB work, and guided me to think, disassemble the process of realisation backwards.    
+
+Below is target work of schematic:  
+![](../images/kicad11.jpg)  
+
+as well as the target work of PCB:  
+![](../images/kicad12.jpg)  
 
 ## Research
 
@@ -32,6 +38,8 @@ PCB stands for printed circuit board. The board is a physical representation of 
 
 ![](../images/schematic1.jpg)  
 
+![](../images/schematic2.jpg)
+
 ## Procedure
 
 ### Use KiCad to set 2 printable files  
@@ -47,19 +55,66 @@ Below is the interface of Kicad.
 
 #### Set up the KiCad Libraries  
 
-An important feature of embedded programming is that you do NOT have to scratch from the surface.   
+Open a new schematic file.  
+
+An important feature of embedded programming is that you do NOT have to scratch from the surface, but can directly search for the needed items in the digital libraries.  
+
+To realise it, open KiCad. You have to install required libraries (for example: fab contains 17,241 items). Luckily, they have all been properly set in the desktops of Fablab Oulu. 
 
 #### Find proper Items(components)    
 
+The needed items are:  
+
+- microcontroller (Microcontroller_ATtiny412_SSFR)  
+- pinheader (Conne_Pinheader_SMD (pinheader is the "needle" while socket is the "receiver"))  
+- capacitor (C)  
+- LED  
+- resistor (R)  
+- button (BUTTON_B35N)  
+
+Below are the items in the library:  
+
+![](../images/kicad3.jpg)  
+![](../images/kicad4.jpg)  
+![](../images/kicad5.jpg)  
+![](../images/kicad6.jpg)  
+![](../images/kicad7.jpg)  
+
+They are shown in the schematic as below:  
+
+![](../images/kicad8.jpg)  
+![](../images/kicad9.jpg)  
+![](../images/kicad10.jpg)  
+
+Then, add **3 VCC** and **6 GND**.  
+
+![](../images/kicad13.jpg)  
+![](../images/kicad14.jpg)  
+
 #### Draw lines to link the items   
 
-#### Solve the rats' nest puzzles  
+This steps is to give items electronic connections in a logical flow. To do so, you need to draw lines between different pins.   
 
-#### Tips for debugging  
+Below is the prototype:  
+
+![](../images/kicad15.jpg)  
+
+This is a quite straightforward step:  
+
+![](../images/kicad16.jpg)  
+
+It takes patience and focus, but I got the work as below:  
+
+![](../images/kicad17.jpg)  
+
+#### Tips for debugging   
+
+#### Solve the rats' nest puzzles  
 
 #### Add a filled zone to the schematic  
 
 #### Generate .gerber files
+
 
 ### Use ProtoMat S62 to mill it out
 
