@@ -4,6 +4,8 @@ With the basic knowledge of PCB and soldering, this week I continued the electro
 
 This time the course is a typical engineering style: use a professional software (KiCad) to design the work, then realise it with computer-controlled machine (LPKF ProtoMat S62).  
 
+Based on the prior knowledg of PCB, Antti M used reverse engineering to teach. He made me observe a prototype of final PCB work, and guided me to think, disassemble the process of realisation backwards.    
+
 ## Research
 
 ### The use of fablab treasure box  
@@ -16,7 +18,7 @@ One of the most important things for independent study is to find the right reso
 
 #### the terms  
 
-- **embedded programming**  
+- **embedded programming**: to use microcontrollers as the savers for specific programming. For example, the reason why smartphones and electronic devices can be "smart" is that engineers programme certain functions and store them in the microcontrollers (usually known as chips) to allow users to interact.     
 
 - **pin**: the "leg" of electric components.   
 
@@ -26,13 +28,26 @@ One of the most important things for independent study is to find the right reso
 
 #### The relation between PCB and electronic schematic  
 
-PCB stands for printed circuit board. The board is a physical representation of schematic that can be understood as the "logic" or "soul" of the board. By programming the component functions in schematic,  
+PCB stands for printed circuit board. The board is a physical representation of schematic that can be understood as the "logic" or "soul" of the board. By programming the component functions in schematic, you can define the connections of the pins as well as the workflows of the PCB.   
 
-## Gallery
+![](../images/schematic1.jpg)  
+
+## Procedure
 
 ### Use KiCad to set 2 printable files  
 
+For this step, we used **KiCad** as the software to design the schematic.   
+
+![](../images/kicad1.jpg)  
+
+Below is the interface of Kicad.  
+
+![](../images/kicad2.jpg)  
+
+
 #### Set up the KiCad Libraries  
+
+An important feature of embedded programming is that you do NOT have to scratch from the surface.   
 
 #### Find proper Items(components)    
 
