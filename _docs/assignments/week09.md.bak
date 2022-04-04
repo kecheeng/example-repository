@@ -107,16 +107,109 @@ It takes patience and focus, but I got the work as below:
 
 ![](../images/kicad17.jpg)  
 
-#### Solve the rats' nest puzzles  
+#### Tips for debugging   
 
-#### Tips for debugging  
+If you are unsure whether you have properly connected all the pins, don't worry. You can use **Annotate Schematic** to run **Electrical Rules Checker**. It allows you to see if there are some errors related to the schematic design.  
+
+![](../images/kicad18.jpg)  
+
+For example, when I checked my design, there were 4 errors. The first 2 told me that 2 microcontroller input pins were not driven by output power pins; the latter 2 informed that there were 2 connector pinheaders unconnected.  
+
+![](../images/kicad19.jpg)  
+
+KiCad smartly marked the problematic pinheads (CTS and RTS).  
+
+![](../images/kicad20.jpg)  
+
+After justification, I decided not to use the 2 pinheaders then, so found the x on the right to "seal" them. When I run the Electrical Rules Checker again, the 2 pinheader errors were closed.   
+
+![](../images/kicad21.jpg)  
+
+![](../images/kicad22.jpg)
+
+To solve the microcontroller input/output erros, I added 2 **power flag** item from the library. This item tells ERC where power comes from. In this practice, one PWR flag links to GND, another to VCC.  
+
+![](../images/kicad23.jpg)  
+
+![](../images/kicad24.jpg)  
+
+Now, you can see that all the errors were solved.  
+
+![](../images/kicad25.jpg)  
+
+To do it more professional, you can assign footprints to the key items in your schematic design.  
+
+![](../images/kicad26.jpg)  
+
+#### Solve the rats' nest PCB puzzle  
+
+The next step is like solving a Lego puzzle. By opening the **PCB Editor**, you will assemble the mock-up components that are ready for later PCB making.  
+
+![](../images/kicad27.jpg)  
+
+Yeah. At first, it literally IS a mess, which is why another name of it is **the rats' nest**.  
+
+![](../images/kicad28.jpg)  
+
+To be honest, this step is quite relaxing. I opened my laptop to show the prototype schematic, and dragged the items on my working desktop to their proper places.  
+
+![](../images/kicad29.jpg)  
 
 #### Add a filled zone to the schematic  
 
-#### Generate .gerber files
+It is meaningful to review the prototype again for absolute beginners (me).  
+
+![](../images/kicad11.jpg)  
+
+The red part looks bloody, but they are the **copper part** of the PCB. You can see that all the pins are marked with copper rectangles because they really have to.  
+
+First, you need to define an outline of the PCB work. Find **Edge Cuts** in **Appearance** to draw the outline.  
+
+![](../images/kicad30.jpg)  
+ 
+Then, select **F.CU** to draw the copper paths between pins following the white straight lines that are actually the lines in schematic design.  
+
+![](../images/kicad31.jpg)  
+
+During this process, I happened to debug the mistakes in the previous step.  
+
+I clicked ?? to see 2 types of errors.  
+
+First, the button (on the left upper corner) was displaced upside down where the 2 GND should have been on the top.  
+Second, there are 3 paths unconnected.  
+
+Then, use **??** to draw a slightly inner outline for of the PCB.  
+
+Then, change from mm to **mil** on the left, open **Copper Zone Properties**, click **F.Cu** and select **GND** in the Net. Then, define the **Clearance** and **Minimum width** in Electrical Properties. A moderate number in the practice was 10 mils, but of course you can try other parameters to preview by clicking OK.  
+
+![](../images/kicad32.jpg)  
+
+After clicking OK, you can see that the PCB is filled with red, copper zone. <span style="color:yellow">It gives me an impression that the schematic is a set of skeleton, while PCB editor and filling is to enflesh the design.</span>  
+
+#### Generate gerber files (.gbr)   
+
+Similar to Roland PCB practice, there are 2 gerber files to generate: The outline (Edge_Cuts.gbr)and the inner body (F_Cu.gbr).  
+
+To do so, open **Plot**, click **F.Cu** and **Edge.Cuts** in the **Layers**. Then, choose **plot** to get the 2 files.  
+
+![](../images/kicad33.jpg)  
 
 
-### Use ProtoMat S62 to mill it out
+### Use ProtoMat S62 to mill it out  
+
+
+## The files that I used for this assignment:  
+
+prototype schematic and PCB files:
+
+[the referred file](../files/HelloKiCad.pdf)  
+
+my gerber files for PCB:  
+
+[the outline](../files/SVG image-outline.rml)  
+
+[the traces](../files/SVG image-traces.rml)
+  
 
 
 
