@@ -143,7 +143,11 @@ To do it more professional, you can assign footprints to the key items in your s
 
 #### Solve the rats' nest PCB puzzle  
 
-The next step is like solving a Lego puzzle. By opening the **PCB Editor**, you will assemble the mock-up components that are ready for later PCB making.  
+The next step is like solving a Lego puzzle. In fact, I just finished the first layer (schematic design), but need to make an equivalent PCB design.  
+
+![](../images/kicad34.jpg)  
+
+By opening the **PCB Editor**, you will assemble the mock-up components that are ready for later PCB making.  
 
 ![](../images/kicad27.jpg)  
 
@@ -173,12 +177,19 @@ Then, select **F.CU** to draw the copper paths between pins following the white 
 
 During this process, I happened to debug the mistakes in the previous step.  
 
-I clicked ?? to see 2 types of errors.  
+I clicked **DRC control** to see 2 types of errors. The are shown in the violations and you can easily locate them as they are marked.  
+
+![](../images/kicad36.jpg)  
 
 First, the button (on the left upper corner) was displaced upside down where the 2 GND should have been on the top.  
+
 Second, there are 3 paths unconnected.  
 
-Then, use **??** to draw a slightly inner outline for of the PCB.  
+The silkscreen can be understood as the words printed on the PCB. If it requires high level of criticality, then it is better to avoid overlapping words. Otherwise, you can ignore those violations.  
+
+![](../images/kicad37.jpg)  
+
+Then, use **F.Cu** to draw a slightly inner outline for of the PCB.  
 
 Then, change from mm to **mil** on the left, open **Copper Zone Properties**, click **F.Cu** and select **GND** in the Net. Then, define the **Clearance** and **Minimum width** in Electrical Properties. A moderate number in the practice was 10 mils, but of course you can try other parameters to preview by clicking OK.  
 
@@ -188,6 +199,7 @@ After clicking OK, you can see that the PCB is filled with red, copper zone. <sp
 
 #### Generate gerber files (.gbr)   
 
+
 Similar to Roland PCB practice, there are 2 gerber files to generate: The outline (Edge_Cuts.gbr)and the inner body (F_Cu.gbr).  
 
 To do so, open **Plot**, click **F.Cu** and **Edge.Cuts** in the **Layers**. Then, choose **plot** to get the 2 files.  
@@ -196,6 +208,31 @@ To do so, open **Plot**, click **F.Cu** and **Edge.Cuts** in the **Layers**. The
 
 
 ### Use ProtoMat S62 to mill it out  
+
+The PCB milling steps are very straightfoward. LPKF ProtoMat S62 can run the work automatically as long as you set up the parameters on the connected desktop well. Luckily, the controlling software is very smart to use.  
+
+![](../images/kicad38.jpg)  
+
+
+#### Set up the machine  
+
+Open the lid of LPKF and you will see four main parts that are critical.  
+
+![](../images/kicad39.jpg)  
+
+1. There are 10 milling tools that can be maintained or replaced.   
+2. This is the working board, or in Roland machine, the sacrificial bed. It is replacable. It is better to be set in the board and stablised by using tapes around.  
+3. This is the tube to allow air flow beneath the working board to tightly attach it to the bed.  
+4. This is the working hand for the milling and driling work.  
+
+If you take a closer look at the working hand, there are 2 parts that are significant.  
+
+![](../images/kicad40.jpg)  
+
+a. You do not have to set up milling tools manually. It moves to the right seat of tool then install or uninstall the tool smartly.  The black cover can prevent the tool go too close to the working surface.  
+b. This is the camera to detect the width of the milled paths, or the instant images of the milling work.  
+
+#### Set up the software
 
 
 ## The files that I used for this assignment:  
