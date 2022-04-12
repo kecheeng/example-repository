@@ -552,6 +552,26 @@
     Use ProtoMat S62 to mill it out
   </a>
   
+    <nav class="md-nav" aria-label="Use ProtoMat S62 to mill it out">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-up-the-machine" class="md-nav__link">
+    Set up the machine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-the-software" class="md-nav__link">
+    Set up the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -945,6 +965,26 @@
     Use ProtoMat S62 to mill it out
   </a>
   
+    <nav class="md-nav" aria-label="Use ProtoMat S62 to mill it out">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-up-the-machine" class="md-nav__link">
+    Set up the machine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-the-software" class="md-nav__link">
+    Set up the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1063,7 +1103,9 @@
 <p>To do it more professional, you can assign footprints to the key items in your schematic design.  </p>
 <p><img alt="" src="../../images/kicad26.jpg" />  </p>
 <h4 id="solve-the-rats-nest-pcb-puzzle">Solve the rats&rsquo; nest PCB puzzle<a class="headerlink" href="#solve-the-rats-nest-pcb-puzzle" title="Permanent link">&para;</a></h4>
-<p>The next step is like solving a Lego puzzle. By opening the <strong>PCB Editor</strong>, you will assemble the mock-up components that are ready for later PCB making.  </p>
+<p>The next step is like solving a Lego puzzle. In fact, I just finished the first layer (schematic design), but need to make an equivalent PCB design.  </p>
+<p><img alt="" src="../../images/kicad34.jpg" />  </p>
+<p>By opening the <strong>PCB Editor</strong>, you will assemble the mock-up components that are ready for later PCB making.  </p>
 <p><img alt="" src="../../images/kicad27.jpg" />  </p>
 <p>Yeah. At first, it literally IS a mess, which is why another name of it is <strong>the rats&rsquo; nest</strong>.  </p>
 <p><img alt="" src="../../images/kicad28.jpg" />  </p>
@@ -1078,10 +1120,13 @@
 <p>Then, select <strong>F.CU</strong> to draw the copper paths between pins following the white straight lines that are actually the lines in schematic design.  </p>
 <p><img alt="" src="../../images/kicad31.jpg" />  </p>
 <p>During this process, I happened to debug the mistakes in the previous step.  </p>
-<p>I clicked ?? to see 2 types of errors.  </p>
-<p>First, the button (on the left upper corner) was displaced upside down where the 2 GND should have been on the top.<br />
-Second, there are 3 paths unconnected.  </p>
-<p>Then, use <strong>??</strong> to draw a slightly inner outline for of the PCB.  </p>
+<p>I clicked <strong>DRC control</strong> to see 2 types of errors. The are shown in the violations and you can easily locate them as they are marked.  </p>
+<p><img alt="" src="../../images/kicad36.jpg" />  </p>
+<p>First, the button (on the left upper corner) was displaced upside down where the 2 GND should have been on the top.  </p>
+<p>Second, there are 3 paths unconnected.  </p>
+<p>The silkscreen can be understood as the words printed on the PCB. If it requires high level of criticality, then it is better to avoid overlapping words. Otherwise, you can ignore those violations.  </p>
+<p><img alt="" src="../../images/kicad37.jpg" />  </p>
+<p>Then, use <strong>F.Cu</strong> to draw a slightly inner outline for of the PCB.  </p>
 <p>Then, change from mm to <strong>mil</strong> on the left, open <strong>Copper Zone Properties</strong>, click <strong>F.Cu</strong> and select <strong>GND</strong> in the Net. Then, define the <strong>Clearance</strong> and <strong>Minimum width</strong> in Electrical Properties. A moderate number in the practice was 10 mils, but of course you can try other parameters to preview by clicking OK.  </p>
 <p><img alt="" src="../../images/kicad32.jpg" />  </p>
 <p>After clicking OK, you can see that the PCB is filled with red, copper zone. <span style="color:yellow">It gives me an impression that the schematic is a set of skeleton, while PCB editor and filling is to enflesh the design.</span>  </p>
@@ -1090,6 +1135,22 @@ Second, there are 3 paths unconnected.  </p>
 <p>To do so, open <strong>Plot</strong>, click <strong>F.Cu</strong> and <strong>Edge.Cuts</strong> in the <strong>Layers</strong>. Then, choose <strong>plot</strong> to get the 2 files.  </p>
 <p><img alt="" src="../../images/kicad33.jpg" />  </p>
 <h3 id="use-protomat-s62-to-mill-it-out">Use ProtoMat S62 to mill it out<a class="headerlink" href="#use-protomat-s62-to-mill-it-out" title="Permanent link">&para;</a></h3>
+<p>The PCB milling steps are very straightfoward. LPKF ProtoMat S62 can run the work automatically as long as you set up the parameters on the connected desktop well. Luckily, the controlling software is very smart to use.  </p>
+<p><img alt="" src="../../images/kicad38.jpg" />  </p>
+<h4 id="set-up-the-machine">Set up the machine<a class="headerlink" href="#set-up-the-machine" title="Permanent link">&para;</a></h4>
+<p>Open the lid of LPKF and you will see four main parts that are critical.  </p>
+<p><img alt="" src="../../images/kicad39.jpg" />  </p>
+<ol>
+<li>There are 10 milling tools that can be maintained or replaced.   </li>
+<li>This is the working board, or in Roland machine, the sacrificial bed. It is replacable. It is better to be set in the board and stablised by using tapes around.  </li>
+<li>This is the tube to allow air flow beneath the working board to tightly attach it to the bed.  </li>
+<li>This is the working hand for the milling and driling work.  </li>
+</ol>
+<p>If you take a closer look at the working hand, there are 2 parts that are significant.  </p>
+<p><img alt="" src="../../images/kicad40.jpg" />  </p>
+<p>a. You do not have to set up milling tools manually. It moves to the right seat of tool then install or uninstall the tool smartly.  The black cover can prevent the tool go too close to the working surface.<br />
+b. This is the camera to detect the width of the milled paths, or the instant images of the milling work.  </p>
+<h4 id="set-up-the-software">Set up the software<a class="headerlink" href="#set-up-the-software" title="Permanent link">&para;</a></h4>
 <h2 id="the-files-that-i-used-for-this-assignment">The files that I used for this assignment:<a class="headerlink" href="#the-files-that-i-used-for-this-assignment" title="Permanent link">&para;</a></h2>
 <p>prototype schematic and PCB files:</p>
 <p><a href="../../files/HelloKiCad.pdf">the referred file</a>  </p>
