@@ -220,7 +220,7 @@ Open the lid of LPKF and you will see four main parts that are critical.
 
 ![](../images/kicad39.jpg)  
 
-1. There are 10 milling tools that can be maintained or replaced.   
+1. There are 10 milling bits that can be maintained or replaced.   
 2. This is the working board, or in Roland machine, the sacrificial bed. It is replacable. It is better to be set in the board and stablised by using tapes around.  
 3. This is the tube to allow air flow beneath the working board to tightly attach it to the bed.  
 4. This is the working hand for the milling and driling work.  
@@ -229,12 +229,38 @@ If you take a closer look at the working hand, there are 2 parts that are signif
 
 ![](../images/kicad40.jpg)  
 
-a. You do not have to set up milling tools manually. It moves to the right seat of tool then install or uninstall the tool smartly.  The black cover can prevent the tool go too close to the working surface.  
+a. You do not have to set up milling bits manually. It moves to the right seat of bits then install or uninstall the bit smartly.  The black cover can prevent the bit go too close to the working surface.  
 b. This is the camera to detect the width of the milled paths, or the instant images of the milling work.  
 
-#### Set up the software
+#### Set up the software  
 
+The CircuitPro is a surprisingly user-friendly software that can process the settings in a row.  
 
+First, click **Process PCBs**, **Single-sided top**, and **FR4/FR5**. 
+![](../images/kicad41.jpg)  
+
+![](../images/kicad42.jpg)  
+
+![](../images/kicad43.jpg)  
+
+Open the 2 gbr files generated from Kicad.  
+
+![](../images/kicad44.jpg)  
+
+![](../images/kicad45.jpg)  
+
+Click the **magical trick** on the dashboard next to Machining.  
+
+In Isolation window, choose the 4th mode to remove the entire copper that is unnecessary, which serves to be the most precise isolation method.   
+
+In Contour routing window, I chose the 2nd method to allow gaps on top and bottom side. This contour can be understood as the big outline of the whole PCB.  
+
+The reason not to contour the whole PCB directly is to stablize the whole PCB when the bits go through the working area.  
+![](../images/kicad46.jpg)  
+
+![](../images/kicad47.jpg)  
+
+![](../images/kicad48.jpg)  
 ## The files that I used for this assignment:  
 
 prototype schematic and PCB files:
