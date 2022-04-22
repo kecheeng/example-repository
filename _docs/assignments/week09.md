@@ -274,7 +274,28 @@ Then, drag the designed PCB into the work zone. The LPKF milling can be very cri
 In Roland milling, we know that 0.2 - 0.5 mm of milling width is generally used. LPKF requires a milling width measurement test before actual work. You just need to set the parameter of width as well as line length for the test.  
 
 Then, choose the test place (usually just within the work zone).  
-\
+
+You can use the magnifying lense or the camera of LPKF to observe the width.  
+
+![](../images/kicad51.jpg)  
+
+![](../images/kicad55.jpg)  
+
+![](../images/kicad56.jpg)  
+
+After that, just process the milling, and you will get a PCB work.  
+
+![](../images/kicad53.jpg)  
+
+![](../images/kicad54.jpg)  
+
+![](../images/kicad52.jpg)   
+
+With the previous knowledge and experience of soldering, I got the final work.
+
+![](../images/kicad12.jpg)
+
+
 ## The files that I used for this assignment:  
 
 prototype schematic and PCB files:
@@ -286,6 +307,9 @@ my gerber files for PCB:
 [the outline](../files/kechengzhang20200322-Edge_Cuts.gbr)  
 
 [the traces](../files/kechengzhang20200322-F_Cu.gbr)
+
+
+
   
 
 
