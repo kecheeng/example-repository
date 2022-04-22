@@ -220,7 +220,7 @@ Open the lid of LPKF and you will see four main parts that are critical.
 
 ![](../images/kicad39.jpg)  
 
-1. There are 10 milling bits that can be maintained or replaced.   
+1. There are 10 milling tools that can be maintained or replaced.   
 2. This is the working board, or in Roland machine, the sacrificial bed. It is replacable. It is better to be set in the board and stablised by using tapes around.  
 3. This is the tube to allow air flow beneath the working board to tightly attach it to the bed.  
 4. This is the working hand for the milling and driling work.  
@@ -229,7 +229,7 @@ If you take a closer look at the working hand, there are 2 parts that are signif
 
 ![](../images/kicad40.jpg)  
 
-a. You do not have to set up milling bits manually. It moves to the right seat of bits then install or uninstall the bit smartly.  The black cover can prevent the bit go too close to the working surface.  
+a. You do not have to set up milling tools manually. It moves to the right seat of tools then install or uninstall the tool smartly.  The black cover can prevent the tool go too close to the working surface.  
 b. This is the camera to detect the width of the milled paths, or the instant images of the milling work.  
 
 #### Set up the software  
@@ -255,12 +255,26 @@ In Isolation window, choose the 4th mode to remove the entire copper that is unn
 
 In Contour routing window, I chose the 2nd method to allow gaps on top and bottom side. This contour can be understood as the big outline of the whole PCB.  
 
-The reason not to contour the whole PCB directly is to stablize the whole PCB when the bits go through the working area.  
+The reason not to contour the whole PCB directly is to stablize the whole PCB when the tools go through the working area.  
+
 ![](../images/kicad46.jpg)  
 
 ![](../images/kicad47.jpg)  
 
 ![](../images/kicad48.jpg)  
+
+Next, set up the work zone of milling. In **Material Setting** page, you have to decide P1 and P2 as leff bottom and top right corners diagonally for a rectangle.  
+
+Then, drag the designed PCB into the work zone. The LPKF milling can be very critical, so the PCB can be placed close to the work zone edge.  
+
+![](../images/kicad49.jpg)  
+
+![](../images/kicad50.jpg)  
+
+In Roland milling, we know that 0.2 - 0.5 mm of milling width is generally used. LPKF requires a milling width measurement test before actual work. You just need to set the parameter of width as well as line length for the test.  
+
+Then, choose the test place (usually just within the work zone).  
+\
 ## The files that I used for this assignment:  
 
 prototype schematic and PCB files:
