@@ -1141,14 +1141,14 @@
 <p>Open the lid of LPKF and you will see four main parts that are critical.  </p>
 <p><img alt="" src="../../images/kicad39.jpg" />  </p>
 <ol>
-<li>There are 10 milling bits that can be maintained or replaced.   </li>
+<li>There are 10 milling tools that can be maintained or replaced.   </li>
 <li>This is the working board, or in Roland machine, the sacrificial bed. It is replacable. It is better to be set in the board and stablised by using tapes around.  </li>
 <li>This is the tube to allow air flow beneath the working board to tightly attach it to the bed.  </li>
 <li>This is the working hand for the milling and driling work.  </li>
 </ol>
 <p>If you take a closer look at the working hand, there are 2 parts that are significant.  </p>
 <p><img alt="" src="../../images/kicad40.jpg" />  </p>
-<p>a. You do not have to set up milling bits manually. It moves to the right seat of bits then install or uninstall the bit smartly.  The black cover can prevent the bit go too close to the working surface.<br />
+<p>a. You do not have to set up milling tools manually. It moves to the right seat of tools then install or uninstall the tool smartly.  The black cover can prevent the tool go too close to the working surface.<br />
 b. This is the camera to detect the width of the milled paths, or the instant images of the milling work.  </p>
 <h4 id="set-up-the-software">Set up the software<a class="headerlink" href="#set-up-the-software" title="Permanent link">&para;</a></h4>
 <p>The CircuitPro is a surprisingly user-friendly software that can process the settings in a row.  </p>
@@ -1162,10 +1162,17 @@ b. This is the camera to detect the width of the milled paths, or the instant im
 <p>Click the <strong>magical trick</strong> on the dashboard next to Machining.  </p>
 <p>In Isolation window, choose the 4th mode to remove the entire copper that is unnecessary, which serves to be the most precise isolation method.   </p>
 <p>In Contour routing window, I chose the 2nd method to allow gaps on top and bottom side. This contour can be understood as the big outline of the whole PCB.  </p>
-<p>The reason not to contour the whole PCB directly is to stablize the whole PCB when the bits go through the working area.<br />
-<img alt="" src="../../images/kicad46.jpg" />  </p>
+<p>The reason not to contour the whole PCB directly is to stablize the whole PCB when the tools go through the working area.  </p>
+<p><img alt="" src="../../images/kicad46.jpg" />  </p>
 <p><img alt="" src="../../images/kicad47.jpg" />  </p>
 <p><img alt="" src="../../images/kicad48.jpg" />  </p>
+<p>Next, set up the work zone of milling. In <strong>Material Setting</strong> page, you have to decide P1 and P2 as leff bottom and top right corners diagonally for a rectangle.  </p>
+<p>Then, drag the designed PCB into the work zone. The LPKF milling can be very critical, so the PCB can be placed close to the work zone edge.  </p>
+<p><img alt="" src="../../images/kicad49.jpg" />  </p>
+<p><img alt="" src="../../images/kicad50.jpg" />  </p>
+<p>In Roland milling, we know that 0.2 - 0.5 mm of milling width is generally used. LPKF requires a milling width measurement test before actual work. You just need to set the parameter of width as well as line length for the test.  </p>
+<p>Then, choose the test place (usually just within the work zone).<br />
+\</p>
 <h2 id="the-files-that-i-used-for-this-assignment">The files that I used for this assignment:<a class="headerlink" href="#the-files-that-i-used-for-this-assignment" title="Permanent link">&para;</a></h2>
 <p>prototype schematic and PCB files:</p>
 <p><a href="../../files/HelloKiCad.pdf">the referred file</a>  </p>
