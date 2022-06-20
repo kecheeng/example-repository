@@ -34,7 +34,24 @@ The 8 filaments (or features) we tested:
 ![](../images/3dprint2.jpg)  
 ![](../images/3dprint3.jpg)  
 
+### General test results  
 
+![](../images/3dprint4.jpg)   
 
+After our test, we agreed that Raise 3D Pro2 with 0.4 mm nozzle worked the best in terms of 3D printing quality and time cost.  
+
+![](../images/3dprint5.jpg)  
+
+Fortus with 0.4 mm nozzle worked ok but the clearance is not as good as the Raise 3D Pro2 with 0.4 mm.  
+
+![](../images/3dprint6.jpg)  
+
+Raise 3D Pro2 with 0.4 mm nozzle seemed to be funny as the 0.8 mm nozzle made 3D printing like topping the cream on a cake.  
+
+Below is the summary of the test results.  
+
+![](../images/3dprint7.jpg)  
+
+Thus, we determined the **Raise 3D Pro2 with 0.4 mm** the best if we intend to make individual 3D printing. Unless with specific purpose, we would better not use the 0.8 mm nozzle.  
 ## Individual Assignment
 
